@@ -1,4 +1,4 @@
-# Untitled
+# CrackTheHash
 
 hash-identifier
 
