@@ -1,7 +1,19 @@
 # Table of contents
 
 * [Try Hack Me](README.md)
+* [Advent of Cyber](untitled-1.md)
+* [Advent of Cyber II](advent-of-cyber-ii/README.md)
+  * [A Christmas Crisis](advent-of-cyber-ii/a-christmas-crisis.md)
+  * [The Elf Strikes Back!](advent-of-cyber-ii/the-elf-strikes-back.md)
+  * [Christmas Chaos](advent-of-cyber-ii/christmas-chaos.md)
+  * [Santa's watching](advent-of-cyber-ii/santas-watching.md)
+  * [Someone stole Santa's gift list!](advent-of-cyber-ii/someone-stole-santas-gift-list.md)
+  * [Be careful with what you wish on a Christmas night](advent-of-cyber-ii/be-careful-with-what-you-wish-on-a-christmas-night.md)
+  * [The Grinch Really Did Steal Christmas](advent-of-cyber-ii/the-grinch-really-did-steal-christmas.md)
+  * [What's Under the Christmas Tree?](advent-of-cyber-ii/whats-under-the-christmas-tree.md)
+  * [Anyone can be Santa!](advent-of-cyber-ii/anyone-can-be-santa.md)
+  * [Untitled](advent-of-cyber-ii/untitled.md)
 * [LinuxCTF](linuxctf.md)
 * [CrackTheHash](untitled.md)
-* [Untitled](untitled-1.md)
+* [Untitled](untitled-2.md)
 
