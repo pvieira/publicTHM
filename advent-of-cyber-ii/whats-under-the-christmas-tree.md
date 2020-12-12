@@ -58,7 +58,7 @@ No answer needed
 
 Use Nmap to determine the name of the Linux distribution that is running, what is reported as the most likely distribution to be running?
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 {% hint style="success" %}
 Ubuntu
@@ -66,7 +66,7 @@ Ubuntu
 
 Use Nmap's Network Scripting Engine \(NSE\) to retrieve the "HTTP-TITLE" of the webserver. Based on the value returned, what do we think this website might be used for?
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 {% hint style="success" %}
 Blog

