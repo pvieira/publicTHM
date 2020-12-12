@@ -48,11 +48,11 @@ Use BurpSuite to brute force the login form. Use the following lists for the def
 
 `Start attack`
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 Looking at the results, the pair **`admin`** **`12345`** as a different size lenght result.
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 Use the correct credentials to log in to the Santa Sleigh Tracker app. Don't forget to turn off Foxyproxy once BurpSuite has finished the attack!
 

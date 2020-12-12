@@ -20,7 +20,7 @@ Open "pcap1.pcap" in Wireshark. What is the IP address that initiates an ICMP/pi
 
 If we only wanted to see HTTP GET requests in our "pcap1.pcap" file, what filter would we use?
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 
 {% hint style="success" %}
 http.request.method == GET
@@ -40,12 +40,12 @@ reindeer-of-the-week
 
 Let's begin analysing "pcap2.pcap". Look at the captured FTP traffic; what password was leaked during the login process?
 
-![](../.gitbook/assets/image%20%2844%29.png)
-
 There's a lot of irrelevant data here - Using a filter here would be useful!
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%2839%29.png)
 
+{% hint style="success" %}
+plaintext\_password\_fiasco
 {% endhint %}
 
 Continuing with our analysis of "pcap2.pcap", what is the name of the protocol that is encrypted?

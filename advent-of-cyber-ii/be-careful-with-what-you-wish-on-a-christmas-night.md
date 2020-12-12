@@ -28,7 +28,7 @@ No answer needed
 
 What vulnerability type was used to exploit the application?
 
-![](../.gitbook/assets/image%20%2852%29.png)
+![](../.gitbook/assets/image%20%2853%29.png)
 
 ![](../.gitbook/assets/image%20%2828%29.png)
 
