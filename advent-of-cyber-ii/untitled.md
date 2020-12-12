@@ -26,7 +26,7 @@ Using _enum4linux_, how many users are there on the Samba server \(`10.10.227.11
 enum4linux -U 10.10.227.117
 ```
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 {% hint style="success" %}
 `3`
@@ -38,7 +38,7 @@ Now how many "shares" are there on the Samba server?
 enum4linux -S 10.10.227.117
 ```
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2853%29.png)
 
 {% hint style="success" %}
 4
@@ -52,7 +52,7 @@ smbclient //10.10.227.117/tbfc-it
 smbclient //10.10.227.117/tbfc-santa
 ```
 
-![](../.gitbook/assets/image%20%2869%29.png)
+![](../.gitbook/assets/image%20%2874%29.png)
 
 {% hint style="success" %}
 tbfc-santa
@@ -64,7 +64,7 @@ Log in to this share, what directory did ElfMcSkidy leave for Santa?
 ls
 ```
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 {% code title="note\_from\_mcskidy.txt" %}
 ```text

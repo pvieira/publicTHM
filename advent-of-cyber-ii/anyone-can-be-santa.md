@@ -29,7 +29,7 @@ anonymous
 ls
 ```
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%2863%29.png)
 
 {% hint style="success" %}
 public
@@ -45,7 +45,7 @@ cd public
 ls
 ```
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/image%20%2858%29.png)
 
 {% hint style="success" %}
 backup.sh
@@ -79,7 +79,7 @@ cd public
 get backup.sh
 ```
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 ```text
 vi backup.sh
