@@ -12,7 +12,11 @@ description: Web Exploitation - GET ; Upload ; Reverse Shell
 
 [Upload vulns](https://tryhackme.com/room/uploadvulns)
 
+[Intro to Shells](https://tryhackme.com/room/introtoshells)
 
+## Resources
+
+[PHP Reverse Shell](https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php)
 
 ## Challenge
 
