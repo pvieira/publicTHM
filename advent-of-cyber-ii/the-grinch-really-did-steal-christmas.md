@@ -20,7 +20,7 @@ Open "pcap1.pcap" in Wireshark. What is the IP address that initiates an ICMP/pi
 
 If we only wanted to see HTTP GET requests in our "pcap1.pcap" file, what filter would we use?
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 {% hint style="success" %}
 http.request.method == GET
@@ -32,7 +32,7 @@ Now apply this filter to "pcap1.pcap" in Wireshark, what is the name of the arti
 
 **`Follow`** **`HTTP Stream`**
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 {% hint style="success" %}
 reindeer-of-the-week
@@ -42,7 +42,7 @@ Let's begin analysing "pcap2.pcap". Look at the captured FTP traffic; what passw
 
 There's a lot of irrelevant data here - Using a filter here would be useful!
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 {% hint style="success" %}
 plaintext\_password\_fiasco
@@ -58,7 +58,13 @@ Analyse "pcap3.pcap" and recover Christmas!
 
 What is on Elf McSkidy's wishlist that will be used to replace Elf McEager?
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%2844%29.png)
 
+![](../.gitbook/assets/image%20%2830%29.png)
+
+![](../.gitbook/assets/image%20%2836%29.png)
+
+{% hint style="success" %}
+Rubber ducky
 {% endhint %}
 

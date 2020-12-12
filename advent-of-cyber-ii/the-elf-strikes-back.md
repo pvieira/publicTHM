@@ -28,7 +28,7 @@ Open the site
 >
 > http://10.10.236.79/?id=ODIzODI5MTNiYmYw
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 What string of text needs adding to the URL to get access to the upload page?
 
@@ -54,13 +54,13 @@ mv php-reverse-shell.php image.jpeg.php
 
 Change the following parameters in the file
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2852%29.png)
 
 Tried /uploads, /images, /media, /resources
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 In which directory are the uploaded files stored?
 
@@ -76,7 +76,7 @@ Activate your reverse shell and catch it in a netcat listener!
 No answer needed
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 What is the flag in /var/www/flag.txt?
 

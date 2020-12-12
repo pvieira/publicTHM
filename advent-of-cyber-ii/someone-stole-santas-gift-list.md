@@ -22,7 +22,7 @@ In-depth SQL Injection tutorial: [SQLi Basics](https://tryhackme.com/room/sqliba
 
 ## Challenge
 
-![](../.gitbook/assets/image%20%2852%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 Without using directory brute forcing, what's Santa's secret login panel?
 
@@ -34,13 +34,13 @@ Without using directory brute forcing, what's Santa's secret login panel?
 
 Visit Santa's secret login panel and bypass the login using SQLi
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 `Username` `'or true --`
 
 `Password` `'--`
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2850%29.png)
 
 {% hint style="success" %}
 No answer needed
@@ -54,7 +54,7 @@ How many entries are there in the gift database?
 
 `sqlmap -r santapanel.req --tamper=space2comment --dump-all -dbms sqlite`
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
@@ -72,7 +72,7 @@ Github Ownership
 
 What is the flag?
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 
 {% hint style="success" %}
 thmfox{All\_I\_Want\_for\_Christmas\_Is\_You}
