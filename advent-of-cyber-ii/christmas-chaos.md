@@ -14,11 +14,11 @@ Deploy your AttackBox
 No answer needed
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 Use Burp Suite as proxy and intercept the request in Burp Suite.
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 **`Send to Intruder`** --&gt; **`Positions`**
 
@@ -34,21 +34,21 @@ Use BurpSuite to brute force the login form. Use the following lists for the def
 
 **`Payloads`**
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 `Start attack`
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 Looking at the results, the pair **`admin`** **`12345`** as a different size lenght result.
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
 Use the correct credentials to log in to the Santa Sleigh Tracker app. Don't forget to turn off Foxyproxy once BurpSuite has finished the attack!
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 What is the flag?
 
