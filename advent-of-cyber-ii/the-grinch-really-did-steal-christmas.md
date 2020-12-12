@@ -1,5 +1,5 @@
 ---
-description: Networking
+description: Networking - Wireshark
 ---
 
 # The Grinch Really Did Steal Christmas
@@ -7,6 +7,15 @@ description: Networking
 ## Video
 
 {% embed url="https://www.youtube.com/watch?v=yZTPMoYY2CA" %}
+
+## Resources
+
+| Filter | Description | Example |
+| :--- | :--- | :--- |
+| ip.src | Show all packets that originate from the specified IP address | `ip.src == 192.168.1.1` |
+| ip.dst | Show all packets that are destined to the specified IP address | `ip.dst == 192.168.1.1` |
+| tcp/udp.port | Show all packets that are sent via the protocol and port specified | `tcp.port == 22 / udp.port == 67` |
+| protocol.request.method | Show all packets that use a specific method of the protocol given. | `http.request.method == GET / POST` |
 
 ## Challenge
 
