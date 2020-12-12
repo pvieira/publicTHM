@@ -14,7 +14,13 @@ Deploy your AttackBox
 No answer needed
 {% endhint %}
 
-Use BurpSuite to brute force the login form. Use the following lists for the default credentials: Username Password root root admin password user 12345
+Use BurpSuite to brute force the login form. Use the following lists for the default credentials: 
+
+| Username | Password |
+| :--- | :--- |
+| root | root |
+| admin | password |
+| user | 12345 |
 
 Use the correct credentials to log in to the Santa Sleigh Tracker app. Don't forget to turn off Foxyproxy once BurpSuite has finished the attack!
 
