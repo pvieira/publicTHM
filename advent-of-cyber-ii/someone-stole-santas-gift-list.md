@@ -1,5 +1,5 @@
 ---
-description: Web Exploitation
+description: Web Exploitation ; sql injection ; sqli ; sqlmap
 ---
 
 # Someone stole Santa's gift list!
@@ -9,6 +9,8 @@ description: Web Exploitation
 {% embed url="https://www.youtube.com/watch?v=Kitx7cSNsuE" %}
 
 ## Resources
+
+List of SQL Commands: [https://www.codecademy.com/articles/sql-commands](https://www.codecademy.com/articles/sql-commands)
 
 Check out this cheat sheet: [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection)
 
