@@ -20,11 +20,17 @@ Check out this awesome guide about XSS: [swisskyrepo/PayloadsAllTheThings](https
 
 Deploy your AttackBox
 
+![](../.gitbook/assets/image%20%2834%29.png)
+
 {% hint style="success" %}
 No answer needed
 {% endhint %}
 
 What vulnerability type was used to exploit the application?
+
+![](../.gitbook/assets/image%20%2846%29.png)
+
+![](../.gitbook/assets/image%20%2826%29.png)
 
 {% hint style="success" %}
 Stored cross-site scripting
@@ -32,17 +38,23 @@ Stored cross-site scripting
 
 What query string can be abused to craft a reflected XSS?
 
+![](../.gitbook/assets/image%20%283%29.png)
+
 {% hint style="success" %}
 q
 {% endhint %}
 
 Launch the OWASP ZAP Application
 
+![](../.gitbook/assets/image%20%2817%29.png)
+
 {% hint style="success" %}
 No answer needed
 {% endhint %}
 
 Run a ZAP \(zaproxy\) automated scan on the target. How many XSS alerts are in the scan?
+
+![](../.gitbook/assets/image%20%2821%29.png)
 
 {% hint style="success" %}
 2
