@@ -8,6 +8,12 @@ description: Web Exploitation
 
 {% embed url="https://www.youtube.com/watch?v=BJF84oWHmok&ab\_channel=JohnHammond" %}
 
+Deploy your AttackBox
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
 Enter the site and register a new user.
 
 ![](../.gitbook/assets/image.png)
