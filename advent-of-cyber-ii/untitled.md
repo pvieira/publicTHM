@@ -66,6 +66,14 @@ ls
 
 ![](../.gitbook/assets/image%20%2834%29.png)
 
+{% code title="note\_from\_mcskidy.txt" %}
+```text
+Hi Santa, I decided to put all of your favourite jingles onto this share
+- allowing you access it from anywhere you like! 
+Regards ~ ElfMcSkidy
+```
+{% endcode %}
+
 {% hint style="success" %}
 jingle-tunes
 {% endhint %}
