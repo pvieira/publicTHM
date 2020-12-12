@@ -12,6 +12,8 @@ Open the site
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
+> You have been assigned an ID number for your audit of the system: **`ODIzODI5MTNiYmYw`**
+>
 > http://10.10.236.79/?id=ODIzODI5MTNiYmYw
 
 ![](../.gitbook/assets/image%20%2811%29.png)
