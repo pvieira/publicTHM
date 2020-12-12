@@ -20,7 +20,7 @@ Enter the site and register a new user.
 
 Login with the previous registered user.
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 What is the name of the cookie used for authentication?
 
@@ -34,7 +34,7 @@ In what format is the value of this cookie encoded?
 Hexadecimal
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 Having decoded the cookie, what format is the data stored in?
 
