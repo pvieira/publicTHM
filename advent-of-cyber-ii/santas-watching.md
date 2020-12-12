@@ -40,13 +40,13 @@ wfuzz -c -z file,big.txt http://shibes.xyz/api.php?breed=FUZZ
 
 Use GoBuster \(against the target you deployed -- not the shibes.xyz domain\) to find the API directory. What file is there?
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 `wget https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/big.txt`
 
 `gobuster dir -u http://10.10.136.48/ -w big.txt -x php`
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
@@ -58,11 +58,11 @@ Fuzz the date parameter on the file you found in the API directory. What is the 
 
 wfuzz -v -c -z file,wordlist -u http://10.10.136.48/api/site-log.php?date=FUZZ
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 **`curl http://10.10.136.48/api/site-log.php?date=20201125`**
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2853%29.png)
 
 {% hint style="success" %}
 THM{D4t3\_AP1}
