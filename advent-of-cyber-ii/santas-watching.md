@@ -40,7 +40,7 @@ Use GoBuster \(against the target you deployed -- not the shibes.xyz domain\) to
 
 `gobuster dir -u http://10.10.136.48/ -w big.txt -x php`
 
-
+![](../.gitbook/assets/image%20%2810%29.png)
 
 ![](../.gitbook/assets/image.png)
 
@@ -49,6 +49,14 @@ site-log.php
 {% endhint %}
 
 Fuzz the date parameter on the file you found in the API directory. What is the flag displayed in the correct post?
+
+wfuzz -v -c -z file,wordlist -u http://10.10.136.48/api/site-log.php?date=FUZZ
+
+![](../.gitbook/assets/image%20%287%29.png)
+
+**`curl http://10.10.136.48/api/site-log.php?date=20201125`**
+
+![](../.gitbook/assets/image%20%2820%29.png)
 
 {% hint style="success" %}
 THM{D4t3\_AP1}
