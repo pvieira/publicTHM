@@ -14,6 +14,12 @@ Deploy your AttackBox
 No answer needed
 {% endhint %}
 
+![](../.gitbook/assets/image%20%2811%29.png)
+
+Use Burp Suite as proxy and intercept the request in Burp Suite.
+
+![](../.gitbook/assets/image%20%2817%29.png)
+
 Use BurpSuite to brute force the login form. Use the following lists for the default credentials: 
 
 | Username | Password |
