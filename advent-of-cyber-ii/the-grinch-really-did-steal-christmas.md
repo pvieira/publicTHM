@@ -16,7 +16,7 @@ description: Networking
 
 Open "pcap1.pcap" in Wireshark. What is the IP address that initiates an ICMP/ping?
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 {% hint style="success" %}
 10.11.3.2
@@ -24,18 +24,20 @@ Open "pcap1.pcap" in Wireshark. What is the IP address that initiates an ICMP/pi
 
 If we only wanted to see HTTP GET requests in our "pcap1.pcap" file, what filter would we use?
 
-![](../.gitbook/assets/image%20%2847%29.png)
-
-follow tcp stream
+![](../.gitbook/assets/image%20%2848%29.png)
 
 {% hint style="success" %}
-reindeer-of-the-week
+http.request.method == GET
 {% endhint %}
 
 Now apply this filter to "pcap1.pcap" in Wireshark, what is the name of the article that the IP address "10.10.67.199" visited?
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%2811%29.png)
 
+**`Follow`** **`HTTP Stream`**
+
+{% hint style="success" %}
+reindeer-of-the-week
 {% endhint %}
 
 Let's begin analysing "pcap2.pcap". Look at the captured FTP traffic; what password was leaked during the login process?
