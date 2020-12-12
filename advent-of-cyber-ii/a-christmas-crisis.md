@@ -22,11 +22,11 @@ No answer needed
 
 Enter the site and register a new user.
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 Login with the previous registered user.
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 What is the name of the cookie used for authentication?
 
@@ -40,7 +40,7 @@ In what format is the value of this cookie encoded?
 Hexadecimal
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 
 Having decoded the cookie, what format is the data stored in?
 
@@ -50,7 +50,7 @@ JSON
 
 Figure out how to bypass the authentication.
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 What is the value of Santa's cookie?
 
@@ -60,7 +60,7 @@ What is the value of Santa's cookie?
 
 Now that you are the santa user, you can re-activate the assembly line!
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 What is the flag you're given when the line is fully active?
 
