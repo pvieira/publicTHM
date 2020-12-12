@@ -8,6 +8,12 @@ description: Web Exploitation - Burp Suite
 
 {% embed url="https://www.youtube.com/watch?v=cQq6xPCZFjg&" %}
 
+## Resources
+
+[SecLists](https://github.com/danielmiessler/SecLists/) is a collection of common lists including usernames, passwords, URLs and much more.
+
+A password list known as "**rockyou.txt**" is commonly used in security challenges, and should definitely be a part of your security toolkit.
+
 ## Challenge
 
 Deploy your AttackBox
