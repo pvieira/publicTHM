@@ -28,7 +28,7 @@ No answer needed
 
 What vulnerability type was used to exploit the application?
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2852%29.png)
 
 ![](../.gitbook/assets/image%20%2828%29.png)
 
@@ -62,7 +62,7 @@ Run a ZAP \(zaproxy\) automated scan on the target. How many XSS alerts are in t
 
 Explore the XSS alerts that ZAP has identified, are you able to make an alert appear on the "Make a wish" website?
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 {% hint style="success" %}
 No answer needed

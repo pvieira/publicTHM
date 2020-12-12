@@ -28,7 +28,7 @@ Open the site
 >
 > http://10.10.236.79/?id=ODIzODI5MTNiYmYw
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 What string of text needs adding to the URL to get access to the upload page?
 
@@ -54,9 +54,9 @@ mv php-reverse-shell.php image.jpeg.php
 
 Change the following parameters in the file
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 Tried /uploads, /images, /media, /resources
 
