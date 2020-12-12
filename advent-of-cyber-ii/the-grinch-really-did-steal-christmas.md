@@ -21,7 +21,7 @@ description: Networking - Wireshark
 
 Open "pcap1.pcap" in Wireshark. What is the IP address that initiates an ICMP/ping?
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 {% hint style="success" %}
 10.11.3.2
@@ -29,7 +29,7 @@ Open "pcap1.pcap" in Wireshark. What is the IP address that initiates an ICMP/pi
 
 If we only wanted to see HTTP GET requests in our "pcap1.pcap" file, what filter would we use?
 
-![](../.gitbook/assets/image%20%2864%29.png)
+![](../.gitbook/assets/image%20%2865%29.png)
 
 {% hint style="success" %}
 http.request.method == GET
@@ -37,11 +37,11 @@ http.request.method == GET
 
 Now apply this filter to "pcap1.pcap" in Wireshark, what is the name of the article that the IP address "10.10.67.199" visited?
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 **`Follow`** **`HTTP Stream`**
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 {% hint style="success" %}
 reindeer-of-the-week
@@ -51,7 +51,7 @@ Let's begin analysing "pcap2.pcap". Look at the captured FTP traffic; what passw
 
 There's a lot of irrelevant data here - Using a filter here would be useful!
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2850%29.png)
 
 {% hint style="success" %}
 plaintext\_password\_fiasco
@@ -67,15 +67,15 @@ Analyse "pcap3.pcap" and recover Christmas!
 
 What is on Elf McSkidy's wishlist that will be used to replace Elf McEager?
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 ![](../.gitbook/assets/image.png)
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 {% hint style="success" %}
 Rubber ducky
