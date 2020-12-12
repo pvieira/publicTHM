@@ -72,5 +72,3 @@ What is the flag in /var/www/flag.txt?
 THM{MGU3Y2UyMGUwNjExYTY4NTAxOWJhMzhh}
 {% endhint %}
 
-
-
