@@ -12,8 +12,6 @@ description: Web Exploitation - gobuster ; wfuzz
 
 gobuster recommended wordlist﻿ to use: [big.txt](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/big.txt)
 
-
-
 ## Challenge
 
 `gobuster dir -u http://example.com -w wordlist.txt -x php,txt,html`
