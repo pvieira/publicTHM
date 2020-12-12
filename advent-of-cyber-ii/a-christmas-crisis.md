@@ -8,6 +8,8 @@ description: Web Exploitation - Cookies
 
 {% embed url="https://www.youtube.com/watch?v=BJF84oWHmok&ab\_channel=JohnHammond" %}
 
+## Chalenge
+
 Deploy your AttackBox
 
 {% hint style="success" %}
