@@ -4,7 +4,7 @@ description: Web Exploitation - Cookies
 
 # A Christmas Crisis
 
-## Web Exploitation
+## Video
 
 {% embed url="https://www.youtube.com/watch?v=BJF84oWHmok&ab\_channel=JohnHammond" %}
 

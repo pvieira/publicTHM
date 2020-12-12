@@ -4,7 +4,7 @@ description: Web Exploitation - Burp Suite
 
 # Christmas Chaos
 
-## Web Exploitation
+## Video
 
 {% embed url="https://www.youtube.com/watch?v=cQq6xPCZFjg&" %}
 

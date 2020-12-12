@@ -4,7 +4,7 @@ description: Web Exploitation ; sql injection ; sqli ; sqlmap
 
 # Someone stole Santa's gift list!
 
-## Web Exploitation
+## Video
 
 {% embed url="https://www.youtube.com/watch?v=Kitx7cSNsuE" %}
 

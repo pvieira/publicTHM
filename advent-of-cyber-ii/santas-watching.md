@@ -4,7 +4,7 @@ description: Web Exploitation - gobuster ; wfuzz
 
 # Santa's watching
 
-## Web Exploitation
+## Video
 
 {% embed url="https://www.youtube.com/watch?v=7GAFQdYCk5s" %}
 

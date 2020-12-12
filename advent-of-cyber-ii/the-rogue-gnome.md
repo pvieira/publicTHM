@@ -4,7 +4,7 @@ description: Networking
 
 # The Rogue Gnome
 
-## Networking
+## Video
 
 {% embed url="https://www.youtube.com/watch?v=\_SMxZPne5QU" %}
 
