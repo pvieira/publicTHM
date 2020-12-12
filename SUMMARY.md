@@ -14,6 +14,7 @@
   * [Anyone can be Santa!](advent-of-cyber-ii/anyone-can-be-santa.md)
   * [Don't be sElfish!](advent-of-cyber-ii/untitled.md)
   * [The Rogue Gnome](advent-of-cyber-ii/the-rogue-gnome.md)
+  * [Ready, set, elf.](advent-of-cyber-ii/ready-set-elf..md)
 * [LinuxCTF](linuxctf.md)
 * [CrackTheHash](untitled.md)
 * [Untitled](untitled-2.md)
