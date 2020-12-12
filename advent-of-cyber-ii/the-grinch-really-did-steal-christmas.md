@@ -8,10 +8,6 @@ description: Networking
 
 {% embed url="https://www.youtube.com/watch?v=yZTPMoYY2CA" %}
 
-## Resources
-
-
-
 ## Challenge
 
 Open "pcap1.pcap" in Wireshark. What is the IP address that initiates an ICMP/ping?
