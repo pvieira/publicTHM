@@ -22,13 +22,13 @@ description: Web Exploitation - GET ; Upload ; Reverse Shell
 
 Open the site
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 > You have been assigned an ID number for your audit of the system: **`ODIzODI5MTNiYmYw`**
 >
 > http://10.10.236.79/?id=ODIzODI5MTNiYmYw
 
-![](../.gitbook/assets/image%20%2862%29.png)
+![](../.gitbook/assets/image%20%2864%29.png)
 
 What string of text needs adding to the URL to get access to the upload page?
 
@@ -36,7 +36,7 @@ What string of text needs adding to the URL to get access to the upload page?
 ?id=ODIzODI5MTNiYmYw
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 What type of file is accepted by the site?
 
@@ -54,13 +54,13 @@ mv php-reverse-shell.php image.jpeg.php
 
 Change the following parameters in the file
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%2862%29.png)
 
-![](../.gitbook/assets/image%20%2871%29.png)
+![](../.gitbook/assets/image%20%2873%29.png)
 
 Tried /uploads, /images, /media, /resources
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 In which directory are the uploaded files stored?
 
@@ -68,7 +68,7 @@ In which directory are the uploaded files stored?
 /uploads/
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 Activate your reverse shell and catch it in a netcat listener!
 
@@ -76,7 +76,7 @@ Activate your reverse shell and catch it in a netcat listener!
 No answer needed
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 What is the flag in /var/www/flag.txt?
 

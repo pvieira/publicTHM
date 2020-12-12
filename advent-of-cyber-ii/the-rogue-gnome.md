@@ -76,7 +76,7 @@ Use SSH to log in to the vulnerable machine like so: `ssh cmnatic@10.10.6.64`
 
  Input the following password when prompted: **aoc2020**
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 {% hint style="success" %}
 No answer needed
@@ -92,9 +92,9 @@ chmod +x LinEnum.sh
 ./LinEnum.sh
 ```
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 > https://gtfobins.github.io/gtfobins/bash/
 
@@ -102,7 +102,7 @@ chmod +x LinEnum.sh
 bash -p
 ```
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 {% hint style="success" %}
 No answer needed
@@ -116,7 +116,7 @@ What are the contents of the file located at **/root/flag.txt**?
 cat /root/flag.txt
 ```
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2868%29.png)
 
 {% hint style="success" %}
 thm{2fb10afe933296592}
