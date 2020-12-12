@@ -44,9 +44,9 @@ reindeer-of-the-week
 
 Let's begin analysing "pcap2.pcap". Look at the captured FTP traffic; what password was leaked during the login process?
 
-There's a lot of irrelevant data here - Using a filter here would be useful!
-
 ![](../.gitbook/assets/image%20%2844%29.png)
+
+There's a lot of irrelevant data here - Using a filter here would be useful!
 
 {% hint style="success" %}
 
