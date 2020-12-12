@@ -18,6 +18,8 @@ Payload list: [payloadbox/sql-injection-payload-list](https://github.com/payload
 
 In-depth SQL Injection tutorial: [SQLi Basics](https://tryhackme.com/room/sqlibasics)
 
+[SQLMAP cheatsheet](https://www.security-sleuth.com/sleuth-blog/2017/1/3/sqlmap-cheat-sheet)
+
 ## Challenge
 
 Without using directory brute forcing, what's Santa's secret login panel?
