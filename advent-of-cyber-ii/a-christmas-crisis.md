@@ -1,2 +1,58 @@
+---
+description: Web Exploitation
+---
+
 # A Christmas Crisis
+
+## Web Exploitation
+
+{% embed url="https://www.youtube.com/watch?v=BJF84oWHmok&ab\_channel=JohnHammond" %}
+
+Enter the site and register a new user.
+
+![](../.gitbook/assets/image.png)
+
+Login with the previous registered user.
+
+![](../.gitbook/assets/image%20%285%29.png)
+
+What is the name of the cookie used for authentication?
+
+{% hint style="success" %}
+auth
+{% endhint %}
+
+In what format is the value of this cookie encoded?
+
+{% hint style="success" %}
+Hexadecimal
+{% endhint %}
+
+![](../.gitbook/assets/image%20%286%29.png)
+
+Having decoded the cookie, what format is the data stored in?
+
+{% hint style="success" %}
+JSON
+{% endhint %}
+
+Figure out how to bypass the authentication.
+
+![](../.gitbook/assets/image%20%281%29.png)
+
+What is the value of Santa's cookie?
+
+{% hint style="success" %}
+7b22636f6d70616e79223a22546865204265737420466573746976616c20436f6d70616e79222c2022757365726e616d65223a2273616e7461227d
+{% endhint %}
+
+Now that you are the santa user, you can re-activate the assembly line!
+
+![](../.gitbook/assets/image%20%283%29.png)
+
+What is the flag you're given when the line is fully active?
+
+{% hint style="success" %}
+THM{MjY0Yzg5NTJmY2Q1NzM1NjBmZWFhYmQy}
+{% endhint %}
 
