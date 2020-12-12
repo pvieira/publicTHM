@@ -8,7 +8,13 @@ description: Web Exploitation - GET ; Upload ; Reverse Shell
 
 {% embed url="https://www.youtube.com/watch?v=F\_nTIX-q32k&" %}
 
-## Chalenge
+## Rooms
+
+[Upload vulns](https://tryhackme.com/room/uploadvulns)
+
+
+
+## Challenge
 
 Open the site
 

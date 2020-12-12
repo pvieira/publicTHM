@@ -8,7 +8,7 @@ description: Web Exploitation - gobuster ; wfuzz
 
 {% embed url="https://www.youtube.com/watch?v=7GAFQdYCk5s" %}
 
-## Chalenge
+## Challenge
 
 `gobuster dir -u http://example.com -w wordlist.txt -x php,txt,html`
 

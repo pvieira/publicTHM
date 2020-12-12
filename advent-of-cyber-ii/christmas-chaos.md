@@ -8,7 +8,7 @@ description: Web Exploitation - Burp Suite
 
 {% embed url="https://www.youtube.com/watch?v=cQq6xPCZFjg&" %}
 
-## Chalenge
+## Challenge
 
 Deploy your AttackBox
 

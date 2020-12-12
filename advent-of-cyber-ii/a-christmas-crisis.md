@@ -8,7 +8,11 @@ description: Web Exploitation - Cookies
 
 {% embed url="https://www.youtube.com/watch?v=BJF84oWHmok&ab\_channel=JohnHammond" %}
 
-## Chalenge
+## Rooms
+
+[Web Fundamentals](https://tryhackme.com/room/webfundamentals)
+
+## Challenge
 
 Deploy your AttackBox
 
