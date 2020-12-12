@@ -18,8 +18,6 @@ NFS \(Network File System\) - Natively supported by Linux and not Windows
 
 `smbclient //REPLACE_INSTANCE_IP_ADDRESS/**sharename**`
 
-\`\`
-
 ## Challenge
 
 Using _enum4linux_, how many users are there on the Samba server \(`10.10.227.117`\)?
@@ -48,8 +46,16 @@ enum4linux -S 10.10.227.117
 
 Use _smbclient_ to try to login to the shares on the Samba server \(`10.10.227.117`\). What share doesn't require a password?
 
-{% hint style="success" %}
+```text
+smbclient //10.10.227.117/tbfc-hr
+smbclient //10.10.227.117/tbfc-it
+smbclient //10.10.227.117/tbfc-santa
+```
 
+![](../.gitbook/assets/image%20%2868%29.png)
+
+{% hint style="success" %}
+tbfc-santa
 {% endhint %}
 
 Log in to this share, what directory did ElfMcSkidy leave for Santa?
