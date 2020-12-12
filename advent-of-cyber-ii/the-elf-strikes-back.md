@@ -1,5 +1,5 @@
 ---
-description: Web Exploitation
+description: Web Exploitation - GET ; Upload ; Reverse Shell
 ---
 
 # The Elf Strikes Back!

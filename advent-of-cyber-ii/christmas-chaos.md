@@ -1,5 +1,5 @@
 ---
-description: Web Exploitation
+description: Web Exploitation - Burp Suite
 ---
 
 # Christmas Chaos

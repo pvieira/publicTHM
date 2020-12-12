@@ -1,5 +1,5 @@
 ---
-description: Web Exploitation
+description: Web Exploitation - Cookies
 ---
 
 # A Christmas Crisis
