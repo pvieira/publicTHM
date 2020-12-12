@@ -22,7 +22,7 @@ In-depth SQL Injection tutorial: [SQLi Basics](https://tryhackme.com/room/sqliba
 
 ## Challenge
 
-![](../.gitbook/assets/image%20%2845%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 Without using directory brute forcing, what's Santa's secret login panel?
 
@@ -40,7 +40,7 @@ Visit Santa's secret login panel and bypass the login using SQLi
 
 `Password` `'--`
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
 {% hint style="success" %}
 No answer needed
@@ -72,7 +72,7 @@ Github Ownership
 
 What is the flag?
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 {% hint style="success" %}
 thmfox{All\_I\_Want\_for\_Christmas\_Is\_You}
