@@ -20,7 +20,7 @@ Check out this awesome guide about XSS: [swisskyrepo/PayloadsAllTheThings](https
 
 Deploy your AttackBox
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 {% hint style="success" %}
 No answer needed
@@ -28,9 +28,9 @@ No answer needed
 
 What vulnerability type was used to exploit the application?
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 {% hint style="success" %}
 Stored cross-site scripting
@@ -54,7 +54,7 @@ No answer needed
 
 Run a ZAP \(zaproxy\) automated scan on the target. How many XSS alerts are in the scan?
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 {% hint style="success" %}
 2
@@ -62,7 +62,7 @@ Run a ZAP \(zaproxy\) automated scan on the target. How many XSS alerts are in t
 
 Explore the XSS alerts that ZAP has identified, are you able to make an alert appear on the "Make a wish" website?
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 {% hint style="success" %}
 No answer needed

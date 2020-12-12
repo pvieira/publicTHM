@@ -62,7 +62,7 @@ wfuzz -v -c -z file,wordlist -u http://10.10.136.48/api/site-log.php?date=FUZZ
 
 **`curl http://10.10.136.48/api/site-log.php?date=20201125`**
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 {% hint style="success" %}
 THM{D4t3\_AP1}

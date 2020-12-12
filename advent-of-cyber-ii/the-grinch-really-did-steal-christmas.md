@@ -16,14 +16,20 @@ description: Networking
 
 Open "pcap1.pcap" in Wireshark. What is the IP address that initiates an ICMP/ping?
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%2820%29.png)
 
+{% hint style="success" %}
+10.11.3.2
 {% endhint %}
 
 If we only wanted to see HTTP GET requests in our "pcap1.pcap" file, what filter would we use?
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%2847%29.png)
 
+follow tcp stream
+
+{% hint style="success" %}
+reindeer-of-the-week
 {% endhint %}
 
 Now apply this filter to "pcap1.pcap" in Wireshark, what is the name of the article that the IP address "10.10.67.199" visited?
