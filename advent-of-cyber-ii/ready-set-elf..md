@@ -14,7 +14,7 @@ description: Networking - Metasploit
 
 [URL encoded](https://www.techopedia.com/definition/10346/url-encoding)
 
-## Chalenge
+## Challenge
 
 What is the version number of the web server?
 
