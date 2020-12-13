@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Try Hack Me](README.md)
-* [Advent of Cyber](untitled-1.md)
+* [Try Hack Me](adventofcyber.md)
 * [Advent of Cyber II](advent-of-cyber-ii/README.md)
   * [A Christmas Crisis](advent-of-cyber-ii/a-christmas-crisis.md)
   * [The Elf Strikes Back!](advent-of-cyber-ii/the-elf-strikes-back.md)
@@ -15,8 +15,7 @@
   * [Don't be sElfish!](advent-of-cyber-ii/untitled.md)
   * [The Rogue Gnome](advent-of-cyber-ii/the-rogue-gnome.md)
   * [Ready, set, elf.](advent-of-cyber-ii/ready-set-elf..md)
-  * [Coal for Christmas](advent-of-cyber-ii/untitled-1.md)
+  * [Coal for Christmas](advent-of-cyber-ii/coalforchristmas.md)
 * [LinuxCTF](linuxctf.md)
 * [CrackTheHash](untitled.md)
-* [Untitled](untitled-2.md)
 
