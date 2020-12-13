@@ -97,7 +97,7 @@ cat cookies\_and\_milk.txt
 Who got here first?
 
 ```text
-cat cookies_and_milk.txt
+cat cookies_and_milk.txt | more
 ```
 
 ![](../.gitbook/assets/image%20%2889%29.png)
