@@ -26,7 +26,7 @@ We will begin by scanning the machine. If you are working from the TryHackMe "At
 nmap 10.10.159.83
 ```
 
-![](../.gitbook/assets/image%20%2888%29.png)
+![](../.gitbook/assets/image%20%2889%29.png)
 
 {% hint style="success" %}
 No answer needed
@@ -46,7 +46,7 @@ Connect to this service to see if you can make use of it. You can connect to the
 telnet 10.10.159.83 23
 ```
 
-![](../.gitbook/assets/image%20%2885%29.png)
+![](../.gitbook/assets/image%20%2886%29.png)
 
 ### What credential was left for you? 
 
@@ -58,13 +58,13 @@ clauschristmas
 
 Looks like you can slide right down the chimney! Log in and take a look around, enumerate a bit. You can view files and folders in the current directory with **ls**, change directories with **cd** and view the contents of files with **cat**.
 
-![](../.gitbook/assets/image%20%2890%29.png)
+![](../.gitbook/assets/image%20%2892%29.png)
 
 ```text
 ./christmas.sh
 ```
 
-![](../.gitbook/assets/image%20%2887%29.png)
+![](../.gitbook/assets/image%20%2888%29.png)
 
 Often to enumerate you want to look at pertinent system information, like the version of the operating system or other release information. You can view some information with commands like this:
 
@@ -98,7 +98,7 @@ cat cookies\_and\_milk.txt
 cat cookies_and_milk.txt | more
 ```
 
-![](../.gitbook/assets/image%20%2892%29.png)
+![](../.gitbook/assets/image%20%2894%29.png)
 
 ### Who got here first?
 
@@ -124,7 +124,7 @@ You can compile the C source code on the target with **gcc**. You might need to 
 
 ### What is the verbatim syntax you can use to compile, taken from the real C source code comments?
 
-![](../.gitbook/assets/image%20%2889%29.png)
+![](../.gitbook/assets/image%20%2891%29.png)
 
 {% hint style="success" %}
 gcc -pthread dirty.c -o dirty -lcrypt
@@ -134,19 +134,46 @@ gcc -pthread dirty.c -o dirty -lcrypt
 
 Run the commands to compile the exploit, and run it.
 
-![](../.gitbook/assets/image%20%2886%29.png)
+![](../.gitbook/assets/image%20%2887%29.png)
 
 ### What "new" username was created, with the default operations of the real C source code? 
 
-Switch your user into that new user account, and hop over to the /root directory to own this server!
+{% hint style="success" %}
+firefart
+{% endhint %}
+
+### Switch your user into that new user account, and hop over to the /root directory to own this server!
 
 You can switch user accounts like so:
 
-su &lt;user\_to\_change\_to&gt; 
+su &lt;user\_to\_change\_to&gt;
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
 Uh oh, looks like that perpetrator left a message! Follow his instructions to prove you really did leave Coal for Christmas!
 
 After you leave behind the coal, you can run tree \| md5sum
 
-What is the MD5 hash output?
+### What is the MD5 hash output?
+
+```text
+su firefart
+password
+
+```
+
+![](../.gitbook/assets/image%20%2885%29.png)
+
+```text
+touch coal
+tree |md5
+```
+
+![](../.gitbook/assets/image%20%2890%29.png)
+
+{% hint style="success" %}
+
+{% endhint %}
 
