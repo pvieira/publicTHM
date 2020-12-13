@@ -6,8 +6,6 @@
 
 
 
-## Resources
-
 ## Challenge
 
 Hi Santa, hop in your sleigh and deploy this machine!
@@ -26,7 +24,7 @@ We will begin by scanning the machine. If you are working from the TryHackMe "At
 nmap 10.10.159.83
 ```
 
-![](../.gitbook/assets/image%20%2887%29.png)
+![](../.gitbook/assets/image%20%2888%29.png)
 
 {% hint style="success" %}
 No answer needed
@@ -58,9 +56,9 @@ clauschristmas
 
 Looks like you can slide right down the chimney! Log in and take a look around, enumerate a bit. You can view files and folders in the current directory with **ls**, change directories with **cd** and view the contents of files with **cat**.
 
-![](../.gitbook/assets/image%20%2886%29.png)
+![](../.gitbook/assets/image%20%2887%29.png)
 
-![](../.gitbook/assets/image%20%2888%29.png)
+![](../.gitbook/assets/image%20%2889%29.png)
 
 Often to enumerate you want to look at pertinent system information, like the version of the operating system or other release information. You can view some information with commands like this:
 
@@ -82,7 +80,7 @@ cat /etc/issue
 
 There is a great list of commands you can run for enumeration here: [https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
 
-What distribution of Linux and version number is this server running?
+### What distribution of Linux and version number is this server running?
 
 {% hint style="success" %}
 Ubuntu 12.04
@@ -100,7 +98,7 @@ Who got here first?
 cat cookies_and_milk.txt | more
 ```
 
-![](../.gitbook/assets/image%20%2889%29.png)
+![](../.gitbook/assets/image%20%2891%29.png)
 
 {% hint style="success" %}
 grinch
@@ -118,6 +116,12 @@ This **cookies\_and\_milk.txt** file looks like a modified rendition of a DirtyC
 No answer needed
 {% endhint %}
 
+{% embed url="https://github.com/FireFart/dirtycow/blob/master/dirty.c" %}
+
+{% embed url="https://raw.githubusercontent.com/FireFart/dirtycow/master/dirty.c" %}
+
+
+
 You can compile the C source code on the target with **gcc**. You might need to supply specific parameters or arguments to include different libraries, but thankfully, the DirtyCow source code will explain what syntax to use.
 
 What is the verbatim syntax you can use to compile, taken from the real C source code comments? 
@@ -125,6 +129,10 @@ What is the verbatim syntax you can use to compile, taken from the real C source
 **Privilege Escalation**
 
 Run the commands to compile the exploit, and run it.
+
+![](../.gitbook/assets/image%20%2890%29.png)
+
+![](../.gitbook/assets/image%20%2886%29.png)
 
 What "new" username was created, with the default operations of the real C source code? 
 
