@@ -1,14 +1,16 @@
-# Untitled
+# Coal for Christmas
 
 ## Video
 
 {% embed url="https://www.youtube.com/watch?v=LSRhro8x2mQ" %}
 
+## Resources
 
+There is a great list of commands you can run for enumeration here: [https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
 
 ## Challenge
 
-Hi Santa, hop in your sleigh and deploy this machine!
+### Hi Santa, hop in your sleigh and deploy this machine!
 
 {% hint style="success" %}
 No answer needed
@@ -30,7 +32,7 @@ nmap 10.10.159.83
 No answer needed
 {% endhint %}
 
-What old, deprecated protocol and service is running?
+### What old, deprecated protocol and service is running?
 
 {% hint style="success" %}
 Telnet
@@ -46,7 +48,7 @@ telnet 10.10.159.83 23
 
 ![](../.gitbook/assets/image%20%2885%29.png)
 
-What credential was left for you? 
+### What credential was left for you? 
 
 {% hint style="success" %}
 clauschristmas
@@ -56,9 +58,13 @@ clauschristmas
 
 Looks like you can slide right down the chimney! Log in and take a look around, enumerate a bit. You can view files and folders in the current directory with **ls**, change directories with **cd** and view the contents of files with **cat**.
 
-![](../.gitbook/assets/image%20%2887%29.png)
+![](../.gitbook/assets/image%20%2890%29.png)
 
-![](../.gitbook/assets/image%20%2889%29.png)
+```text
+./christmas.sh
+```
+
+![](../.gitbook/assets/image%20%2887%29.png)
 
 Often to enumerate you want to look at pertinent system information, like the version of the operating system or other release information. You can view some information with commands like this:
 
@@ -72,10 +78,6 @@ uname -a
 
 ```text
 cat /etc/issue 
-```
-
-```text
-./christmas.sh
 ```
 
 There is a great list of commands you can run for enumeration here: [https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
@@ -92,13 +94,13 @@ Take a look at the cookies and milk that the server owners left for you. You can
 
 cat cookies\_and\_milk.txt
 
-Who got here first?
-
 ```text
 cat cookies_and_milk.txt | more
 ```
 
-![](../.gitbook/assets/image%20%2891%29.png)
+![](../.gitbook/assets/image%20%2892%29.png)
+
+### Who got here first?
 
 {% hint style="success" %}
 grinch
@@ -118,23 +120,23 @@ No answer needed
 
 {% embed url="https://github.com/FireFart/dirtycow/blob/master/dirty.c" %}
 
-{% embed url="https://raw.githubusercontent.com/FireFart/dirtycow/master/dirty.c" %}
-
-
-
 You can compile the C source code on the target with **gcc**. You might need to supply specific parameters or arguments to include different libraries, but thankfully, the DirtyCow source code will explain what syntax to use.
 
-What is the verbatim syntax you can use to compile, taken from the real C source code comments? 
+### What is the verbatim syntax you can use to compile, taken from the real C source code comments?
+
+![](../.gitbook/assets/image%20%2889%29.png)
+
+{% hint style="success" %}
+gcc -pthread dirty.c -o dirty -lcrypt
+{% endhint %}
 
 **Privilege Escalation**
 
 Run the commands to compile the exploit, and run it.
 
-![](../.gitbook/assets/image%20%2890%29.png)
-
 ![](../.gitbook/assets/image%20%2886%29.png)
 
-What "new" username was created, with the default operations of the real C source code? 
+### What "new" username was created, with the default operations of the real C source code? 
 
 Switch your user into that new user account, and hop over to the /root directory to own this server!
 
