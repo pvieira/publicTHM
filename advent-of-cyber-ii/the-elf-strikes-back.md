@@ -30,7 +30,7 @@ Open the site
 
 ![](../.gitbook/assets/image%20%2869%29.png)
 
-What string of text needs adding to the URL to get access to the upload page?
+### What string of text needs adding to the URL to get access to the upload page?
 
 {% hint style="success" %}
 ?id=ODIzODI5MTNiYmYw
@@ -38,7 +38,7 @@ What string of text needs adding to the URL to get access to the upload page?
 
 ![](../.gitbook/assets/image%20%2847%29.png)
 
-What type of file is accepted by the site?
+### What type of file is accepted by the site?
 
 {% hint style="success" %}
 Image
@@ -62,7 +62,7 @@ Tried /uploads, /images, /media, /resources
 
 ![](../.gitbook/assets/image%20%2854%29.png)
 
-In which directory are the uploaded files stored?
+### In which directory are the uploaded files stored?
 
 {% hint style="success" %}
 /uploads/
@@ -70,7 +70,7 @@ In which directory are the uploaded files stored?
 
 ![](../.gitbook/assets/image%20%2833%29.png)
 
-Activate your reverse shell and catch it in a netcat listener!
+### Activate your reverse shell and catch it in a netcat listener!
 
 {% hint style="success" %}
 No answer needed
@@ -78,7 +78,7 @@ No answer needed
 
 ![](../.gitbook/assets/image%20%2849%29.png)
 
-What is the flag in /var/www/flag.txt?
+### What is the flag in /var/www/flag.txt?
 
 {% hint style="success" %}
 THM{MGU3Y2UyMGUwNjExYTY4NTAxOWJhMzhh}
