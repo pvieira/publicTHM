@@ -24,21 +24,21 @@ Recommend wordlist https://github.com/danielmiessler/SecLists/blob/master/Discov
 
 Recommended wordlist https://assets.tryhackme.com/additional/cmn-aoc2020/day-4/wordlist
 
-Deploy your AttackBox 
+### Deploy your AttackBox 
 
 {% hint style="success" %}
 No answer needed
 {% endhint %}
 
-Given the URL "http://shibes.xyz/api.php", what would the entire wfuzz command look like to query the "breed" parameter using the wordlist "big.txt" \(assume that "big.txt" is in your current directory\)
+### Given the URL "http://shibes.xyz/api.php", what would the entire wfuzz command look like to query the "breed" parameter using the wordlist "big.txt" \(assume that "big.txt" is in your current directory\)
 
-Note: For legal reasons, do not actually run this command as the site in question has not consented to being fuzzed!
+**Note:** For legal reasons, do not actually run this command as the site in question has not consented to being fuzzed!
 
 {% hint style="success" %}
 wfuzz -c -z file,big.txt http://shibes.xyz/api.php?breed=FUZZ
 {% endhint %}
 
-Use GoBuster \(against the target you deployed -- not the shibes.xyz domain\) to find the API directory. What file is there?
+### Use GoBuster \(against the target you deployed -- not the shibes.xyz domain\) to find the API directory. What file is there?
 
 ![](../.gitbook/assets/image%20%2814%29.png)
 
@@ -54,9 +54,9 @@ Use GoBuster \(against the target you deployed -- not the shibes.xyz domain\) to
 site-log.php
 {% endhint %}
 
-Fuzz the date parameter on the file you found in the API directory. What is the flag displayed in the correct post?
+### Fuzz the date parameter on the file you found in the API directory. What is the flag displayed in the correct post?
 
-wfuzz -v -c -z file,wordlist -u http://10.10.136.48/api/site-log.php?date=FUZZ
+`wfuzz -v -c -z file,wordlist -u http://10.10.136.48/api/site-log.php?date=FUZZ`
 
 ![](../.gitbook/assets/image%20%2820%29.png)
 

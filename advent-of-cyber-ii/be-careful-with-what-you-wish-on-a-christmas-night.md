@@ -18,7 +18,7 @@ Check out this awesome guide about XSS: [swisskyrepo/PayloadsAllTheThings](https
 
 ## Challenge
 
-Deploy your AttackBox
+### Deploy your AttackBox
 
 ![](../.gitbook/assets/image%20%2859%29.png)
 
@@ -26,7 +26,7 @@ Deploy your AttackBox
 No answer needed
 {% endhint %}
 
-What vulnerability type was used to exploit the application?
+### What vulnerability type was used to exploit the application?
 
 ![](../.gitbook/assets/image%20%2884%29.png)
 
@@ -36,7 +36,7 @@ What vulnerability type was used to exploit the application?
 Stored cross-site scripting
 {% endhint %}
 
-What query string can be abused to craft a reflected XSS?
+### What query string can be abused to craft a reflected XSS?
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
@@ -44,7 +44,7 @@ What query string can be abused to craft a reflected XSS?
 q
 {% endhint %}
 
-Launch the OWASP ZAP Application
+### Launch the OWASP ZAP Application
 
 ![](../.gitbook/assets/image%20%2827%29.png)
 
@@ -52,7 +52,7 @@ Launch the OWASP ZAP Application
 No answer needed
 {% endhint %}
 
-Run a ZAP \(zaproxy\) automated scan on the target. How many XSS alerts are in the scan?
+### Run a ZAP \(zaproxy\) automated scan on the target. How many XSS alerts are in the scan?
 
 ![](../.gitbook/assets/image%20%2834%29.png)
 
@@ -60,7 +60,7 @@ Run a ZAP \(zaproxy\) automated scan on the target. How many XSS alerts are in t
 2
 {% endhint %}
 
-Explore the XSS alerts that ZAP has identified, are you able to make an alert appear on the "Make a wish" website?
+### Explore the XSS alerts that ZAP has identified, are you able to make an alert appear on the "Make a wish" website?
 
 ![](../.gitbook/assets/image%20%2863%29.png)
 

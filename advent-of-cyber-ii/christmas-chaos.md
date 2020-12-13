@@ -16,7 +16,7 @@ A password list known as "**rockyou.txt**" is commonly used in security challeng
 
 ## Challenge
 
-Deploy your AttackBox
+### Deploy your AttackBox
 
 {% hint style="success" %}
 No answer needed
@@ -50,7 +50,7 @@ Use BurpSuite to brute force the login form. Use the following lists for the def
 
 ![](../.gitbook/assets/image%20%2872%29.png)
 
-Looking at the results, the pair **`admin`** **`12345`** as a different size lenght result.
+Looking at the results, the pair **`admin`** **`12345`** as a different size length result.
 
 ![](../.gitbook/assets/image%20%2866%29.png)
 
@@ -58,7 +58,7 @@ Use the correct credentials to log in to the Santa Sleigh Tracker app. Don't for
 
 ![](../.gitbook/assets/image%20%2811%29.png)
 
-What is the flag?
+### What is the flag?
 
 {% hint style="success" %}
 THM{885ffab980e049847516f9d8fe99ad1a}
