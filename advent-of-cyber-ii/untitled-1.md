@@ -94,7 +94,17 @@ Take a look at the cookies and milk that the server owners left for you. You can
 
 cat cookies\_and\_milk.txt
 
-Who got here first? 
+Who got here first?
+
+```text
+cat cookies_and_milk.txt
+```
+
+![](../.gitbook/assets/image%20%2889%29.png)
+
+{% hint style="success" %}
+grinch
+{% endhint %}
 
 The perpetrator took half of the cookies and milk! Weirdly enough, that file looks like C code...
 
@@ -102,7 +112,11 @@ That C source code is a portion of a kernel exploit called **DirtyCow**. Dirty C
 
 You can learn more about the DirtyCow exploit online here: [https://dirtycow.ninja/](https://dirtycow.ninja/)
 
-This **cookies\_and\_milk.txt** file looks like a modified rendition of a DirtyCow exploit, usually written in C. Find a copy of that original file online, and get it on the target box. You can do this with some simple file transfer methods like netcat, or spinning up a quick Python HTTP server... or you can simply copy-and-paste it into a text editor on the box! 
+This **cookies\_and\_milk.txt** file looks like a modified rendition of a DirtyCow exploit, usually written in C. Find a copy of that original file online, and get it on the target box. You can do this with some simple file transfer methods like netcat, or spinning up a quick Python HTTP server... or you can simply copy-and-paste it into a text editor on the box!
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
 You can compile the C source code on the target with **gcc**. You might need to supply specific parameters or arguments to include different libraries, but thankfully, the DirtyCow source code will explain what syntax to use.
 
