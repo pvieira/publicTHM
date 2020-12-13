@@ -12,10 +12,10 @@
   * [The Grinch Really Did Steal Christmas](advent-of-cyber-ii/the-grinch-really-did-steal-christmas.md)
   * [What's Under the Christmas Tree?](advent-of-cyber-ii/whats-under-the-christmas-tree.md)
   * [Anyone can be Santa!](advent-of-cyber-ii/anyone-can-be-santa.md)
-  * [Don't be sElfish!](advent-of-cyber-ii/untitled.md)
+  * [Don't be sElfish!](advent-of-cyber-ii/dont-be-selfish.md)
   * [The Rogue Gnome](advent-of-cyber-ii/the-rogue-gnome.md)
-  * [Ready, set, elf.](advent-of-cyber-ii/ready-set-elf..md)
-  * [Coal for Christmas](advent-of-cyber-ii/coalforchristmas.md)
+  * [Ready, set, elf.](advent-of-cyber-ii/ready-set-elf.md)
+  * [Coal for Christmas](advent-of-cyber-ii/coal-for-christmas.md)
 * [LinuxCTF](linuxctf.md)
 * [CrackTheHash](untitled.md)
 
