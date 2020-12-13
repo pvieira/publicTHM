@@ -30,7 +30,7 @@ SYN Scan - `nmap -sS <ip>`
 
 ## Challenge
 
-When was Snort created?
+### When was Snort created?
 
 > https://en.wikipedia.org/wiki/Snort\_\(software\)
 
@@ -38,25 +38,25 @@ When was Snort created?
 1998
 {% endhint %}
 
-Using Nmap on 10.10.127.159 , what are the port numbers of the three services running? \(Please provide your answer in ascending order/lowest -&gt; highest, separated by a comma\)
+### Using Nmap on 10.10.127.159 , what are the port numbers of the three services running? \(Please provide your answer in ascending order/lowest -&gt; highest, separated by a comma\)
 
 {% hint style="success" %}
 80,2222,3389
 {% endhint %}
 
-Run a scan and provide the **`-Pn`** flag to ignore ICMP being used to determine if the host is up
+### Run a scan and provide the **`-Pn`** flag to ignore ICMP being used to determine if the host is up
 
 {% hint style="success" %}
 No answer needed
 {% endhint %}
 
-Experiment with different scan settings such as **`-A`** and **`-sV`** whilst comparing the outputs given.
+### Experiment with different scan settings such as **`-A`** and **`-sV`** whilst comparing the outputs given.
 
 {% hint style="success" %}
 No answer needed
 {% endhint %}
 
-Use Nmap to determine the name of the Linux distribution that is running, what is reported as the most likely distribution to be running?
+### Use Nmap to determine the name of the Linux distribution that is running, what is reported as the most likely distribution to be running?
 
 ![](../.gitbook/assets/image%20%2836%29.png)
 
@@ -64,7 +64,7 @@ Use Nmap to determine the name of the Linux distribution that is running, what i
 Ubuntu
 {% endhint %}
 
-Use Nmap's Network Scripting Engine \(NSE\) to retrieve the "HTTP-TITLE" of the webserver. Based on the value returned, what do we think this website might be used for?
+### Use Nmap's Network Scripting Engine \(NSE\) to retrieve the "HTTP-TITLE" of the webserver. Based on the value returned, what do we think this website might be used for?
 
 ![](../.gitbook/assets/image%20%2835%29.png)
 
@@ -72,7 +72,7 @@ Use Nmap's Network Scripting Engine \(NSE\) to retrieve the "HTTP-TITLE" of the 
 Blog
 {% endhint %}
 
-Now use different scripts against the remaining services to discover any further information about them
+### Now use different scripts against the remaining services to discover any further information about them
 
 {% hint style="success" %}
 No answer needed

@@ -21,7 +21,7 @@ The standard for these two connections are the two ports:
 
 ## Challenge
 
-Name the directory on the FTP server that has data accessible by the "anonymous" user
+### Name the directory on the FTP server that has data accessible by the "anonymous" user
 
 ```text
 ftp 10.10.130.142
@@ -35,7 +35,7 @@ ls
 public
 {% endhint %}
 
-What script gets executed within this directory?
+### What script gets executed within this directory?
 
 ```text
 ftp 10.10.130.142
@@ -51,7 +51,7 @@ ls
 backup.sh
 {% endhint %}
 
-What movie did Santa have on his Christmas shopping list?
+### What movie did Santa have on his Christmas shopping list?
 
 ```text
 ftp 10.10.130.142
@@ -68,7 +68,7 @@ cat shoppinglist.txt
 The Polar Express
 {% endhint %}
 
-Re-upload this script to contain malicious data \(just like we did in section **9.6**. Output the contents of /root/flag.txt!
+### Re-upload this script to contain malicious data \(just like we did in section **9.6**. Output the contents of /root/flag.txt!
 
 Note that the script that we have uploaded may take a minute to return a connection. If it doesn't after a couple of minutes, double-check that you have set up a Netcat listener on the device that you are working from, and have provided the TryHackMe IP of the device that you are connecting from.
 
