@@ -20,7 +20,7 @@ NFS \(Network File System\) - Natively supported by Linux and not Windows
 
 ## Challenge
 
-Using _enum4linux_, how many users are there on the Samba server \(`10.10.227.117`\)?
+### Using _enum4linux_, how many users are there on the Samba server \(`10.10.227.117`\)?
 
 ```text
 enum4linux -U 10.10.227.117
@@ -32,7 +32,7 @@ enum4linux -U 10.10.227.117
 `3`
 {% endhint %}
 
-Now how many "shares" are there on the Samba server?
+### Now how many "shares" are there on the Samba server?
 
 ```text
 enum4linux -S 10.10.227.117
@@ -44,7 +44,7 @@ enum4linux -S 10.10.227.117
 4
 {% endhint %}
 
-Use _smbclient_ to try to login to the shares on the Samba server \(`10.10.227.117`\). What share doesn't require a password?
+### Use _smbclient_ to try to login to the shares on the Samba server \(`10.10.227.117`\). What share doesn't require a password?
 
 ```text
 smbclient //10.10.227.117/tbfc-hr
@@ -58,7 +58,7 @@ smbclient //10.10.227.117/tbfc-santa
 tbfc-santa
 {% endhint %}
 
-Log in to this share, what directory did ElfMcSkidy leave for Santa?
+### Log in to this share, what directory did ElfMcSkidy leave for Santa?
 
 ```text
 ls

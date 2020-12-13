@@ -60,19 +60,19 @@ We're using `find` to search the volume, by specifying the root \(`/`\) to searc
 
 ## Challenge
 
-What type of privilege escalation involves using a user account to execute commands as an administrator?
+### What type of privilege escalation involves using a user account to execute commands as an administrator?
 
 {% hint style="success" %}
 vertical
 {% endhint %}
 
-What is the name of the file that contains a list of users who are a part of the `sudo` group?
+### What is the name of the file that contains a list of users who are a part of the `sudo` group?
 
 {% hint style="success" %}
 sudoers
 {% endhint %}
 
-Use SSH to log in to the vulnerable machine like so: `ssh cmnatic@10.10.6.64`
+### Use SSH to log in to the vulnerable machine like so: `ssh cmnatic@10.10.6.64`
 
  Input the following password when prompted: **aoc2020**
 
@@ -82,7 +82,7 @@ Use SSH to log in to the vulnerable machine like so: `ssh cmnatic@10.10.6.64`
 No answer needed
 {% endhint %}
 
-Enumerate the machine for executables that have had the SUID permission set. Look at the output and use a mixture of [GTFObins](https://gtfobins.github.io/) and your researching skills to learn how to exploit this binary.
+### Enumerate the machine for executables that have had the SUID permission set. Look at the output and use a mixture of [GTFObins](https://gtfobins.github.io/) and your researching skills to learn how to exploit this binary.
 
 You may find uploading some of the enumeration scripts that were used during today's task to be useful.
 
@@ -108,9 +108,9 @@ bash -p
 No answer needed
 {% endhint %}
 
-Use this executable to launch a system shell as root.  
-  
-What are the contents of the file located at **/root/flag.txt**?
+Use this executable to launch a system shell as root.
+
+### What are the contents of the file located at **/root/flag.txt**?
 
 ```text
 cat /root/flag.txt

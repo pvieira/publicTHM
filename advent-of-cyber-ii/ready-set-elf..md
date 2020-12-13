@@ -16,7 +16,7 @@ description: Networking - Metasploit
 
 ## Challenge
 
-What is the version number of the web server?
+### What is the version number of the web server?
 
 ```text
 nmap -Pn -sC -sV -O -v 10.10.198.75
@@ -30,7 +30,7 @@ nmap -Pn -sC -sV -O -v 10.10.198.75
 9.0.17
 {% endhint %}
 
- What CVE can be used to create a Meterpreter entry onto the machine? \(Format: CVE-XXXX-XXXX\)
+###  What CVE can be used to create a Meterpreter entry onto the machine? \(Format: CVE-XXXX-XXXX\)
 
 ![](../.gitbook/assets/image%20%2812%29.png)
 
@@ -40,7 +40,7 @@ nmap -Pn -sC -sV -O -v 10.10.198.75
 CVE-2019-0232
 {% endhint %}
 
-Set your Metasploit settings appropriately and gain a foothold onto the deployed machine.
+### Set your Metasploit settings appropriately and gain a foothold onto the deployed machine.
 
 ![](../.gitbook/assets/image%20%2832%29.png)
 
@@ -60,7 +60,7 @@ exploit
 **`No answer needed`**
 {% endhint %}
 
-What are the contents of flag1.txt
+### What are the contents of flag1.txt
 
 ![](../.gitbook/assets/image%20%2870%29.png)
 
@@ -70,7 +70,7 @@ What are the contents of flag1.txt
 thm{whacking\_all\_the\_elves}
 {% endhint %}
 
-Looking for a challenge? Try to find out some of the vulnerabilities present to escalate your privileges!
+### Looking for a challenge? Try to find out some of the vulnerabilities present to escalate your privileges!
 
 {% hint style="success" %}
 **`No answer needed`**
