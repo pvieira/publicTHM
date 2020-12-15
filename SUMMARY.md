@@ -16,6 +16,8 @@
   * [The Rogue Gnome](advent-of-cyber-ii/11-the-rogue-gnome.md)
   * [Ready, set, elf.](advent-of-cyber-ii/12-ready-set-elf.md)
   * [Coal for Christmas](advent-of-cyber-ii/13-coal-for-christmas.md)
+  * [Where's Rudolph?](advent-of-cyber-ii/wheres-rudolph.md)
+  * [There's a Python in my stocking!](advent-of-cyber-ii/theres-a-python-in-my-stocking.md)
 * [LinuxCTF](linuxctf.md)
 * [CrackTheHash](untitled.md)
 
