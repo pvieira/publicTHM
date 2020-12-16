@@ -1,3 +1,7 @@
+---
+description: Scripting
+---
+
 # There's a Python in my stocking!
 
 ## Video
