@@ -18,6 +18,7 @@
   * [Coal for Christmas](advent-of-cyber-ii/13-coal-for-christmas.md)
   * [Where's Rudolph?](advent-of-cyber-ii/wheres-rudolph.md)
   * [There's a Python in my stocking!](advent-of-cyber-ii/theres-a-python-in-my-stocking.md)
+  * [Help! Where is Santa?](advent-of-cyber-ii/help-where-is-santa.md)
 * [LinuxCTF](linuxctf.md)
 * [CrackTheHash](untitled.md)
 
