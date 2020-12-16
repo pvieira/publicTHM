@@ -10,7 +10,7 @@
 
 What is the port number for the web server?
 
-![](../.gitbook/assets/image%20%28112%29.png)
+![](../.gitbook/assets/image%20%28113%29.png)
 
 {% hint style="success" %}
 8000
@@ -24,8 +24,10 @@ Without using enumerations tools such as Dirbuster, what is the directory for th
 
 Where is Santa right now?
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%28112%29.png)
 
+{% hint style="success" %}
+Winter Wonderland, Hyde Park, London.
 {% endhint %}
 
 Find out the correct API key. Remember, this is an odd number between 0-100. After too many attempts, Santa's Sled will block you. 
