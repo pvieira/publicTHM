@@ -2,7 +2,7 @@
 
 ## Video
 
-
+{% embed url="https://www.youtube.com/watch?v=lvcZRKO-B20" %}
 
 ## Resources
 
