@@ -6,6 +6,8 @@
 
 ## Resources
 
+[Radare2 Cheatsheet](https://scoding.de/uploads/r2_cs.pdf)
+
 ## Challenge
 
 What is the value of **local\_ch** when its corresponding movl instruction is called \(first if multiple\)?
