@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Try Hack Me](README.md)
-* [Try Hack Me](adventofcyber.md)
+* [Advent of Cyber](adventofcyber.md)
 * [Advent of Cyber II](advent-of-cyber-ii/README.md)
   * [A Christmas Crisis](advent-of-cyber-ii/01-a-christmas-crisis.md)
   * [The Elf Strikes Back!](advent-of-cyber-ii/02-the-elf-strikes-back.md)
