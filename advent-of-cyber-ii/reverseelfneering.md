@@ -75,7 +75,11 @@ ssh elfmceager@10.10.83.56
 
 ![](../.gitbook/assets/image%20%28114%29.png)
 
+![](../.gitbook/assets/image%20%28115%29.png)
+
 What is the value of **local\_ch** when its corresponding movl instruction is called \(first if multiple\)?
+
+![](../.gitbook/assets/image%20%28116%29.png)
 
 {% hint style="success" %}
 
