@@ -81,19 +81,48 @@ What is the value of **local\_ch** when its corresponding movl instruction is ca
 
 ![](../.gitbook/assets/image%20%28116%29.png)
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%28117%29.png)
 
+```text
+pdf @main
+db 0x00400b51
+dc
+px @rbp-0xc
+ds
+px @rbp-0xc
+```
+
+![](../.gitbook/assets/image%20%28118%29.png)
+
+{% hint style="success" %}
+1
 {% endhint %}
 
 What is the value of **eax** when the imull instruction is called?
 
-{% hint style="success" %}
+```text
+pdf @main
+db 0x00400b66
+dc
 
+```
+
+{% hint style="success" %}
+6
 {% endhint %}
 
 What is the value of **local\_4h** before **eax** is set to 0?
 
-{% hint style="success" %}
+```text
+pdf @main
+db 0x00400b69
+dc
+px @rbp-0x4
+```
 
+![](../.gitbook/assets/image%20%28119%29.png)
+
+{% hint style="success" %}
+6
 {% endhint %}
 
