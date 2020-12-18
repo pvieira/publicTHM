@@ -20,6 +20,7 @@
   * [There's a Python in my stocking!](advent-of-cyber-ii/theres-a-python-in-my-stocking.md)
   * [Help! Where is Santa?](advent-of-cyber-ii/help-where-is-santa.md)
   * [ReverseELFneering](advent-of-cyber-ii/reverseelfneering.md)
+  * [The Bits of Christmas](advent-of-cyber-ii/the-bits-of-christmas.md)
 * [LinuxCTF](linuxctf.md)
 * [CrackTheHash](untitled.md)
 
