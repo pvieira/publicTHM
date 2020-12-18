@@ -16,6 +16,10 @@ To find a list of the functions run: `afl`
 
 Let’s examine the assembly code at main by running the command `pdf @main` Where `pdf` means print disassembly function.
 
+
+
+* leaq source, destination: this instruction sets destination to the address denoted by the expression in source addq source, destination: destination = destination + source subq source, destination: destination = destination - source imulq source, destination: destination = destination \* source salq source, destination: destination = destination &lt;&lt; source where &lt;&lt; is the left bit shifting operator sarq source, destination: destination = destination &gt;&gt; source where &gt;&gt; is the right bit shifting operator xorq source, destination: destination = destination XOR source andq source, destination: destination = destination & source orq source, destination: destination = destination \| source
+
 [Radare2 Cheatsheet](https://scoding.de/uploads/r2_cs.pdf)
 
 ## Challenge
