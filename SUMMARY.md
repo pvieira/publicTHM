@@ -23,4 +23,5 @@
   * [The Bits of Christmas](advent-of-cyber-ii/the-bits-of-christmas.md)
 * [LinuxCTF](linuxctf.md)
 * [CrackTheHash](untitled.md)
+* [Mnemonic](mnemonic.md)
 

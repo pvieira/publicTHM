@@ -28,9 +28,9 @@ What is Santa's password?
 
 ![](../.gitbook/assets/image%20%28132%29.png)
 
-![](../.gitbook/assets/image%20%28134%29.png)
+![](../.gitbook/assets/image%20%28141%29.png)
 
-![](../.gitbook/assets/image%20%28133%29.png)
+![](../.gitbook/assets/image%20%28136%29.png)
 
 {% hint style="success" %}
 santapassword321
