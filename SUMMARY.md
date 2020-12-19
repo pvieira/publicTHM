@@ -40,6 +40,7 @@
   * [Encryption - Crypto 101](crypto/encryption-crypto-101.md)
   * [CrackTheHash - wip](crypto/untitled.md)
 * [Network](network/README.md)
+  * [Nmap](network/nmap.md)
   * [Networking](network/networking.md)
   * [Nmap - wip](network/nmap-wip.md)
   * [Introductory Networking](network/introductory-networking.md)
