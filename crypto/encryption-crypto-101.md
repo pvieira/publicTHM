@@ -74,7 +74,7 @@ PCI-DSS
 
 ###  What's 30 % 5?
 
-![](../.gitbook/assets/image%20%28145%29.png)
+![](../.gitbook/assets/image%20%28146%29.png)
 
 {% hint style="success" %}
 0
@@ -90,7 +90,7 @@ PCI-DSS
 
 ### What's 118613842 % 9091
 
-![](../.gitbook/assets/image%20%28166%29.png)
+![](../.gitbook/assets/image%20%28167%29.png)
 
 {% hint style="success" %}
 3565
@@ -154,7 +154,7 @@ There’s a lot more maths to RSA, and it gets quite complicated fairly quickly.
 
 {% embed url="https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html" %}
 
-![](../.gitbook/assets/image%20%28156%29.png)
+![](../.gitbook/assets/image%20%28157%29.png)
 
 {% hint style="success" %}
 29239669
@@ -216,7 +216,7 @@ You can get your own HTTPS certificates for domains you own using Let’s Encryp
 
 ### What company is TryHackMe's certificate issued to?
 
-![](../.gitbook/assets/image%20%28151%29.png)
+![](../.gitbook/assets/image%20%28152%29.png)
 
 {% hint style="success" %}
 Cloudflare
@@ -244,7 +244,7 @@ No answer needed
 
 ### What algorithm does the key use?
 
-![](../.gitbook/assets/image%20%28172%29.png)
+![](../.gitbook/assets/image%20%28173%29.png)
 
 {% hint style="success" %}
 RSA
@@ -266,7 +266,98 @@ delicious
 
 ## Task 10: Explaining Diffie Hellman Key Exchange
 
+#### What is Key Exchange?
+
+Key exchange allows 2 people/parties to establish a set of common cryptographic keys without an observer being able to get these keys. Generally, to establish common symmetric keys.
+
+#### How does Diffie Hellman Key Exchange work?
+
+Alice and Bob want to talk securely. They want to establish a common key, so they can use symmetric cryptography, but they don’t want to use key exchange with asymmetric cryptography. This is where DH Key Exchange comes in.
+
+Alice and Bob both have secrets that they generate, let’s call these A and B. They also have some common material that’s public, let’s call this C.
+
+We need to make some assumptions. Firstly, whenever we combine secrets/material it’s impossible or very very difficult to separate. Secondly, the order that they're combined in doesn’t matter.
+
+Alice and Bob will combine their secrets with the common material, and form AC and BC. They will then send these to each other, and combine that with their secrets to form two identical keys, both ABC. Now they can use this key to communicate.
+
+#### Extra Resources
+
+An excellent video if you want a visual explanation is available here. [https://www.youtube.com/watch?v=NmM9HA2MQGI](https://www.youtube.com/watch?v=NmM9HA2MQGI)
+
+DH Key Exchange is often used alongside RSA public key cryptography, to prove the identity of the person you’re talking to with digital signing. This prevents someone from attacking the connection with a man-in-the-middle attack by pretending to be Bob.
+
+###  I understand how Diffie Hellman Key Exchange works at a basic level
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
 ## Task 11: PGP, GPG and AES
 
+#### What is PGP?
+
+PGP stands for Pretty Good Privacy. It’s a software that implements encryption for encrypting files, performing digital signing and more.
+
+#### What is GPG?
+
+[GnuPG or GPG](https://gnupg.org/) is an Open Source implementation of PGP from the GNU project. You may need to use GPG to decrypt files in CTFs. With PGP/GPG, private keys can be protected with passphrases in a similar way to SSH private keys. You can attempt to crack this passphrase using John The Ripper and gpg2john.
+
+The man page for GPG can be found online [here](https://www.gnupg.org/gph/de/manual/r1023.html).
+
+#### What about AES?
+
+AES, sometimes called Rijndael after its creators, stands for Advanced Encryption Standard. It was a replacement for DES which had short keys and other cryptographic flaws.
+
+AES and DES both operate on blocks of data \(a block is a fixed size series of bits\).
+
+AES is complicated to explain, and doesn’t seem to come up as often. If you’d like to learn how it works, here’s an excellent video from Computerphile [https://www.youtube.com/watch?v=O4xNJsjtN6E](https://www.youtube.com/watch?v=O4xNJsjtN6E)
+
+### Time to try some GPG. Download the archive attached and extract it somewhere sensible.
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
+### You have the private key, and a file encrypted with the public key. Decrypt the file. What's the secret word?
+
+```text
+unzip gpg.zip
+gpg --import tryhackme.key
+gpg message.gpg
+cat message
+```
+
+![](../.gitbook/assets/image%20%28140%29.png)
+
+{% hint style="success" %}
+Pineapple
+{% endhint %}
+
 ## Task 12: The Future - Quantum Computers and Encryption
+
+Quantum computers will soon be a problem for many types of encryption.
+
+#### Asymmetric and Quantum
+
+While it’s unlikely we’ll have sufficiently powerful quantum computers until around 2030, once these exist encryption that uses RSA or Elliptical Curve Cryptography will be very fast to break. This is because quantum computers can very efficiently solve the mathematical problems that these algorithms rely on for their strength.
+
+#### AES/DES and Quantum
+
+AES with 128 bit keys is also likely to be broken by quantum computers in the near future, but 256 bit AES can’t be broken as easily. Triple DES is also vulnerable to attacks from quantum computers.
+
+#### Current Recommendations
+
+The NSA recommends using RSA-3072 or better for asymmetric encryption and AES-256 or better for symmetric encryption. There are several competitions currently running for quantum safe cryptographic algorithms, and it’s likely that we will have a new encryption standard before quantum computers become a threat to RSA and AES.
+
+#### Learn More about Quantum Computers and Cryptography
+
+If you’d like to learn more about this, NIST has resources that detail what the issues with current encryption is and the currently proposed solutions for these. [https://doi.org/10.6028/NIST.IR.8105](https://doi.org/10.6028/NIST.IR.8105)
+
+I also recommend the book "Cryptography Apocalypse" By Roger A. Grimes, as this was my introduction to quantum computing and quantum safe cryptography.
+
+### I understand that quantum computers affect the future of encryption. I know where to look if I want to learn more.
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
