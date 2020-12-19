@@ -28,7 +28,7 @@
 * [Linux Fundamentals](linux-fundamentals/README.md)
   * [Part 1](linux-fundamentals/part-1.md)
   * [Part 2](linux-fundamentals/part-2.md)
-  * [Part 3](linux-fundamentals/part-3.md)
+  * [Part 3 - wip](linux-fundamentals/part-3.md)
   * [Linux Challenges](linux-fundamentals/linux-challenges.md)
 * [OSINT](osint.md)
 * [Crypto](crypto/README.md)
