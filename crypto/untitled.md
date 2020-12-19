@@ -1,4 +1,4 @@
-# CrackTheHash
+# CrackTheHash - wip
 
 hash-identifier
 
