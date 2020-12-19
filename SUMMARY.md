@@ -1,7 +1,10 @@
 # Table of contents
 
 * [Try Hack Me](README.md)
-* [Advent of Cyber](adventofcyber.md)
+* [Capture The Flag](capture-the-flag/README.md)
+  * [Mnemonic](capture-the-flag/mnemonic.md)
+  * [Advent of Cyber - wip](capture-the-flag/adventofcyber.md)
+  * [LinuxCTF - wip](capture-the-flag/linuxctf.md)
 * [Advent of Cyber II](advent-of-cyber-ii/README.md)
   * [A Christmas Crisis](advent-of-cyber-ii/01-a-christmas-crisis.md)
   * [The Elf Strikes Back!](advent-of-cyber-ii/02-the-elf-strikes-back.md)
@@ -22,11 +25,13 @@
   * [ReverseELFneering](advent-of-cyber-ii/reverseelfneering.md)
   * [The Bits of Christmas](advent-of-cyber-ii/the-bits-of-christmas.md)
   * [The Naughty or Nice List](advent-of-cyber-ii/the-naughty-or-nice-list.md)
-* [LinuxCTF](linuxctf.md)
-* [CrackTheHash](untitled.md)
-* [Mnemonic](mnemonic.md)
 * [Linux Fundamentals](linux-fundamentals/README.md)
   * [Part 1](linux-fundamentals/part-1.md)
   * [Part 2](linux-fundamentals/part-2.md)
   * [Part 3](linux-fundamentals/part-3.md)
+* [OSINT](osint.md)
+* [Crypto](crypto/README.md)
+  * [CrackTheHash](crypto/untitled.md)
+* [Network](network.md)
+* [Web](web.md)
 
