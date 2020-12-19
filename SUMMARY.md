@@ -26,6 +26,7 @@
   * [The Bits of Christmas](advent-of-cyber-ii/the-bits-of-christmas.md)
   * [The Naughty or Nice List](advent-of-cyber-ii/the-naughty-or-nice-list.md)
 * [Linux Fundamentals](linux-fundamentals/README.md)
+  * [Learn Linux - wip](linux-fundamentals/learn-linux-wip.md)
   * [Part 1](linux-fundamentals/part-1.md)
   * [Part 2](linux-fundamentals/part-2.md)
   * [Part 3 - wip](linux-fundamentals/part-3.md)
