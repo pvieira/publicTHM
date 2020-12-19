@@ -34,5 +34,7 @@
   * [CrackTheHash](crypto/untitled.md)
 * [Network](network.md)
 * [Web](web.md)
-* [Starting Out In Cyber Sec](tutorial.md)
+* [Tutorial](tutorial/README.md)
+  * [Welcome](tutorial/welcome.md)
+  * [Starting Out In Cyber Sec](tutorial/starting-out-in-cyber-sec.md)
 
