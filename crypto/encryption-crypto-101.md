@@ -244,7 +244,7 @@ No answer needed
 
 ### What algorithm does the key use?
 
-![](../.gitbook/assets/image%20%28173%29.png)
+![](../.gitbook/assets/image%20%28174%29.png)
 
 {% hint style="success" %}
 RSA

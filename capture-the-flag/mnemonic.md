@@ -16,7 +16,7 @@ No answer needed
 nmap -sC -sV -T5 -p1-65535 10.10.109.236
 ```
 
-![](../.gitbook/assets/image%20%28170%29.png)
+![](../.gitbook/assets/image%20%28171%29.png)
 
 {% hint style="success" %}
 3
@@ -32,7 +32,7 @@ nmap -sC -sV -T5 -p1-65535 10.10.109.236
 
 ### What is the name of the secret file?
 
-![](../.gitbook/assets/image%20%28169%29.png)
+![](../.gitbook/assets/image%20%28170%29.png)
 
 ```bash
 gobuster dir -u http://10.10.109.236 -w /usr/share/dirb/wordlists/common.txt
@@ -46,7 +46,7 @@ gobuster dir -u http://10.10.109.236 -w big.txt -x php,txt,html -t 50
 gobuster dir -u http://10.10.109.236/webmasters/ -w big.txt -x php,txt,html -t 50
 ```
 
-![](../.gitbook/assets/image%20%28168%29.png)
+![](../.gitbook/assets/image%20%28169%29.png)
 
 ```bash
 gobuster dir -u http://10.10.109.236/webmasters/admin/ -w big.txt -x php,txt,html -t 50
@@ -82,7 +82,7 @@ unzip backups.zip
 cat backups/note.txt
 ```
 
-![](../.gitbook/assets/image%20%28179%29.png)
+![](../.gitbook/assets/image%20%28180%29.png)
 
 ###  ftp user name? 
 
@@ -129,7 +129,7 @@ john --wordlist=/usr/share/wordlists/rockyou.txt john_ssh.txt
 
 ```
 
-![](../.gitbook/assets/image%20%28180%29.png)
+![](../.gitbook/assets/image%20%28181%29.png)
 
 {% hint style="success" %}
 bluelove
@@ -190,7 +190,7 @@ ssh -p 1337 condor@10.10.109.239
 sudo -l
 ```
 
-![](../.gitbook/assets/image%20%28176%29.png)
+![](../.gitbook/assets/image%20%28177%29.png)
 
 ![](../.gitbook/assets/image%20%28139%29.png)
 
@@ -201,7 +201,7 @@ sudo /usr/bin/python3 /bin/examplecode.py
 /bin/bash
 ```
 
-![](../.gitbook/assets/image%20%28178%29.png)
+![](../.gitbook/assets/image%20%28179%29.png)
 
 ![](../.gitbook/assets/image%20%28137%29.png)
 

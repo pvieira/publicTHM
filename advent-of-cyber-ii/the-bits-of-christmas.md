@@ -28,7 +28,7 @@ What is Santa's password?
 
 ![](../.gitbook/assets/image%20%28132%29.png)
 
-![](../.gitbook/assets/image%20%28175%29.png)
+![](../.gitbook/assets/image%20%28176%29.png)
 
 ![](../.gitbook/assets/image%20%28151%29.png)
 
