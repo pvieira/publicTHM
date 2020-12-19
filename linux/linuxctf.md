@@ -2,7 +2,7 @@
 description: 'https://tryhackme.com/room/linuxctf'
 ---
 
-# LinuxCTF - Linux Challenges wip
+# LinuxCTF - Linux Challenges - wip
 
 ssh 10.10.255.137 Username: garry Password: letmein
 
