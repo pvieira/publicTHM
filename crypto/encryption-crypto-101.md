@@ -74,7 +74,7 @@ PCI-DSS
 
 ###  What's 30 % 5?
 
-![](../.gitbook/assets/image%20%28148%29.png)
+![](../.gitbook/assets/image%20%28149%29.png)
 
 {% hint style="success" %}
 0
@@ -82,7 +82,7 @@ PCI-DSS
 
 ### What's 25 % 7
 
-![](../.gitbook/assets/image%20%28140%29.png)
+![](../.gitbook/assets/image%20%28141%29.png)
 
 {% hint style="success" %}
 4
@@ -90,7 +90,7 @@ PCI-DSS
 
 ### What's 118613842 % 9091
 
-![](../.gitbook/assets/image%20%28171%29.png)
+![](../.gitbook/assets/image%20%28172%29.png)
 
 {% hint style="success" %}
 3565
@@ -154,7 +154,7 @@ There’s a lot more maths to RSA, and it gets quite complicated fairly quickly.
 
 {% embed url="https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html" %}
 
-![](../.gitbook/assets/image%20%28160%29.png)
+![](../.gitbook/assets/image%20%28161%29.png)
 
 {% hint style="success" %}
 29239669
@@ -216,7 +216,7 @@ You can get your own HTTPS certificates for domains you own using Let’s Encryp
 
 ### What company is TryHackMe's certificate issued to?
 
-![](../.gitbook/assets/image%20%28155%29.png)
+![](../.gitbook/assets/image%20%28156%29.png)
 
 {% hint style="success" %}
 Cloudflare
@@ -244,7 +244,7 @@ No answer needed
 
 ### What algorithm does the key use?
 
-![](../.gitbook/assets/image%20%28181%29.png)
+![](../.gitbook/assets/image%20%28182%29.png)
 
 {% hint style="success" %}
 RSA
@@ -327,7 +327,7 @@ gpg message.gpg
 cat message
 ```
 
-![](../.gitbook/assets/image%20%28142%29.png)
+![](../.gitbook/assets/image%20%28143%29.png)
 
 {% hint style="success" %}
 Pineapple

