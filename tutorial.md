@@ -1,4 +1,4 @@
-# Tutorial
+# Starting Out In Cyber Sec
 
 ## Welcome To TryHackMe
 
