@@ -99,7 +99,7 @@ touch noot.txt
 ./shiba1
 ```
 
-![](../.gitbook/assets/image%20%28173%29.png)
+![](../.gitbook/assets/image%20%28174%29.png)
 
 What's the password for shiba2
 
