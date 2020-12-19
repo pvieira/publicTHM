@@ -163,7 +163,39 @@ No answer needed
 
 ## Task 14 \[Section 5: Advanced File Operations\]: chown
 
+### How would you change the owner of file to paradox
+
+{% hint style="success" %}
+chown paradox file
+{% endhint %}
+
+### What about the owner and the group of file to paradox
+
+{% hint style="success" %}
+chown paradox:paradox file
+{% endhint %}
+
+### What flag allows you to operate on every file in the directory at once?
+
+{% hint style="success" %}
+-R
+{% endhint %}
+
 ## Task 15 \[Section 5: Advanced File Operations\]: chmod
+
+`chmod <permissions> <file>`
+
+### What permissions mean the user can read the file, the group can read and write to the file, and no one else can read, write or execute the file?
+
+{% hint style="success" %}
+460
+{% endhint %}
+
+### What permissions mean the user can read, write, and execute the file, the group can read, write, and execute the file, and everyone else can read, write, and execute the file.
+
+{% hint style="success" %}
+777
+{% endhint %}
 
 ## Task 16 \[Section 5: Advanced File Operations\]: rm
 
