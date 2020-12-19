@@ -72,32 +72,94 @@ Environment variables can also be set pretty easily, just running `export <varna
 ### How would you set nootnoot equal to 1111 
 
 {% hint style="success" %}
-
+export nootnoot=1111
 {% endhint %}
 
 ### What is the value of the home environment variable
 
 ```text
-
+echo $HOME
 ```
 
 {% hint style="success" %}
-
+/home/shiba2
 {% endhint %}
 
 ## Task 7 \[Section 4: Linux Operators\]: "\|"
 
+The pipe is unique because while operators like &gt;&gt; allow you to store the output of a command, the \| operator allows you to take the output of a command and use it as input for a second command.
+
+### Read the above
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
 ## Task 8 \[Section 4: Linux Operators\] - ";"
+
+The ; operator works a lot like &&, however it does not require the first command to execute successfully.
+
+### Read the above
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
 ## Task 9 \[Section 4: Linux Operators\]: "&gt;"
 
+&gt; is the operator for output redirection.
+
+### How would you output twenty to a file called test
+
+{% hint style="success" %}
+echo twenty &gt; test
+{% endhint %}
+
 ## Task 10 \[Section 4: Linux Operators\]: "&gt;&gt;"
+
+&gt;&gt; does mainly the same thing as &gt;, with one key difference. &gt;&gt; appends the output of a command to a file, instead of erasing it.
+
+### Read the above
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
 ## Task 11 Binary - shiba2
 
+What is shiba3's password
+
+```text
+echo $USER
+export test1234=shiba2
+./shiba2 
+```
+
+![](../.gitbook/assets/image%20%28135%29.png)
+
+{% hint style="success" %}
+happynootnoises
+{% endhint %}
+
 ## Task 12 \[Section 5 - Advanced File Operations\]: Intro
 
+
+
+### Read the above
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
 ## Task 13 \[Section 5 - Advanced File Operators\]: A bit of background.
+
+
+
+### Read the above
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
 ## Task 14 \[Section 5: Advanced File Operations\]: chown
 
@@ -108,4 +170,10 @@ Environment variables can also be set pretty easily, just running `export <varna
 ## Task 17 \[Section 5: Advanced File Operations\]: mv
 
 ## Task 18 Linux Fundamentals 3
+
+### Join the Linux Fundamentals 3 room, and finish learning Linux: [https://tryhackme.com/room/linux3](https://tryhackme.com/room/linux3)
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
