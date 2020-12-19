@@ -21,7 +21,12 @@
   * [Help! Where is Santa?](advent-of-cyber-ii/help-where-is-santa.md)
   * [ReverseELFneering](advent-of-cyber-ii/reverseelfneering.md)
   * [The Bits of Christmas](advent-of-cyber-ii/the-bits-of-christmas.md)
+  * [The Naughty or Nice List](advent-of-cyber-ii/the-naughty-or-nice-list.md)
 * [LinuxCTF](linuxctf.md)
 * [CrackTheHash](untitled.md)
 * [Mnemonic](mnemonic.md)
+* [Linux Fundamentals](linux-fundamentals/README.md)
+  * [Part 1](linux-fundamentals/part-1.md)
+  * [Part 2](linux-fundamentals/part-2.md)
+  * [Part 3](linux-fundamentals/part-3.md)
 
