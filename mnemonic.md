@@ -2,6 +2,10 @@
 
 ## Mnemonic
 
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
 ## Enumerate
 
 ### How many open ports?
