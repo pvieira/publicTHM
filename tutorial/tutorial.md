@@ -1,10 +1,4 @@
-# Welcome
-
-## What are rooms?
-
-{% hint style="success" %}
-No answer needed
-{% endhint %}
+# Tutorial
 
 ## Deploy your first machine
 

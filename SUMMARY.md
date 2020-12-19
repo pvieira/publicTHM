@@ -29,6 +29,7 @@
   * [Part 1](linux-fundamentals/part-1.md)
   * [Part 2](linux-fundamentals/part-2.md)
   * [Part 3](linux-fundamentals/part-3.md)
+  * [Linux Challenges](linux-fundamentals/linux-challenges.md)
 * [OSINT](osint.md)
 * [Crypto](crypto/README.md)
   * [Encryption - Crypto 101](crypto/encryption-crypto-101.md)
@@ -37,5 +38,6 @@
 * [Web](web.md)
 * [Tutorial](tutorial/README.md)
   * [Welcome](tutorial/welcome.md)
+  * [Tutorial](tutorial/tutorial.md)
   * [Starting Out In Cyber Sec](tutorial/starting-out-in-cyber-sec.md)
 
