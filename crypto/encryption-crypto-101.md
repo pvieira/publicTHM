@@ -1,6 +1,6 @@
 # Encryption - Crypto 101
 
-## What will this room cover?
+## Task 1: What will this room cover?
 
 {% embed url="https://tryhackme.com/room/ccpentesting" %}
 
@@ -10,7 +10,7 @@ I'm ready to learn about encryption
 No answer needed
 {% endhint %}
 
-## Key terms
+## Task 2: Key terms
 
 **Ciphertext -** The result of encrypting a plaintext, encrypted data
 
@@ -48,7 +48,7 @@ No answer needed
 passphrase
 {% endhint %}
 
-## Why is Encryption important?
+## Task 3: Why is Encryption important?
 
 Cryptography is used to protect confidentiality, ensure integrity, ensure authenticity. You use cryptography every day most likely, and you’re almost certainly reading this now over an encrypted connection.
 
@@ -70,11 +70,11 @@ certificates
 PCI-DSS
 {% endhint %}
 
-## Crucial Crypto Maths
+## Task 4: Crucial Crypto Maths
 
 ###  What's 30 % 5?
 
-![](../.gitbook/assets/image%20%28144%29.png)
+![](../.gitbook/assets/image%20%28145%29.png)
 
 {% hint style="success" %}
 0
@@ -82,7 +82,7 @@ PCI-DSS
 
 ### What's 25 % 7
 
-![](../.gitbook/assets/image%20%28137%29.png)
+![](../.gitbook/assets/image%20%28138%29.png)
 
 {% hint style="success" %}
 4
@@ -90,13 +90,13 @@ PCI-DSS
 
 ### What's 118613842 % 9091
 
-![](../.gitbook/assets/image%20%28163%29.png)
+![](../.gitbook/assets/image%20%28166%29.png)
 
 {% hint style="success" %}
 3565
 {% endhint %}
 
-## Types of Encryption
+## Task 5: Types of Encryption
 
 The two main categories of Encryption are symmetric and asymmetric.
 
@@ -124,17 +124,149 @@ Triple DES
 Yea
 {% endhint %}
 
-## RSA - Rivest Shamir Adleman
+## Task 6: RSA - Rivest Shamir Adleman
 
-## Establishing Keys Using Asymmetric Cryptography
+#### The math\(s\) side
 
-## Digital signatures and Certificates
+RSA is based on the mathematically difficult problem of working out the factors of a large number. It’s very quick to multiply two prime numbers together, say 17\*23 = 391, but it’s quite difficult to work out what two prime numbers multiply together to make 14351 \(113x127 for reference\).
 
-## SSH Authentication
+#### The attacking side
 
-## Explaining Diffie Hellman Key Exchange
+The maths behind RSA seems to come up relatively often in CTFs, normally requiring you to calculate variables or break some encryption based on them. The wikipedia page for RSA seems complicated at first, but will give you almost all of the information you need in order to complete challenges.
 
-## PGP, GPG and AES
+There are some excellent tools for defeating RSA challenges in CTFs, and my personal favorite is [https://github.com/Ganapati/RsaCtfTool](https://github.com/Ganapati/RsaCtfTool) which has worked very well for me. I’ve also had some success with [https://github.com/ius/rsatool](https://github.com/ius/rsatool).
 
-## The Future - Quantum Computers and Encryption
+The key variables that you need to know about for RSA in CTFs are p, q, m, n, e, d, and c.
+
+“p” and “q” are large prime numbers, “n” is the product of p and q.
+
+The public key is n and d, the private key is n and e.
+
+“m” is used to represent the message \(in plaintext\) and “c” represents the ciphertext \(encrypted text\).
+
+#### CTFs involving RSA
+
+Crypto CTF challenges often present you with a set of these values, and you need to break the encryption and decrypt a message to retrieve the flag.
+
+There’s a lot more maths to RSA, and it gets quite complicated fairly quickly. If you want to learn the maths behind it, I recommend reading MuirlandOracle’s blog post here: [https://muirlandoracle.co.uk/2020/01/29/rsa-encryption/](https://muirlandoracle.co.uk/2020/01/29/rsa-encryption/).
+
+### p = 4391, q = 6659. What is n?
+
+{% embed url="https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html" %}
+
+![](../.gitbook/assets/image%20%28156%29.png)
+
+{% hint style="success" %}
+29239669
+{% endhint %}
+
+### I understand enough about RSA to move on, and I know where to look to learn more if I want to.
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
+## Task 7: Establishing Keys Using Asymmetric Cryptography
+
+A very common use of asymmetric cryptography is exchanging keys for symmetric encryption.
+
+Asymmetric encryption tends to be slower, so for things like HTTPS symmetric encryption is better.
+
+But the question is, how do you agree a key with the server without transmitting the key for people snooping to see?
+
+#### Metaphor time
+
+Imagine you have a secret code, and instructions for how to use the secret code. If you want to send your friend the instructions without anyone else being able to read it, what you could do is ask your friend for a lock.
+
+Only they have the key for this lock, and we’ll assume you have an indestructible box that you can lock with it.
+
+If you send the instructions in a locked box to your friend, they can unlock it once it reaches them and read the instructions.
+
+After that, you can communicate in the secret code without risk of people snooping.
+
+In this metaphor, the secret code represents a symmetric encryption key, the lock represents the server’s public key, and the key represents the server’s private key.
+
+You’ve only used asymmetric cryptography once, so it’s fast, and you can now communicate privately with symmetric encryption.
+
+#### The Real World
+
+In reality, you need a little more cryptography to verify the person you’re talking to is who they say they are, which is done using digital signatures and certificates. You can find a lot more detail on how HTTPS \(one example where you need to exchange keys\) really works from this excellent blog post. [https://robertheaton.com/2014/03/27/how-does-https-actually-work/](https://robertheaton.com/2014/03/27/how-does-https-actually-work/)
+
+### I understand how keys can be established using Public Key \(asymmetric\) cryptography.
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
+## Task 8: Digital signatures and Certificates
+
+#### What's a Digital Signature?
+
+Digital signatures are a way to prove the authenticity of files, to prove who created or modified them. Using asymmetric cryptography, you produce a signature with your private key and it can be verified using your public key. As only you should have access to your private key, this proves you signed the file. Digital signatures and physical signatures have the same value in the UK, legally.
+
+The simplest form of digital signature would be encrypting the document with your private key, and then if someone wanted to verify this signature they would decrypt it with your public key and check if the files match.
+
+#### Certificates - Prove who you are!
+
+Certificates are also a key use of public key cryptography, linked to digital signatures. A common place where they’re used is for HTTPS. How does your web browser know that the server you’re talking to is the real tryhackme.com?
+
+The answer is certificates. The web server has a certificate that says it is the real tryhackme.com. The certificates have a chain of trust, starting with a root CA \(certificate authority\). Root CAs are automatically trusted by your device, OS, or browser from install. Certs below that are trusted because the Root CAs say they trust that organisation. Certificates below that are trusted because the organisation is trusted by the Root CA and so on. There are long chains of trust. Again, this blog post explains this much better than I can. [https://robertheaton.com/2014/03/27/how-does-https-actually-work/](https://robertheaton.com/2014/03/27/how-does-https-actually-work/)
+
+You can get your own HTTPS certificates for domains you own using Let’s Encrypt for free. If you run a website, it’s worth setting it up.
+
+### What company is TryHackMe's certificate issued to?
+
+![](../.gitbook/assets/image%20%28151%29.png)
+
+{% hint style="success" %}
+Cloudflare
+{% endhint %}
+
+## Task 9: SSH Authentication
+
+`ssh-keygen` is the program used to generate pairs of keys most of the time.
+
+The ~/.ssh folder is the default place to store these keys for OpenSSH. The `authorized_keys` \(note the US English spelling\) file in this directory holds public keys that are allowed to access the server if key authentication is enabled.
+
+`ssh -i keyNameGoesHere user@host` is how you specify a key for the standard Linux OpenSSH client.
+
+### I recommend giving this a go yourself. Deploy a VM, like [Learn Linux](https://tryhackme.com/room/zthlinux) and try to add an SSH key and log in with the private key.
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
+### Download the SSH Private Key attached to this room.
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
+### What algorithm does the key use?
+
+![](../.gitbook/assets/image%20%28172%29.png)
+
+{% hint style="success" %}
+RSA
+{% endhint %}
+
+### Crack the password with John The Ripper and rockyou, what's the passphrase for the key?
+
+```text
+locate ssh2john
+/usr/share/john/ssh2john.py id_rsa > id_rsa.hash
+john id_rsa.hash --wordlist="/usr/share/wordlists/rockyou.txt"
+```
+
+![](../.gitbook/assets/image%20%28135%29.png)
+
+{% hint style="success" %}
+delicious
+{% endhint %}
+
+## Task 10: Explaining Diffie Hellman Key Exchange
+
+## Task 11: PGP, GPG and AES
+
+## Task 12: The Future - Quantum Computers and Encryption
 
