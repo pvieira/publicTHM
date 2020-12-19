@@ -41,6 +41,8 @@
   * [CrackTheHash - wip](crypto/untitled.md)
 * [Network](network/README.md)
   * [Nmap - wip](network/nmap-wip.md)
+  * [Introductory Networking](network/introductory-networking.md)
+  * [Network Services](network/network-services.md)
 * [Web](web.md)
 * [Tutorial](tutorial/README.md)
   * [Welcome to TryHackMe - wip](tutorial/welcome-to-tryhackme-wip.md)
