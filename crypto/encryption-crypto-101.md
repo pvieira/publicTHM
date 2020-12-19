@@ -90,7 +90,7 @@ PCI-DSS
 
 ### What's 118613842 % 9091
 
-![](../.gitbook/assets/image%20%28168%29.png)
+![](../.gitbook/assets/image%20%28170%29.png)
 
 {% hint style="success" %}
 3565
@@ -154,7 +154,7 @@ There’s a lot more maths to RSA, and it gets quite complicated fairly quickly.
 
 {% embed url="https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html" %}
 
-![](../.gitbook/assets/image%20%28158%29.png)
+![](../.gitbook/assets/image%20%28159%29.png)
 
 {% hint style="success" %}
 29239669
@@ -216,7 +216,7 @@ You can get your own HTTPS certificates for domains you own using Let’s Encryp
 
 ### What company is TryHackMe's certificate issued to?
 
-![](../.gitbook/assets/image%20%28153%29.png)
+![](../.gitbook/assets/image%20%28154%29.png)
 
 {% hint style="success" %}
 Cloudflare
@@ -244,7 +244,7 @@ No answer needed
 
 ### What algorithm does the key use?
 
-![](../.gitbook/assets/image%20%28175%29.png)
+![](../.gitbook/assets/image%20%28180%29.png)
 
 {% hint style="success" %}
 RSA
