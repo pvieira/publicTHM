@@ -199,7 +199,29 @@ chown paradox:paradox file
 
 ## Task 16 \[Section 5: Advanced File Operations\]: rm
 
+rm  means remove
+
+### What flag deletes every file in a directory
+
+{% hint style="success" %}
+-r
+{% endhint %}
+
+### How do you suppress all warning prompts
+
+{% hint style="success" %}
+-f
+{% endhint %}
+
 ## Task 17 \[Section 5: Advanced File Operations\]: mv
+
+mv allows you to move files from one place to another.
+
+### How would you move file to /tmp
+
+{% hint style="success" %}
+mv file /tmp
+{% endhint %}
 
 ## Task 18 Linux Fundamentals 3
 
