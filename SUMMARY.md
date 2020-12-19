@@ -34,4 +34,5 @@
   * [CrackTheHash](crypto/untitled.md)
 * [Network](network.md)
 * [Web](web.md)
+* [Tutorial](tutorial.md)
 
