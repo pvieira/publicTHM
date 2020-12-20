@@ -94,34 +94,42 @@ sl{Vancouver}
 
 ![](../.gitbook/assets/image%20%28207%29.png)
 
+![](../.gitbook/assets/image%20%28227%29.png)
+
 ### Which city is this coffee shop located in?
 
 {% hint style="success" %}
-
+sl{Blairgowrie}
 {% endhint %}
 
 ### Which street is this coffee shop located in?
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%28228%29.png)
 
+![](../.gitbook/assets/image%20%28229%29.png)
+
+{% hint style="success" %}
+sl{Allan Street}
 {% endhint %}
 
 ### What is their phone number?
 
 {% hint style="success" %}
-
+sl{+447878 839128}
 {% endhint %}
 
 ### What is their email address?
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%28226%29.png)
 
+{% hint style="success" %}
+sl{theweecoffeeshop@aol.com}
 {% endhint %}
 
 ### What is the surname of the owners?
 
 {% hint style="success" %}
-
+sl{Cochrane}
 {% endhint %}
 
 ## Task 6 Reverse your thinking
