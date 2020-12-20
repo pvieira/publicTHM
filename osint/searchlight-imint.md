@@ -1,6 +1,6 @@
 # Searchlight - IMINT
 
-![](../.gitbook/assets/image%20%28201%29.png)
+![](../.gitbook/assets/image%20%28202%29.png)
 
 ## Resources
 
@@ -22,7 +22,7 @@ sl{ready}
 
 ## Task 2 Your first challenge!
 
-![](../.gitbook/assets/image%20%28196%29.png)
+![](../.gitbook/assets/image%20%28197%29.png)
 
 ### What is the name of the street where this image was taken?
 
@@ -32,11 +32,11 @@ sl{carnaby street}
 
 ## Task 3 Just Google it!
 
-![](../.gitbook/assets/image%20%28200%29.png)
+![](../.gitbook/assets/image%20%28201%29.png)
 
 ### Which city is the tube station located in?
 
-![](../.gitbook/assets/image%20%28211%29.png)
+![](../.gitbook/assets/image%20%28212%29.png)
 
 {% hint style="success" %}
 sl{London}
@@ -50,7 +50,7 @@ sl{piccadilly circus}
 
 ### Which year did this station open?
 
-![](../.gitbook/assets/image%20%28204%29.png)
+![](../.gitbook/assets/image%20%28205%29.png)
 
 {% hint style="success" %}
 sl{1906}
@@ -64,13 +64,13 @@ sl{4}
 
 ## Task 4 Keep at it!
 
-![](../.gitbook/assets/image%20%28199%29.png)
+![](../.gitbook/assets/image%20%28200%29.png)
 
-![](../.gitbook/assets/image%20%28214%29.png)
+![](../.gitbook/assets/image%20%28215%29.png)
 
 ### Which building is this photo taken in?
 
-![](../.gitbook/assets/image%20%28219%29.png)
+![](../.gitbook/assets/image%20%28220%29.png)
 
 {% hint style="success" %}
 sl{Vancouver International Airport}
@@ -78,7 +78,7 @@ sl{Vancouver International Airport}
 
 ### Which country is this building located in?
 
-![](../.gitbook/assets/image%20%28197%29.png)
+![](../.gitbook/assets/image%20%28198%29.png)
 
 {% hint style="success" %}
 sl{canada}
@@ -92,7 +92,7 @@ sl{Vancouver}
 
 ## Task 5 Coffee and a light lunch
 
-![](../.gitbook/assets/image%20%28206%29.png)
+![](../.gitbook/assets/image%20%28207%29.png)
 
 ### Which city is this coffee shop located in?
 
@@ -126,11 +126,11 @@ sl{Vancouver}
 
 ## Task 6 Reverse your thinking
 
-![](../.gitbook/assets/image%20%28217%29.png)
+![](../.gitbook/assets/image%20%28218%29.png)
 
-![](../.gitbook/assets/image%20%28220%29.png)
+![](../.gitbook/assets/image%20%28221%29.png)
 
-![](../.gitbook/assets/image%20%28223%29.png)
+![](../.gitbook/assets/image%20%28224%29.png)
 
 ### Which restaurant was this picture taken at?
 
@@ -140,7 +140,7 @@ sl{Katz's Deli}
 
 ### What is the name of the Bon Appétit editor that worked 24 hours at this restaurant?
 
-![](../.gitbook/assets/image%20%28210%29.png)
+![](../.gitbook/assets/image%20%28211%29.png)
 
 {% hint style="success" %}
 sl{Andrew Knowlton}
@@ -148,15 +148,27 @@ sl{Andrew Knowlton}
 
 ## Task 7 Locate this sculpture
 
-![](../.gitbook/assets/image%20%28203%29.png)
+![](../.gitbook/assets/image%20%28204%29.png)
 
 ### What is the name of this statue?
+
+![](../.gitbook/assets/image%20%28196%29.png)
+
+{% embed url="https://magnefarchive.com/rudolph-the-chrome-nosed-reindeer/" %}
+
+{% hint style="success" %}
+sl{Rudolph the Chrome Nosed Reindeer}
+{% endhint %}
 
 
 
 ### Who took this image?
 
 
+
+{% hint style="success" %}
+
+{% endhint %}
 
 ## Task 8 ...and justice for all
 
