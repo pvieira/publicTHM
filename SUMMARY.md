@@ -58,4 +58,5 @@
   * [Introductory Researching](pentest/introductory-researching.md)
 * [Hardware](hardware/README.md)
   * [Dumping Router Firmware](hardware/dumping-router-firmware.md)
+* [HELP](help.md)
 
