@@ -104,9 +104,9 @@ sl{Blairgowrie}
 
 ### Which street is this coffee shop located in?
 
-![](../.gitbook/assets/image%20%28229%29.png)
-
 ![](../.gitbook/assets/image%20%28230%29.png)
+
+![](../.gitbook/assets/image%20%28231%29.png)
 
 {% hint style="success" %}
 sl{Allan Street}
@@ -188,14 +188,16 @@ sl{Lady Justice}
 
 ### Where is this statue located?
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%28229%29.png)
 
+{% hint style="success" %}
+sl{Alexandria, Virginia}
 {% endhint %}
 
 ### What is the name of the building opposite from this statue?
 
 {% hint style="success" %}
-
+sl{The Westin Alexandria Old Town}
 {% endhint %}
 
 ## Task 9 The view from my hotel room
