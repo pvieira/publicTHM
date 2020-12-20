@@ -70,5 +70,43 @@ Disallow:/dont-index-me/
 
 ## Task 5 Sitemaps
 
+The easier a website is to "Crawl", the more optimised it is for the "Search Engine"
+
+### What is the typical file structure of a "Sitemap"?
+
+{% hint style="success" %}
+xml
+{% endhint %}
+
+### What real life example can "Sitemaps" be compared to?
+
+{% hint style="success" %}
+map
+{% endhint %}
+
+### Name the keyword for the path taken for content on a website
+
+{% hint style="success" %}
+route
+{% endhint %}
+
 ## Task 6 What is Google Dorking?
+
+### What would be the format used to query the site bbc.co.uk about flood defences
+
+{% hint style="success" %}
+site:bbc.co.uk flood defences
+{% endhint %}
+
+### What term would you use to search by file type?
+
+{% hint style="success" %}
+filetype:
+{% endhint %}
+
+### What term can we use to look for login pages?
+
+{% hint style="success" %}
+intitle: login
+{% endhint %}
 
