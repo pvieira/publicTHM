@@ -40,7 +40,7 @@ no answer needed
 
 ## Task 3 Switchboard
 
-![](../.gitbook/assets/image%20%28230%29.png)
+![](../.gitbook/assets/image%20%28231%29.png)
 
 ### What switch can we use to set our target domain to perform recon on?
 
@@ -73,6 +73,56 @@ no answer needed
 {% endhint %}
 
 ## Task 4 Scans away!
+
+![](../.gitbook/assets/image%20%28230%29.png)
+
+### Let's run sublist3r now against nbc.com, a fairly large American news company. Run this now with the command: python3 sublist3r.py -d nbc.com -o sub-output-nbc.txt
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
+### Once that completes open up your results and take a look through them. Email domains are almost always interesting and typically have an email portal \(usually Outlook\) located at them. Which subdomain is likely the email portal?
+
+{% hint style="success" %}
+mail
+{% endhint %}
+
+### Administrative control panels should never be exposed to the internet! Which subdomain is exposed that shouldn't be?
+
+{% hint style="success" %}
+admin
+{% endhint %}
+
+### Company blogs can sometimes reveal information about internal activities, which subdomain has the company blog at it?
+
+{% hint style="success" %}
+
+{% endhint %}
+
+### Development sites are often vulnerable to information disclosure or full-blown attacks. Two developer sites are exposed, which one is associated directly with web development?
+
+{% hint style="success" %}
+
+{% endhint %}
+
+### Customer and employee help desk portals can often reveal internal nomenclature and other potentially sensitive information, which dns record might be a helpdesk portal?
+
+{% hint style="success" %}
+
+{% endhint %}
+
+### Single sign-on is a feature commonly used in corporate domains, which dns record is directly associated with this feature? Include both parts of this subdomain separated by a period.
+
+{% hint style="success" %}
+
+{% endhint %}
+
+### One last one for fun. NBC produced a popular sitcom about typical office work environment, which dns record might be associated with this show?
+
+{% hint style="success" %}
+
+{% endhint %}
 
 
 
