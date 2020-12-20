@@ -202,3 +202,9 @@ sl{The Westin Alexandria Old Town}
 
 ## Task 9 The view from my hotel room
 
+### What is the name of the hotel that my friend is staying in?
+
+{% hint style="success" %}
+sl{Hotel Novotel Singapore Clarke Quay}
+{% endhint %}
+
