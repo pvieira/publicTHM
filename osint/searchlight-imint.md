@@ -104,9 +104,9 @@ sl{Blairgowrie}
 
 ### Which street is this coffee shop located in?
 
-![](../.gitbook/assets/image%20%28228%29.png)
-
 ![](../.gitbook/assets/image%20%28229%29.png)
+
+![](../.gitbook/assets/image%20%28230%29.png)
 
 {% hint style="success" %}
 sl{Allan Street}
@@ -172,13 +172,31 @@ sl{Rudolph the Chrome Nosed Reindeer}
 
 ### Who took this image?
 
+![](../.gitbook/assets/image%20%28228%29.png)
 
+{% hint style="success" %}
+sl{Kjersti Stensrud}
+{% endhint %}
+
+## Task 8 ...and justice for all
+
+### What is the name of the character that the statue depicts?
+
+{% hint style="success" %}
+sl{Lady Justice}
+{% endhint %}
+
+### Where is this statue located?
 
 {% hint style="success" %}
 
 {% endhint %}
 
-## Task 8 ...and justice for all
+### What is the name of the building opposite from this statue?
+
+{% hint style="success" %}
+
+{% endhint %}
 
 ## Task 9 The view from my hotel room
 
