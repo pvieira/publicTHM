@@ -162,13 +162,13 @@ sl{Andrew Knowlton}
 
 ![](../.gitbook/assets/image%20%28196%29.png)
 
+> Rudolph the chrome nosed reindeer at Astrup Fearnley Museum of Modern Art
+
 {% embed url="https://magnefarchive.com/rudolph-the-chrome-nosed-reindeer/" %}
 
 {% hint style="success" %}
 sl{Rudolph the Chrome Nosed Reindeer}
 {% endhint %}
-
-
 
 ### Who took this image?
 
