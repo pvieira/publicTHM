@@ -2,13 +2,13 @@
 
 ## OhSINT
 
-![](../.gitbook/assets/image%20%28236%29.png)
+![](../.gitbook/assets/image%20%28237%29.png)
 
 ### What is this users avatar of?
 
 {% embed url="https://twitter.com/owoodflint?lang=en" %}
 
-![](../.gitbook/assets/image%20%28231%29.png)
+![](../.gitbook/assets/image%20%28232%29.png)
 
 {% hint style="success" %}
 cat
@@ -24,7 +24,7 @@ London
 
 ### Whats the SSID of the WAP he connected to?
 
-![](../.gitbook/assets/image%20%28232%29.png)
+![](../.gitbook/assets/image%20%28233%29.png)
 
 {% hint style="success" %}
 UnileverWiFi
@@ -50,7 +50,7 @@ Github
 
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28238%29.png)
+![](../.gitbook/assets/image%20%28239%29.png)
 
 {% hint style="success" %}
 New York
@@ -58,7 +58,7 @@ New York
 
 ### What is this persons password?
 
-![](../.gitbook/assets/image%20%28235%29.png)
+![](../.gitbook/assets/image%20%28236%29.png)
 
 {% hint style="success" %}
 pennYDr0pper.!
