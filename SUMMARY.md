@@ -36,6 +36,7 @@
   * [LinuxCTF - Linux Challenges - wip](linux/linuxctf.md)
   * [Learn Linux - wip](linux/learn-linux-wip.md)
 * [OSINT](osint/README.md)
+  * [OhSINT](osint/ohsint.md)
   * [Introductory Researching](osint/introductory-researching.md)
   * [Google Dorking](osint/google-dorking.md)
   * [Searchlight - IMINT](osint/searchlight-imint.md)
