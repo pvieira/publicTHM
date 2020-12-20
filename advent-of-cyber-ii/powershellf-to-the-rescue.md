@@ -51,13 +51,13 @@ Note: You can always use the `Get-Help` cmdlet to obtain more information about 
 
 `r0ckStar!`
 
-![](../.gitbook/assets/image%20%28202%29.png)
+![](../.gitbook/assets/image%20%28203%29.png)
 
 ```bash
 powershell
 ```
 
-![](../.gitbook/assets/image%20%28201%29.png)
+![](../.gitbook/assets/image%20%28202%29.png)
 
 ### Search for the first hidden elf file within the Documents folder. Read the contents of this file. What does Elf 1 want?
 
@@ -83,7 +83,7 @@ cd .\elf2wo
 Get-Content -Path .\e70smsW10Y4k.txt        or         cat .\e70smsW10Y4k.txt
 ```
 
-![](../.gitbook/assets/image%20%28200%29.png)
+![](../.gitbook/assets/image%20%28201%29.png)
 
 {% hint style="success" %}
 Scrooged
@@ -112,7 +112,7 @@ ls -Hidden
 Get-Content -Path 1.txt | Measure-Object -Word        or        (gc .\1.txt).length
 ```
 
-![](../.gitbook/assets/image%20%28199%29.png)
+![](../.gitbook/assets/image%20%28200%29.png)
 
 {% hint style="success" %}
 9999
