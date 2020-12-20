@@ -97,36 +97,30 @@ admin
 ### Company blogs can sometimes reveal information about internal activities, which subdomain has the company blog at it?
 
 {% hint style="success" %}
-
+blog
 {% endhint %}
 
 ### Development sites are often vulnerable to information disclosure or full-blown attacks. Two developer sites are exposed, which one is associated directly with web development?
 
 {% hint style="success" %}
-
+dev-www
 {% endhint %}
 
 ### Customer and employee help desk portals can often reveal internal nomenclature and other potentially sensitive information, which dns record might be a helpdesk portal?
 
 {% hint style="success" %}
-
+help
 {% endhint %}
 
 ### Single sign-on is a feature commonly used in corporate domains, which dns record is directly associated with this feature? Include both parts of this subdomain separated by a period.
 
 {% hint style="success" %}
-
+ssologin.stg
 {% endhint %}
 
 ### One last one for fun. NBC produced a popular sitcom about typical office work environment, which dns record might be associated with this show?
 
 {% hint style="success" %}
-
-{% endhint %}
-
-
-
-{% hint style="success" %}
-
+office-words
 {% endhint %}
 
