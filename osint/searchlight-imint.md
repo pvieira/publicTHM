@@ -1,6 +1,6 @@
 # Searchlight - IMINT
 
-![](../.gitbook/assets/image%20%28198%29.png)
+![](../.gitbook/assets/image%20%28199%29.png)
 
 ## Resources
 
@@ -26,11 +26,11 @@ sl{carnaby street}
 
 ## Task 3 Just Google it!
 
-![](../.gitbook/assets/image%20%28197%29.png)
+![](../.gitbook/assets/image%20%28198%29.png)
 
 ### Which city is the tube station located in?
 
-![](../.gitbook/assets/image%20%28205%29.png)
+![](../.gitbook/assets/image%20%28206%29.png)
 
 {% hint style="success" %}
 sl{London}
@@ -44,7 +44,7 @@ sl{piccadilly circus}
 
 ### Which year did this station open?
 
-![](../.gitbook/assets/image%20%28200%29.png)
+![](../.gitbook/assets/image%20%28201%29.png)
 
 {% hint style="success" %}
 sl{1906}
@@ -57,6 +57,30 @@ sl{4}
 {% endhint %}
 
 ## Task 4 Keep at it!
+
+![](../.gitbook/assets/image%20%28197%29.png)
+
+![](../.gitbook/assets/image%20%28209%29.png)
+
+### Which building is this photo taken in?
+
+![](../.gitbook/assets/image%20%28212%29.png)
+
+{% hint style="success" %}
+sl{Vancouver International Airport}
+{% endhint %}
+
+### Which country is this building located in?
+
+{% hint style="success" %}
+
+{% endhint %}
+
+### Which city is this building located in?
+
+{% hint style="success" %}
+
+{% endhint %}
 
 ## Task 5 Coffee and a light lunch
 
