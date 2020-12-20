@@ -51,13 +51,13 @@ Note: You can always use the `Get-Help` cmdlet to obtain more information about 
 
 `r0ckStar!`
 
-![](../.gitbook/assets/image%20%28215%29.png)
+![](../.gitbook/assets/image%20%28222%29.png)
 
 ```bash
 powershell
 ```
 
-![](../.gitbook/assets/image%20%28214%29.png)
+![](../.gitbook/assets/image%20%28221%29.png)
 
 ### Search for the first hidden elf file within the Documents folder. Read the contents of this file. What does Elf 1 want?
 
@@ -83,7 +83,7 @@ cd .\elf2wo
 Get-Content -Path .\e70smsW10Y4k.txt        or         cat .\e70smsW10Y4k.txt
 ```
 
-![](../.gitbook/assets/image%20%28211%29.png)
+![](../.gitbook/assets/image%20%28215%29.png)
 
 {% hint style="success" %}
 Scrooged
@@ -98,7 +98,7 @@ ls -Directory -Hidden
 
 ```
 
-![](../.gitbook/assets/image%20%28203%29.png)
+![](../.gitbook/assets/image%20%28205%29.png)
 
 {% hint style="success" %}
 3lfthr3e
@@ -112,7 +112,7 @@ ls -Hidden
 Get-Content -Path 1.txt | Measure-Object -Word        or        (gc .\1.txt).length
 ```
 
-![](../.gitbook/assets/image%20%28208%29.png)
+![](../.gitbook/assets/image%20%28212%29.png)
 
 {% hint style="success" %}
 9999
@@ -125,7 +125,7 @@ Get-Content -Path 1.txt | Measure-Object -Word        or        (gc .\1.txt).len
 (Get-Content -Path 1.txt)[6991]        or        (gc .\1.txt)[6991]
 ```
 
-![](../.gitbook/assets/image%20%28201%29.png)
+![](../.gitbook/assets/image%20%28202%29.png)
 
 {% hint style="success" %}
 Red Ryder
@@ -137,7 +137,7 @@ Red Ryder
 Select-String -Path .\2.txt -Pattern 'RedRyder'
 ```
 
-![](../.gitbook/assets/image%20%28204%29.png)
+![](../.gitbook/assets/image%20%28207%29.png)
 
 {% hint style="success" %}
 Red Ryder bb gun
