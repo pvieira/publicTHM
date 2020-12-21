@@ -219,15 +219,105 @@ Unlike TCP, UDP connections are stateless. This means that, rather than initiati
 
 When a packet is sent to an open UDP port, there should be no response. When this happens, Nmap refers to the port as being `open|filtered`. In other words, it suspects that the port is open, but it could be firewalled. If it gets a UDP response \(which is very unusual\), then the port is marked as open. More commonly there is no response, in which case the request is sent a second time as a double-check. If there is still no response then the port is marked open\|filtered and Nmap moves on.
 
-For example, scanning with  `nmap -sU --top-ports 20 <target>`. Will scan the top 20 most commonly used UDP ports, resulting in a much more acceptable scan time
+For example, scanning with  `nmap -sU --top-ports 20 <target>`. Will scan the top 20 most commonly used UDP ports, resulting in a much more acceptable scan time.
+
+### If a UDP port doesn't respond to an Nmap scan, what will it be marked as?
+
+{% hint style="success" %}
+open\|filtered
+{% endhint %}
+
+### When a UDP port is closed, by convention the target should send back a "port unreachable" message. Which protocol would it use to do so?
+
+{% hint style="success" %}
+ICMP
+{% endhint %}
 
 ## Task 8 \[Scan Types\] NULL, FIN and Xmas
 
+NULL, FIN and Xmas TCP port scans are less commonly used than any of the others we've covered already, so we will not go into a huge amount of depth here. All three are interlinked and are used primarily as they tend to be even stealthier, relatively speaking, than a SYN "stealth" scan. Beginning with NULL scans:
+
+* As the name suggests, NULL scans \(`-sN`\) are when the TCP request is sent with no flags set at all. As per the RFC, the target host should respond with a RST if the port is closed. ![](https://i.imgur.com/ABCxAwf.png)
+* FIN scans \(`-sF`\) work in an almost identical fashion; however, instead of sending a completely empty packet, a request is sent with the FIN flag \(usually used to gracefully close an active connection\). Once again, Nmap expects a RST if the port is closed. ![](https://i.imgur.com/gIzKbEk.png)
+* As with the other two scans in this class, Xmas scans \(`-sX`\) send a malformed TCP packet and expects a RST response for closed ports. It's referred to as an xmas scan as the flags that it sets \(PSH, URG and FIN\) give it the appearance of a blinking christmas tree when viewed as a packet capture in Wireshark. ![](https://i.imgur.com/gKVkGug.png)
+
+The expected response for open ports with these scans is also identical, and is very similar to that of a UDP scan.
+
+ Which of the three shown scan types uses the URG flag?
+
+{% hint style="success" %}
+xmas
+{% endhint %}
+
+Why are NULL, FIN and Xmas scans generally used?
+
+{% hint style="success" %}
+Firewall Evasion
+{% endhint %}
+
+Which common OS may respond to a NULL, FIN or Xmas scan with a RST for every port?
+
+{% hint style="success" %}
+Microsoft Windows
+{% endhint %}
+
 ## Task 9 \[Scan Types\] ICMP Network Scanning
+
+To perform a ping sweep, we use the `-sn` switch in conjunction with IP ranges which can be specified with either a hypen \(`-`\) or CIDR notation. i.e. we could scan the `192.168.0.x` network using:
+
+* `nmap -sn 192.168.0.1-254`
+
+or
+
+* `nmap -sn 192.168.0.0/24`
+
+The `-sn` switch tells Nmap not to scan any ports -- forcing it to rely purely on ICMP packets \(or ARP requests on a local network\) to identify targets.
+
+### How would you perform a ping sweep on the 172.16.x.x network \(Netmask: 255.255.0.0\) using Nmap? \(CIDR notation\)
+
+{% hint style="success" %}
+nmap -sn 172.16.0.0/16
+{% endhint %}
 
 ## Task 10 \[NSE Scripts\] Overview
 
+Some useful categories include:
+
+* `safe`:- Won't affect the target
+* `intrusive`:- Not safe: likely to affect the target 
+* `vuln`:- Scan for vulnerabilities
+* `exploit`:- Attempt to exploit a vulnerability
+* `auth`:- Attempt to bypass authentication for running services \(e.g. Log into an FTP server anonymously\)
+* `brute`:- Attempt to bruteforce credentials for running services
+* `discovery`:- Attempt to query running services for further information about the network \(e.g. query an SNMP server\).
+
+A more exhaustive list can be found [here](https://nmap.org/book/nse-usage.html).
+
+###  What language are NSE scripts written in?
+
+{% hint style="success" %}
+Lua
+{% endhint %}
+
+### Which category of scripts would be a very bad idea to run in a production environment?
+
+{% hint style="success" %}
+intrusive
+{% endhint %}
+
 ## Task 11 \[NSE Scripts\] Working with the NSE
+
+To run a specific script, we would use `--script=<script-name>` , e.g. `--script=http-fileupload-exploiter`.
+
+Multiple scripts can be run simultaneously in this fashion by separating them by a comma. For example: `--script=smb-enum-users,smb-enum-shares`.
+
+Nmap scripts come with built-in help menus, which can be accessed using `nmap --script-help <script-name>`.
+
+### What optional argument can the `ftp-anon.nse` script take?
+
+{% hint style="success" %}
+maxlist
+{% endhint %}
 
 ## Task 12 \[NSE Scripts\] Searching for Scripts
 
@@ -235,5 +325,49 @@ For example, scanning with  `nmap -sU --top-ports 20 <target>`. Will scan the to
 
 ## Task 14 Practical
 
+### Does the target \(`MACHINE_IP`\)respond to ICMP \(ping\) requests \(Y/N\)?
+
+{% hint style="success" %}
+
+{% endhint %}
+
+### Perform an Xmas scan on the first 999 ports of the target -- how many ports are shown to be open or filtered?
+
+{% hint style="success" %}
+
+{% endhint %}
+
+### There is a reason given for this -- what is it?
+
+**Note:** The answer will be in your scan results. Think carefully about which switches to use -- and read the hint before asking for help!
+
+{% hint style="success" %}
+
+{% endhint %}
+
+### Perform a TCP SYN scan on the first 5000 ports of the target -- how many ports are shown to be open?
+
+{% hint style="success" %}
+
+{% endhint %}
+
+### Open Wireshark \(see [Cryillic's](https://tryhackme.com/p/Cryillic) [Wireshark Room](https://tryhackme.com/room/wireshark) for instructions\) and perform a TCP Connect scan against port 80 on the target, monitoring the results. Make sure you understand what's going on.
+
+{% hint style="success" %}
+
+{% endhint %}
+
+### Deploy the `ftp-anon` script against the box. Can Nmap login successfully to the FTP server on port 21? \(Y/N\)
+
+{% hint style="success" %}
+
+{% endhint %}
+
 ## Task 15 Conclusion
+
+### Read the conclusion.
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
