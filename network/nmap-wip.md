@@ -371,13 +371,13 @@ ICMP
 ### Does the target \(`MACHINE_IP`\)respond to ICMP \(ping\) requests \(Y/N\)?
 
 {% hint style="success" %}
-
+N
 {% endhint %}
 
 ### Perform an Xmas scan on the first 999 ports of the target -- how many ports are shown to be open or filtered?
 
 {% hint style="success" %}
-
+999
 {% endhint %}
 
 ### There is a reason given for this -- what is it?
@@ -385,25 +385,25 @@ ICMP
 **Note:** The answer will be in your scan results. Think carefully about which switches to use -- and read the hint before asking for help!
 
 {% hint style="success" %}
-
+No Response
 {% endhint %}
 
 ### Perform a TCP SYN scan on the first 5000 ports of the target -- how many ports are shown to be open?
 
 {% hint style="success" %}
-
+5
 {% endhint %}
 
 ### Open Wireshark \(see [Cryillic's](https://tryhackme.com/p/Cryillic) [Wireshark Room](https://tryhackme.com/room/wireshark) for instructions\) and perform a TCP Connect scan against port 80 on the target, monitoring the results. Make sure you understand what's going on.
 
 {% hint style="success" %}
-
+No answer needed
 {% endhint %}
 
 ### Deploy the `ftp-anon` script against the box. Can Nmap login successfully to the FTP server on port 21? \(Y/N\)
 
 {% hint style="success" %}
-
+Y
 {% endhint %}
 
 ## Task 15 Conclusion
