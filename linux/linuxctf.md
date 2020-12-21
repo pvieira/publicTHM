@@ -36,7 +36,7 @@ f40dc0cff080ad38a6ba9a1c2c038b2c
 
 ### What is flag 2?
 
-![](../.gitbook/assets/image%20%28272%29.png)
+![](../.gitbook/assets/image%20%28276%29.png)
 
 ![](../.gitbook/assets/image%20%28259%29.png)
 
@@ -54,7 +54,7 @@ bob@ip-10-10-255-137:~$ cat flag2.txt
 bob@ip-10-10-255-137:~$ cat .bash_history
 ```
 
-![](../.gitbook/assets/image%20%28269%29.png)
+![](../.gitbook/assets/image%20%28271%29.png)
 
 {% hint style="success" %}
 9daf3281745c2d75fc6e992ccfdedfcd
@@ -90,7 +90,7 @@ bd8f33216075e5ba07c9ed41261d1703
 bob@ip-10-10-177-45:~$ grep 'c9' $(locate flag6.txt)
 ```
 
-![](../.gitbook/assets/image%20%28274%29.png)
+![](../.gitbook/assets/image%20%28278%29.png)
 
 ```text
 bob@ip-10-10-177-45:~$ grep -o '\w{32}' $(locate flag6.txt)
@@ -107,7 +107,7 @@ bob@ip-10-10-177-45:~$ sed -n "/c9/,/ /p" ../flag6.txt
 bob@ip-10-10-99-145:~$ ps -aef |grep flag
 ```
 
-![](../.gitbook/assets/image%20%28266%29.png)
+![](../.gitbook/assets/image%20%28267%29.png)
 
 {% hint style="success" %}
 274adb75b337307bd57807c005ee6358
@@ -183,7 +183,7 @@ script1 script2
 bob@ip-10-10-99-145:~/flag13$ diff script1 script2
 ```
 
-![](../.gitbook/assets/image%20%28268%29.png)
+![](../.gitbook/assets/image%20%28270%29.png)
 
 {% hint style="success" %}
 3383f3771ba86b1ed9ab7fbf8abab531
@@ -207,7 +207,7 @@ tail -n 1 /var/log/$(ls /var/log/ |grep flag)
 bob@ip-10-10-99-145:~/flag13$ cat /etc/lsb-release
 ```
 
-![](../.gitbook/assets/image%20%28265%29.png)
+![](../.gitbook/assets/image%20%28266%29.png)
 
 {% hint style="success" %}
 a914945a4b2b5e934ae06ad6f9c6be45
@@ -274,7 +274,7 @@ alice@ip-10-10-129-13:~$ cat $(locate flag21.php)
 alice@ip-10-10-129-13:~$ less $(locate flag21.php)
 ```
 
-![](../.gitbook/assets/image%20%28278%29.png)
+![](../.gitbook/assets/image%20%28282%29.png)
 
 {% hint style="success" %}
 g00djob
@@ -323,7 +323,7 @@ find / -xdev -type f -print0 2>/dev/null | xargs -0 grep -E '^[a-z0-9]{32}$' 2>/
 alice@ip-10-10-71-95:~$ cat /var/cache/apache2/mod_cache_disk/config.json
 ```
 
-![](../.gitbook/assets/image%20%28276%29.png)
+![](../.gitbook/assets/image%20%28280%29.png)
 
 {% hint style="success" %}
 4bceb76f490b24ed577d704c24d6955d
@@ -337,7 +337,7 @@ sudo -l
 sudo /bin/cat /home/flag27
 ```
 
-![](../.gitbook/assets/image%20%28277%29.png)
+![](../.gitbook/assets/image%20%28281%29.png)
 
 {% hint style="success" %}
 6fc0c805702baebb0ecc01ae9e5a0db5
