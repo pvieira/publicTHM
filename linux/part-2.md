@@ -229,7 +229,7 @@ mv file /tmp
 
 ## Task 18 Linux Fundamentals 3
 
-### Join the Linux Fundamentals 3 room, and finish learning Linux: [https://tryhackme.com/room/linux3](https://tryhackme.com/room/linux3)
+Join the Linux Fundamentals 3 room, and finish learning Linux: [https://tryhackme.com/room/linux3](https://tryhackme.com/room/linux3)
 
 {% hint style="success" %}
 No answer needed
