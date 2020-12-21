@@ -108,7 +108,7 @@ dc
 px @rsi
 ```
 
-![](../.gitbook/assets/image%20%28292%29.png)
+![](../.gitbook/assets/image%20%28293%29.png)
 
 ![](../.gitbook/assets/image%20%28288%29.png)
 
@@ -144,7 +144,7 @@ db 0x004006e1
 
 ```
 
-![](../.gitbook/assets/image%20%28291%29.png)
+![](../.gitbook/assets/image%20%28292%29.png)
 
 ![](../.gitbook/assets/image%20%28285%29.png)
 
@@ -185,7 +185,15 @@ Analyze the binary and obtain the flag
 
 ### What is the flag ?
 
-{% hint style="success" %}
+```text
+python
+print(int('-0x35010ff3',16))
+-889262067
+```
 
+![](../.gitbook/assets/image%20%28291%29.png)
+
+{% hint style="success" %}
+flag{at\_least\_this\_cafe\_wont\_leak\_your\_credit\_card\_numbers}
 {% endhint %}
 
