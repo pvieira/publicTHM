@@ -48,9 +48,9 @@ enum4linux -S 10.10.17.122
 
 ### user.txt 
 
-![](../.gitbook/assets/image%20%28268%29.png)
+![](../.gitbook/assets/image%20%28269%29.png)
 
-![](../.gitbook/assets/image%20%28271%29.png)
+![](../.gitbook/assets/image%20%28274%29.png)
 
 ![](../.gitbook/assets/image%20%28250%29.png)
 
@@ -72,9 +72,9 @@ mput clean.sh
 y
 ```
 
-![](../.gitbook/assets/image%20%28259%29.png)
+![](../.gitbook/assets/image%20%28260%29.png)
 
-![](../.gitbook/assets/image%20%28266%29.png)
+![](../.gitbook/assets/image%20%28267%29.png)
 
 {% hint style="success" %}
 90d6f992585815ff991e68748c414740
@@ -94,7 +94,7 @@ env /bin/sh -p
 cat /root/root.txt
 ```
 
-![](../.gitbook/assets/image%20%28257%29.png)
+![](../.gitbook/assets/image%20%28258%29.png)
 
 {% hint style="success" %}
 4d930091c31a622a7ed10f27999af363

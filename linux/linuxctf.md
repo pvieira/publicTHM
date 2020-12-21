@@ -28,7 +28,7 @@ garry@ip-10-10-255-137:~$ ls | wc -l
 garry@ip-10-10-255-137:~$ cat flag1.txt
 ```
 
-![](../.gitbook/assets/image%20%28260%29.png)
+![](../.gitbook/assets/image%20%28261%29.png)
 
 {% hint style="success" %}
 f40dc0cff080ad38a6ba9a1c2c038b2c
@@ -38,9 +38,9 @@ f40dc0cff080ad38a6ba9a1c2c038b2c
 
 ### What is flag 2?
 
-![](../.gitbook/assets/image%20%28267%29.png)
+![](../.gitbook/assets/image%20%28268%29.png)
 
-![](../.gitbook/assets/image%20%28256%29.png)
+![](../.gitbook/assets/image%20%28257%29.png)
 
 ```text
 bob@ip-10-10-255-137:~$ cat flag2.txt
@@ -56,7 +56,7 @@ bob@ip-10-10-255-137:~$ cat flag2.txt
 bob@ip-10-10-255-137:~$ cat .bash_history
 ```
 
-![](../.gitbook/assets/image%20%28265%29.png)
+![](../.gitbook/assets/image%20%28266%29.png)
 
 {% hint style="success" %}
 9daf3281745c2d75fc6e992ccfdedfcd
@@ -68,7 +68,7 @@ bob@ip-10-10-255-137:~$ cat .bash_history
 bob@ip-10-10-255-137:~$ crontab -e
 ```
 
-![](../.gitbook/assets/image%20%28261%29.png)
+![](../.gitbook/assets/image%20%28262%29.png)
 
 {% hint style="success" %}
 dcd5d1dcfac0578c99b7e7a6437827f3
@@ -80,7 +80,7 @@ dcd5d1dcfac0578c99b7e7a6437827f3
 bob@ip-10-10-255-137:~$ cat $(locate flag5.txt)
 ```
 
-![](../.gitbook/assets/image%20%28255%29.png)
+![](../.gitbook/assets/image%20%28256%29.png)
 
 {% hint style="success" %}
 bd8f33216075e5ba07c9ed41261d1703
@@ -92,7 +92,7 @@ bd8f33216075e5ba07c9ed41261d1703
 bob@ip-10-10-177-45:~$ grep 'c9' $(locate flag6.txt)
 ```
 
-![](../.gitbook/assets/image%20%28269%29.png)
+![](../.gitbook/assets/image%20%28270%29.png)
 
 ```text
 bob@ip-10-10-177-45:~$ grep -o '\w{32}' $(locate flag6.txt)
@@ -109,7 +109,7 @@ bob@ip-10-10-177-45:~$ sed -n "/c9/,/ /p" ../flag6.txt
 bob@ip-10-10-99-145:~$ ps -aef |grep flag
 ```
 
-![](../.gitbook/assets/image%20%28263%29.png)
+![](../.gitbook/assets/image%20%28264%29.png)
 
 {% hint style="success" %}
 274adb75b337307bd57807c005ee6358
@@ -185,7 +185,7 @@ script1 script2
 bob@ip-10-10-99-145:~/flag13$ diff script1 script2
 ```
 
-![](../.gitbook/assets/image%20%28264%29.png)
+![](../.gitbook/assets/image%20%28265%29.png)
 
 {% hint style="success" %}
 3383f3771ba86b1ed9ab7fbf8abab531
@@ -209,7 +209,7 @@ tail -n 1 /var/log/$(ls /var/log/ |grep flag)
 bob@ip-10-10-99-145:~/flag13$ cat /etc/lsb-release
 ```
 
-![](../.gitbook/assets/image%20%28262%29.png)
+![](../.gitbook/assets/image%20%28263%29.png)
 
 {% hint style="success" %}
 a914945a4b2b5e934ae06ad6f9c6be45
@@ -276,7 +276,7 @@ alice@ip-10-10-129-13:~$ cat $(locate flag21.php)
 alice@ip-10-10-129-13:~$ less $(locate flag21.php)
 ```
 
-![](../.gitbook/assets/image%20%28270%29.png)
+![](../.gitbook/assets/image%20%28273%29.png)
 
 {% hint style="success" %}
 g00djob
@@ -321,8 +321,11 @@ No answer needed
 ### Locate and retrieve flag 26.
 
 ```text
-alice@ip-10-10-71-95:~$ cat /var/cache/apache2/mod_cache_disk/config.json flag twenty6
+alice@ip-10-10-71-95:~$ cat /var/cache/apache2/mod_cache_disk/config.json
+ flag twenty6
 ```
+
+![](../.gitbook/assets/image%20%28271%29.png)
 
 {% hint style="success" %}
 4bceb76f490b24ed577d704c24d6955d
@@ -330,7 +333,13 @@ alice@ip-10-10-71-95:~$ cat /var/cache/apache2/mod_cache_disk/config.json flag t
 
 ### 8 Locate and retrieve flag 27, which is owned by the root user.
 
-alice@ip-10-10-71-95:~$ locate flag27 /home/flag27 alice@ip-10-10-71-95:~$ ls -lah /home/ total 296K drwxr-xr-x 6 root root 4.0K Feb 20 2019 . drwxr-xr-x 23 root root 4.0K Nov 23 15:10 .. drwxr-xr-x 4 alice alice 4.0K Nov 23 15:17 alice drwxr-xr-x 21 bob bob 4.0K Feb 20 2019 bob -rwx------ 1 root root 33 Feb 19 2019 flag27 -rwxr-xr-x 1 root root 266K Feb 18 2019 flag6.txt drwxr-xr-x 3 garry garry 4.0K Feb 20 2019 garry drwxr-xr-x 19 ubuntu ubuntu 4.0K Mar 7 2019 ubuntu alice@ip-10-10-71-95:~$ sudo cat /home/flag27 
+```text
+locate flag27
+sudo -l
+sudo /bin/cat /home/flag27
+```
+
+![](../.gitbook/assets/image%20%28272%29.png)
 
 {% hint style="success" %}
 6fc0c805702baebb0ecc01ae9e5a0db5
