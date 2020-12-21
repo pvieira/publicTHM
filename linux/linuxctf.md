@@ -331,7 +331,7 @@ alice@ip-10-10-71-95:~$ cat /var/cache/apache2/mod_cache_disk/config.json
 4bceb76f490b24ed577d704c24d6955d
 {% endhint %}
 
-### 8 Locate and retrieve flag 27, which is owned by the root user.
+### Locate and retrieve flag 27, which is owned by the root user.
 
 ```text
 locate flag27
