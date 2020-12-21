@@ -166,7 +166,7 @@ No answer needed
 
 To understand TCP Connect scans \(`-sT`\), it's important that you're comfortable with the _TCP three-way handshake_.
 
-![](../.gitbook/assets/image%20%28246%29.png)
+![](../.gitbook/assets/image%20%28249%29.png)
 
 Many firewalls are configured to simply **drop** incoming packets. For example, in IPtables for Linux, a simple version of the command would be as follows:
 
@@ -188,7 +188,7 @@ RST
 
 As with TCP scans, SYN scans \(`-sS`\) are used to scan the TCP port-range of a target or targets; however, the two scan types work slightly differently. SYN scans are sometimes referred to as "Half-open" scans, or "Stealth" scans.
 
-![](../.gitbook/assets/image%20%28245%29.png)
+![](../.gitbook/assets/image%20%28248%29.png)
 
 This has a variety of advantages for us as hackers:
 
@@ -366,15 +366,23 @@ ICMP
 
 ## Task 14 Practical
 
-
-
 ### Does the target \(`MACHINE_IP`\)respond to ICMP \(ping\) requests \(Y/N\)?
+
+```text
+nmap -PE 10.10.19.105
+```
 
 {% hint style="success" %}
 N
 {% endhint %}
 
 ### Perform an Xmas scan on the first 999 ports of the target -- how many ports are shown to be open or filtered?
+
+```text
+sudo nmap -sX -p 1-999 10.10.19.105 -Pn
+```
+
+![](../.gitbook/assets/image%20%28243%29.png)
 
 {% hint style="success" %}
 999
@@ -390,6 +398,12 @@ No Response
 
 ### Perform a TCP SYN scan on the first 5000 ports of the target -- how many ports are shown to be open?
 
+```text
+nmap -sS -p 1-5000 --open -Pn 10.10.19.105
+```
+
+![](../.gitbook/assets/image%20%28245%29.png)
+
 {% hint style="success" %}
 5
 {% endhint %}
@@ -401,6 +415,12 @@ No answer needed
 {% endhint %}
 
 ### Deploy the `ftp-anon` script against the box. Can Nmap login successfully to the FTP server on port 21? \(Y/N\)
+
+```text
+nmap --script ftp-anon -p 21 10.10.19.105 -Pn
+```
+
+![](../.gitbook/assets/image%20%28246%29.png)
 
 {% hint style="success" %}
 Y
