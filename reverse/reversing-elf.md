@@ -6,8 +6,17 @@ Let's start with a basic warmup, can you run the binary?
 
 ### What is the flag?
 
-{% hint style="success" %}
+```text
+chmod +x crackme1
+./crackme1
+```
 
+
+
+![](../.gitbook/assets/image%20%28275%29.png)
+
+{% hint style="success" %}
+flag{not\_that\_kind\_of\_elf}
 {% endhint %}
 
 ## Task 2 Crackme2

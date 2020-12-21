@@ -50,7 +50,7 @@ enum4linux -S 10.10.17.122
 
 ![](../.gitbook/assets/image%20%28273%29.png)
 
-![](../.gitbook/assets/image%20%28278%29.png)
+![](../.gitbook/assets/image%20%28279%29.png)
 
 ![](../.gitbook/assets/image%20%28250%29.png)
 

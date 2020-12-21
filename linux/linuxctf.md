@@ -274,7 +274,7 @@ alice@ip-10-10-129-13:~$ cat $(locate flag21.php)
 alice@ip-10-10-129-13:~$ less $(locate flag21.php)
 ```
 
-![](../.gitbook/assets/image%20%28277%29.png)
+![](../.gitbook/assets/image%20%28278%29.png)
 
 {% hint style="success" %}
 g00djob
@@ -323,7 +323,7 @@ find / -xdev -type f -print0 2>/dev/null | xargs -0 grep -E '^[a-z0-9]{32}$' 2>/
 alice@ip-10-10-71-95:~$ cat /var/cache/apache2/mod_cache_disk/config.json
 ```
 
-![](../.gitbook/assets/image%20%28275%29.png)
+![](../.gitbook/assets/image%20%28276%29.png)
 
 {% hint style="success" %}
 4bceb76f490b24ed577d704c24d6955d
@@ -337,7 +337,7 @@ sudo -l
 sudo /bin/cat /home/flag27
 ```
 
-![](../.gitbook/assets/image%20%28276%29.png)
+![](../.gitbook/assets/image%20%28277%29.png)
 
 {% hint style="success" %}
 6fc0c805702baebb0ecc01ae9e5a0db5
