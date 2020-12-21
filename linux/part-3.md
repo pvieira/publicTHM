@@ -20,9 +20,29 @@ No answer needed
 
 ## Task 2 \[Section 5: Advanced File Operations\] - cp
 
+cp duplicates\(copies\) files. The syntax is  `cp <file> <destination>` 
 
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
+ Using relative paths, how would you cd to your home directory.
+
+{% hint style="success" %}
+cd ~
+{% endhint %}
+
+Using absolute paths how would you make a directory called test in /tmp
+
+{% hint style="success" %}
+mkdir /tmp/test
+{% endhint %}
 
 ## Task 3 \[Section 5: Advanced file Operations\] - cd && mkdir
+
+Linux allows you to change the location of the current directory through the use of the cd command. The syntax of the cd command is this, `cd <directory>`.
+
+This brings us to mkdir, occasionally you'll want to make a new directory to store files in, and that is done using mkdir, the syntax of mkdir is `mkdir <directory name>`.
 
 
 
