@@ -4,6 +4,16 @@ description: 'https://tryhackme.com/room/linuxctf'
 
 # LinuxCTF - Linux Challenges - wip
 
+Task 1 Linux Challenges Introduction
+
+## Task 2 The Basics
+
+## Task 3 Linux Functionality
+
+## Task 4 Data Representation, Strings and Permissions
+
+## Task 5 SQL, FTP, Groups and RDP
+
 ssh 10.10.255.137 Username: garry Password: letmein
 
 **\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#**
@@ -320,45 +330,72 @@ mysql&gt;
 
 **\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#**
 
-## 4 Using SCP, FileZilla or another FTP client download flag32.mp3 to reveal flag 32.
+### Using SCP, FileZilla or another FTP client download flag32.mp3 to reveal flag 32.
 
-shell5@x240:~/hack/thm/Linux\_Challenges$ scp alice@10.10.71.95:flag32.mp3 . alice@10.10.71.95's password: flag32.mp3 100% 10KB 196.7KB/s 00:00
+```text
+scp alice@10.10.71.95:flag32.mp3 . 
+alice@10.10.71.95's password: 
+flag32.mp3 100% 10KB 196.7KB/s 00:00
+audacity flag32.mp3
+```
 
-shell5@x240:~/hack/thm/Linux\_Challenges$ audacity flag32.mp3
-
+{% hint style="success" %}
 tryhackme1337
+{% endhint %}
 
-**\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#**
+### Flag 33 is located where your personal $PATH's are stored.
 
-## 5 Flag 33 is located where your personal $PATH's are stored.
-
+```text
 bob@ip-10-10-71-95:~$ head -n 1 .profile
+Flag 33: 547b6ceee3c5b997b625de99b044f5cf
+```
 
-## Flag 33: 547b6ceee3c5b997b625de99b044f5cf
+{% hint style="success" %}
+547b6ceee3c5b997b625de99b044f5cf
+{% endhint %}
 
-**\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#**
+### Switch your account back to bob. Using system variables, what is flag34?
 
-## 6 Switch your account back to bob. Using system variables, what is flag34?
+```text
+bob@ip-10-10-71-95:~$ printenv |grep flag 
+flag34=7a88306309fe05070a7c5bb26a6b2def
+```
 
-bob@ip-10-10-71-95:~$ printenv \|grep flag flag34=7a88306309fe05070a7c5bb26a6b2def
+{% hint style="success" %}
+7a88306309fe05070a7c5bb26a6b2def
+{% endhint %}
 
-**\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#**
+### Look at all groups created on the system. What is flag 35?
 
-## 7 Look at all groups created on the system. What is flag 35?
+```text
+bob@ip-10-10-71-95:~$ cat /etc/group |grep flag
+flag35_769afb6:x:1005:
+bob@ip-10-10-71-95:~$ getent group |grep flag
+flag35_769afb6:x:1005:
+```
 
-bob@ip-10-10-71-95:~$ cat /etc/group \|grep flag flag35\_769afb6:x:1005:
+{% hint style="success" %}
+769afb6
+{% endhint %}
 
-bob@ip-10-10-71-95:~$ getent group \|grep flag flag35\_769afb6:x:1005:
+### Find the user which is apart of the "hacker" group and read flag 36.
 
-**\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#**
+```text
+bob@ip-10-10-71-95:~$ locate flag36 /etc/flag36
+bob@ip-10-10-71-95:~$ ls -lah /etc/flag36
+-rw-r----- 1 root hacker 33 Feb 19 2019 /etc/flag36 
+bob@ip-10-10-71-95:~$ cat /etc/group |grep hacker hacker:x:1004:bob 
+bob@ip-10-10-71-95:~$ cat /etc/flag36 
+83d233f2ffa388e5f0b053848caed1eb
+```
 
-## 8 Find the user which is apart of the "hacker" group and read flag 36.
+{% hint style="success" %}
+83d233f2ffa388e5f0b053848caed1eb
+{% endhint %}
 
-bob@ip-10-10-71-95:~$ locate flag36 /etc/flag36 bob@ip-10-10-71-95:~$ ls -lah /etc/flag36 -rw-r----- 1 root hacker 33 Feb 19 2019 /etc/flag36 bob@ip-10-10-71-95:~$ cat /etc/group \|grep hacker hacker:x:1004:bob bob@ip-10-10-71-95:~$ cat /etc/flag36 83d233f2ffa388e5f0b053848caed1eb
+### Well done! You've completed the LinuxCTF room!
 
-**\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#**
-
-shell5@x240:~$ rdesktop -u bob -p linuxrules 10.10.125.235
-
-**\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#**
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
