@@ -7,6 +7,7 @@
   * [Tutorial](tutorial/tutorial.md)
   * [Starting Out In Cyber Sec](tutorial/starting-out-in-cyber-sec.md)
 * [Capture The Flag](capture-the-flag/README.md)
+  * [anonymous](capture-the-flag/anonymous.md)
   * [Mnemonic](capture-the-flag/mnemonic.md)
   * [Advent of Cyber - wip](capture-the-flag/adventofcyber.md)
 * [Advent of Cyber II](advent-of-cyber-ii/README.md)
