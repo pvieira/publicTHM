@@ -39,7 +39,7 @@
   * [Linux Fundamentals Part 1](linux/part-1.md)
   * [Linux Fundamentals Part 2](linux/part-2.md)
   * [Linux Fundamentals Part 3](linux/part-3.md)
-  * [LinuxCTF - Linux Challenges - wip](linux/linuxctf.md)
+  * [LinuxCTF - Linux Challenges](linux/linuxctf.md)
   * [Learn Linux - wip](linux/learn-linux-wip.md)
 * [Windows](windows/README.md)
   * [Intro to Windows](windows/intro-to-windows.md)

@@ -2,9 +2,7 @@
 description: 'https://tryhackme.com/room/linuxctf'
 ---
 
-# LinuxCTF - Linux Challenges - wip
-
-ssh 10.10.255.137 Username: garry Password: letmein
+# LinuxCTF - Linux Challenges
 
 ## Task 1 Linux Challenges Introduction
 
@@ -321,8 +319,8 @@ No answer needed
 ### Locate and retrieve flag 26.
 
 ```text
+find / -xdev -type f -print0 2>/dev/null | xargs -0 grep -E '^[a-z0-9]{32}$' 2>/dev/null
 alice@ip-10-10-71-95:~$ cat /var/cache/apache2/mod_cache_disk/config.json
- flag twenty6
 ```
 
 ![](../.gitbook/assets/image%20%28271%29.png)
