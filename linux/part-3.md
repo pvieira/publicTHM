@@ -104,23 +104,68 @@ test1234
 
 ## Task 8 \[Section 6: Miscellaneous\]: Intro
 
+### Read the above
 
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
 ## Task 9 \[Section 6: Miscellaneous\]: sudo
 
+sudo is Linux's run as administrator button, and the syntax goes `sudo <command>`.
 
+### How do you specify which user you want to run a command as.
+
+{% hint style="success" %}
+-u
+{% endhint %}
+
+### How would I run whoami as user jen?
+
+{% hint style="success" %}
+sudo -u jen whoami
+{% endhint %}
+
+### How do you list your current sudo privileges\(what commands you can run, who you can run them as etc.\)
+
+{% hint style="success" %}
+-l
+{% endhint %}
 
 ## Task 10 \[Section 6: Miscellaneous\]: Adding users and groups
 
+The syntax for both of these commands are `adduser username` and `addgroup groupname`.
 
+### How would I add the user test to the group test
+
+{% hint style="success" %}
+sudo usermod -a -G test test
+{% endhint %}
 
 ## Task 11 \[Section 6: Miscellaneous\]: nano
 
+nano is a terminal based text editor. The syntax for nano is `nano <file you want to write to>`
 
+### Read the above
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
 ## Task 12 \[Section 6: Miscellaneous\]: Basic shell scripting
 
+```text
+#!/bin/bash
+echo hello
+echo whoami
+whoami
+```
 
+### Read the above
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
 ## Task 13 \[Section 6: Miscellaneous\]: Important Files and Directories
 
