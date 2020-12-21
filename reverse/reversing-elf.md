@@ -12,7 +12,7 @@ binwalk crackme1
 ./crackme1
 ```
 
-![](../.gitbook/assets/image%20%28275%29.png)
+![](../.gitbook/assets/image%20%28276%29.png)
 
 {% hint style="success" %}
 flag{not\_that\_kind\_of\_elf}
@@ -31,7 +31,7 @@ strings crackme2| grep pass
 ./crackme2 super_secret_password
 ```
 
-![](../.gitbook/assets/image%20%28269%29.png)
+![](../.gitbook/assets/image%20%28270%29.png)
 
 {% hint style="success" %}
 super\_secret\_password
@@ -56,7 +56,7 @@ strings crackme2| more
 echo "ZjByX3kwdXJfNWVjMG5kX2xlNTVvbl91bmJhc2U2NF80bGxfN2gzXzdoMW5nNQ==" |base64 -d
 ```
 
-![](../.gitbook/assets/image%20%28273%29.png)
+![](../.gitbook/assets/image%20%28274%29.png)
 
 {% hint style="success" %}
 f0r\_y0ur\_5ec0nd\_le55on\_unbase64\_4ll\_7h3\_7h1ng5
@@ -79,7 +79,7 @@ radare2 -d ./crackme4 password
 [0x00400678]> px @rbp-0x4
 ```
 
-![](../.gitbook/assets/image%20%28265%29.png)
+![](../.gitbook/assets/image%20%28266%29.png)
 
 {% hint style="success" %}
 my\_m0r3\_secur3\_pwd
@@ -90,6 +90,21 @@ my\_m0r3\_secur3\_pwd
 What will be the input of the file to get output Good game ?
 
 ### What is the input ?
+
+```text
+chmod +x crackme5   
+./crackme5
+```
+
+![](../.gitbook/assets/image%20%28264%29.png)
+
+```text
+radare2 -d ./crackme5
+aa
+afl
+db 0x0040083d
+db 0x0040082f
+```
 
 {% hint style="success" %}
 

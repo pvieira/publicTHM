@@ -40,7 +40,7 @@ PS C:\Users\littlehelper\Documents> cat '.\db file hash.txt'
 PS C:\Users\littlehelper\Documents> Get-FileHash -Algorithm MD5 deebee.exe
 ```
 
-![](../.gitbook/assets/image%20%28268%29.png)
+![](../.gitbook/assets/image%20%28269%29.png)
 
 {% hint style="success" %}
 5F037501FB542AD2D9B06EB12AED09F0
@@ -64,7 +64,7 @@ THM{f6187e6cbeb1214139ef313e108cb6f9}
 Get-Item -Path file.exe -Stream *
 ```
 
-![](../.gitbook/assets/image%20%28272%29.png)
+![](../.gitbook/assets/image%20%28273%29.png)
 
 ```text
 PS C:\Users\littlehelper\Documents> wmic process call create $(Resolve-Path .\deebee.exe:hidedb)
