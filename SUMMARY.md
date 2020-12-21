@@ -1,6 +1,11 @@
 # Table of contents
 
 * [Try Hack Me](README.md)
+* [Tutorial](tutorial/README.md)
+  * [Welcome to TryHackMe - wip](tutorial/welcome-to-tryhackme-wip.md)
+  * [Welcome](tutorial/welcome.md)
+  * [Tutorial](tutorial/tutorial.md)
+  * [Starting Out In Cyber Sec](tutorial/starting-out-in-cyber-sec.md)
 * [Capture The Flag](capture-the-flag/README.md)
   * [Mnemonic](capture-the-flag/mnemonic.md)
   * [Advent of Cyber - wip](capture-the-flag/adventofcyber.md)
@@ -54,11 +59,6 @@
   * [Nmap](network/nmap.md)
 * [Web](web/README.md)
   * [Web Fundamentals](web/web-fundamentals.md)
-* [Tutorial](tutorial/README.md)
-  * [Welcome to TryHackMe - wip](tutorial/welcome-to-tryhackme-wip.md)
-  * [Welcome](tutorial/welcome.md)
-  * [Tutorial](tutorial/tutorial.md)
-  * [Starting Out In Cyber Sec](tutorial/starting-out-in-cyber-sec.md)
 * [Pentest](pentest/README.md)
   * [Pentest questionaire](pentest/pentest-questionaire.md)
 * [Hardware](hardware/README.md)
