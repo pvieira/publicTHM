@@ -52,7 +52,7 @@
   * [CrackTheHash - wip](crypto/untitled.md)
 * [Network](network/README.md)
   * [Introductory Networking](network/introductory-networking.md)
-  * [Nmap - wip](network/nmap-wip.md)
+  * [Nmap](network/nmap-wip.md)
   * [Network Services](network/network-services.md)
   * [Network Services 2](network/network-services-2.md)
   * [Networking](network/networking.md)

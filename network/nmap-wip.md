@@ -2,7 +2,7 @@
 description: 'https://tryhackme.com/room/furthernmap'
 ---
 
-# Nmap - wip
+# Nmap
 
 ## Task 1 Deploy
 
