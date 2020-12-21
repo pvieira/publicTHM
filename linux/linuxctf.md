@@ -16,183 +16,192 @@ flag1.txt flag24 flag29
 garry@ip-10-10-255-137:~$ ls | wc -l
 ```
 
-3
-
 {% hint style="success" %}
 3
 {% endhint %}
 
 ## Task 2 The Basics
 
-### 1 What is flag 1?
+### What is flag 1?
 
-garry@ip-10-10-255-137:~$ cat flag1.txt There are flags hidden around the file system, its your job to find them.
+```text
+garry@ip-10-10-255-137:~$ cat flag1.txt
+```
 
-Flag 1: f40dc0cff080ad38a6ba9a1c2c038b2c
-
-Log into bobs account to get flag 2.
-
-Username: bob Password: linuxrules
+![](../.gitbook/assets/image%20%28260%29.png)
 
 {% hint style="success" %}
-
+f40dc0cff080ad38a6ba9a1c2c038b2c
 {% endhint %}
 
-### 2    Log into bob's account using the credentials shown in flag 1.
+### Log into bob's account using the credentials shown in flag 1.
 
-What is flag 2?
+### What is flag 2?
 
-garry@ip-10-10-255-137:~$ ssh bob@localhost The authenticity of host 'localhost \(127.0.0.1\)' can't be established. ECDSA key fingerprint is SHA256:gEjuE22rM5GVDKW9+IAOHT1vKNqL5vDSLmZ/o7Q29PM. Are you sure you want to continue connecting \(yes/no\)? yes Warning: Permanently added 'localhost' \(ECDSA\) to the list of known hosts. bob@localhost's password: Permission denied, please try again. bob@localhost's password:
+![](../.gitbook/assets/image%20%28266%29.png)
 
-The programs included with the Ubuntu system are free software; the exact distribution terms for each program are described in the individual files in /usr/share/doc/\*/copyright.
+![](../.gitbook/assets/image%20%28256%29.png)
 
-Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by applicable law.
-
-bob@ip-10-10-255-137:~$ cat flag2.txt Flag 2: 8e255dfa51c9cce67420d2386cede596
+```text
+bob@ip-10-10-255-137:~$ cat flag2.txt
+```
 
 {% hint style="success" %}
-
+8e255dfa51c9cce67420d2386cede596
 {% endhint %}
 
-### 3 Flag 3 is located where bob's bash history gets stored.
+### Flag 3 is located where bob's bash history gets stored.
 
-bob@ip-10-10-255-137:~$ cat .bash\_history 9daf3281745c2d75fc6e992ccfdedfcd
+```text
+bob@ip-10-10-255-137:~$ cat .bash_history
+```
+
+![](../.gitbook/assets/image%20%28264%29.png)
 
 {% hint style="success" %}
-
+9daf3281745c2d75fc6e992ccfdedfcd
 {% endhint %}
 
-### 4 Flag 4 is located where cron jobs are created.
+### Flag 4 is located where cron jobs are created.
 
+```text
 bob@ip-10-10-255-137:~$ crontab -e
+```
 
-Edit this file to introduce tasks to be run by cron.
-
-Each task to run has to be defined through a single line
-
-indicating with different fields when the task will be run
-
-and what command to run for the task
-
-To define the time you can provide concrete values for
-
-minute \(m\), hour \(h\), day of month \(dom\), month \(mon\),
-
-and day of week \(dow\) or use '\*' in these fields \(for 'any'\).\#
-
-Notice that tasks will be started based on the cron's system
-
-daemon's notion of time and timezones.
-
-Output of the crontab jobs \(including errors\) is sent through
-
-email to the user the crontab file belongs to \(unless redirected\).
-
-For example, you can run a backup of all your user accounts
-
-at 5 a.m every week with:
-
-0 5  __ 1 tar -zcf /var/backups/home.tgz /home/
-
-For more information see the manual pages of crontab\(5\) and cron\(8\)
-
-m h  dom mon dow   command
-
-0 6  __ \* echo 'flag4:dcd5d1dcfac0578c99b7e7a6437827f3' &gt; /home/bob/flag4.txt
+![](../.gitbook/assets/image%20%28261%29.png)
 
 {% hint style="success" %}
-
+dcd5d1dcfac0578c99b7e7a6437827f3
 {% endhint %}
 
-### 5 Find and retrieve flag 5.
+### Find and retrieve flag 5.
 
-bob@ip-10-10-255-137:~$ cat $\(locate flag5.txt\) bd8f33216075e5ba07c9ed41261d1703
+```text
+bob@ip-10-10-255-137:~$ cat $(locate flag5.txt)
+```
+
+![](../.gitbook/assets/image%20%28255%29.png)
 
 {% hint style="success" %}
-
+bd8f33216075e5ba07c9ed41261d1703
 {% endhint %}
 
-### 6 "Grep" through flag 6 and find the flag. The first 2 characters of the flag is c9.
+### "Grep" through flag 6 and find the flag. The first 2 characters of the flag is c9.
 
-bob@ip-10-10-177-45:~$ grep 'c9' $\(locate flag6.txt\) Sed sollicitudin eros quis vulputate rutrum. Curabitur mauris elit, elementum quis sapien sed, ullamcorper pellentesque neque. Aliquam erat volutpat. Cras vehicula mauris vel lectus hendrerit, sed malesuada ipsum consectetur. Donec in enim id erat condimentum vestibulum c9e142a1e25b24a837b98db589b08be5 vitae eget nisi. Suspendisse eget commodo libero. Mauris eget gravida quam, a interdum orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque eu nisi non ligula tempor efficitur. Etiam eleifend, odio vel bibendum mattis, purus metus consectetur turpis, eu dignissim elit nunc at tortor. Mauris sapien enim, elementum faucibus magna at, rutrum venenatis ipsum.
+```text
+bob@ip-10-10-177-45:~$ grep 'c9' $(locate flag6.txt)
+```
 
-bob@ip-10-10-177-45:~$ grep -o '\w{32}' $\(locate flag6.txt\) c9e142a1e25b24a837b98db589b08be5
+![](../.gitbook/assets/image%20%28268%29.png)
 
-bob@ip-10-10-177-45:~$ sed -n "/c9/,/ /p" ../flag6.txt Sed sollicitudin eros quis vulputate rutrum. Curabitur mauris elit, elementum quis sapien sed, ullamcorper pellentesque neque. Aliquam erat volutpat. Cras vehicula mauris vel lectus hendrerit, sed malesuada ipsum consectetur. Donec in enim id erat condimentum vestibulum c9e142a1e25b24a837b98db589b08be5 vitae eget nisi. Suspendisse eget commodo libero. Mauris eget gravida quam, a interdum orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque eu nisi non ligula tempor efficitur. Etiam eleifend, odio vel bibendum mattis, purus metus consectetur turpis, eu dignissim elit nunc at tortor. Mauris sapien enim, elementum faucibus magna at, rutrum venenatis ipsum.
+```text
+bob@ip-10-10-177-45:~$ grep -o '\w{32}' $(locate flag6.txt)
+bob@ip-10-10-177-45:~$ sed -n "/c9/,/ /p" ../flag6.txt
+```
 
 {% hint style="success" %}
-
+ c9e142a1e25b24a837b98db589b08be5
 {% endhint %}
 
-### 7 Look at the systems processes. What is flag 7.
+### Look at the systems processes. What is flag 7.
 
-bob@ip-10-10-99-145:~$ ps -aef \|grep flag root 1391 1 0 09:23 ? 00:00:00 flag7:274adb75b337307bd57807c005ee6358 1000000 bob 2099 2081 0 09:26 pts/2 00:00:00 grep --color=auto flag
+```text
+bob@ip-10-10-99-145:~$ ps -aef |grep flag
+```
+
+![](../.gitbook/assets/image%20%28262%29.png)
 
 {% hint style="success" %}
-
+274adb75b337307bd57807c005ee6358
 {% endhint %}
 
-bob@ip-10-10-99-145:~$ dir Desktop Downloads Pictures Templates flag13 flag21.php Documents Music Public Videos flag2.txt flag8.tar.gz bob@ip-10-10-99-145:~$ tar -xvzf flag8.tar.gz flag8.txt bob@ip-10-10-99-145:~$ cat flag8.txt 75f5edb76fe98dd5fc9f577a3f5de9bc
+### De-compress and get flag 8.
+
+```text
+bob@ip-10-10-99-145:~$ tar -xvzf flag8.tar.gz flag8.txt
+bob@ip-10-10-99-145:~$ cat flag8.txt 
+```
 
 {% hint style="success" %}
-
+75f5edb76fe98dd5fc9f577a3f5de9bc
 {% endhint %}
 
-## 9 By look in your hosts file, locate and retrieve flag 9.
+### By look in your hosts file, locate and retrieve flag 9.
 
-bob@ip-10-10-99-145:~$ tail -n 1 /etc/hosts 127.0.0.1 dcf50ad844f9fe06339041ccc0d6e280.com
+```text
+bob@ip-10-10-99-145:~$ tail -n 1 /etc/hosts
+```
+
+> 127.0.0.1 dcf50ad844f9fe06339041ccc0d6e280.com
 
 {% hint style="success" %}
-
+dcf50ad844f9fe06339041ccc0d6e280
 {% endhint %}
 
 ### 10 Find all other users on the system. What is flag 10.
 
-bob@ip-10-10-99-145:~$ cat /etc/passwd root:x:0:0:root:/root:/bin/bash 5e23deecfe3a7292970ee48ff1b6d00c:x:1002:1002:,,,:/home/5e23deecfe3a7292970ee48ff1b6d00c:/bin/bash
+```text
+bob@ip-10-10-99-145:~$ cat /etc/passwd
+```
+
+> 5e23deecfe3a7292970ee48ff1b6d00c:x:1002:1002:,,,:/home/5e23deecfe3a7292970ee48ff1b6d00c:/bin/bash
 
 {% hint style="success" %}
-
+5e23deecfe3a7292970ee48ff1b6d00c
 {% endhint %}
 
 ## Task 3 Linux Functionality
 
-### 1 Run the command flag11. Locate where your command alias are stored and get flag 11.
+### Run the command flag11. Locate where your command alias are stored and get flag 11.
 
-bob@ip-10-10-99-145:~$ cat .bashrc \|grep flag11 alias flag11='echo "You need to look where the alias are created..."' \#b4ba05d85801f62c4c0d05d3a76432e0
+```text
+bob@ip-10-10-99-145:~$ cat .bashrc |grep flag11
+```
 
-{% hint style="success" %}
-
-{% endhint %}
-
-### 2 Flag12 is located were MOTD's are usually found on an Ubuntu OS. What is flag12?
-
-bob@ip-10-10-99-145:~$ cat /etc/update-motd.d/00-header \|grep Flag12
-
-Flag12: 01687f0c5e63382f1c9cc783ad44ff7f
+> alias flag11='echo "You need to look where the alias are created..."' \#b4ba05d85801f62c4c0d05d3a76432e0
 
 {% hint style="success" %}
-
+b4ba05d85801f62c4c0d05d3a76432e0
 {% endhint %}
 
-### 3 Find the difference between two script files to find flag 13.
+###  Flag12 is located were MOTD's are usually found on an Ubuntu OS. What is flag12?
 
-bob@ip-10-10-99-145:~$ cd flag13/ bob@ip-10-10-99-145:~/flag13$ dir script1 script2 bob@ip-10-10-99-145:~/flag13$ diff script1 script2 2437c2437
+```text
+bob@ip-10-10-99-145:~$ cat /etc/update-motd.d/00-header |grep Flag12
+```
 
-> Lightoller sees 3383f3771ba86b1ed9ab7fbf8abab531 Smith walking stiffly toward him and quickly goes to him. He yells into the Captain's ear, through cupped hands, over the roar of the steam...
+> \# Flag12: 01687f0c5e63382f1c9cc783ad44ff7f
 
 {% hint style="success" %}
-
+01687f0c5e63382f1c9cc783ad44ff7f
 {% endhint %}
 
-### 4 Where on the file system are logs typically stored? Find flag 14.
+### Find the difference between two script files to find flag 13.
 
-bob@ip-10-10-99-145:~/flag13$ tail -n 1 /var/log/flagtourteen.txt 71c3a8ad9752666275dadf62a93ef393
+```text
+bob@ip-10-10-99-145:~$ cd flag13/ 
+bob@ip-10-10-99-145:~/flag13$ dir
+script1 script2 
+bob@ip-10-10-99-145:~/flag13$ diff script1 script2
+```
+
+![](../.gitbook/assets/image%20%28263%29.png)
 
 {% hint style="success" %}
-
+3383f3771ba86b1ed9ab7fbf8abab531
 {% endhint %}
 
-### 5 Can you find information about the system, such as the kernel version etc.
+### Where on the file system are logs typically stored? Find flag 14.
+
+```text
+tail -n 1 /var/log/$(ls /var/log/ |grep flag)
+```
+
+{% hint style="success" %}
+71c3a8ad9752666275dadf62a93ef393
+{% endhint %}
+
+### Can you find information about the system, such as the kernel version etc.
 
 Find flag 15.
 
