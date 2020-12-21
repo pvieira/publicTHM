@@ -166,7 +166,7 @@ No answer needed
 
 To understand TCP Connect scans \(`-sT`\), it's important that you're comfortable with the _TCP three-way handshake_.
 
-![](../.gitbook/assets/image%20%28245%29.png)
+![](../.gitbook/assets/image%20%28246%29.png)
 
 Many firewalls are configured to simply **drop** incoming packets. For example, in IPtables for Linux, a simple version of the command would be as follows:
 
@@ -188,7 +188,7 @@ RST
 
 As with TCP scans, SYN scans \(`-sS`\) are used to scan the TCP port-range of a target or targets; however, the two scan types work slightly differently. SYN scans are sometimes referred to as "Half-open" scans, or "Stealth" scans.
 
-![](../.gitbook/assets/image%20%28244%29.png)
+![](../.gitbook/assets/image%20%28245%29.png)
 
 This has a variety of advantages for us as hackers:
 
