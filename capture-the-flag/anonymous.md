@@ -48,9 +48,9 @@ enum4linux -S 10.10.17.122
 
 ### user.txt 
 
-![](../.gitbook/assets/image%20%28267%29.png)
+![](../.gitbook/assets/image%20%28268%29.png)
 
-![](../.gitbook/assets/image%20%28269%29.png)
+![](../.gitbook/assets/image%20%28270%29.png)
 
 ![](../.gitbook/assets/image%20%28250%29.png)
 
@@ -74,7 +74,7 @@ y
 
 ![](../.gitbook/assets/image%20%28259%29.png)
 
-![](../.gitbook/assets/image%20%28265%29.png)
+![](../.gitbook/assets/image%20%28266%29.png)
 
 {% hint style="success" %}
 90d6f992585815ff991e68748c414740

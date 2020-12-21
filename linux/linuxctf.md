@@ -38,7 +38,7 @@ f40dc0cff080ad38a6ba9a1c2c038b2c
 
 ### What is flag 2?
 
-![](../.gitbook/assets/image%20%28266%29.png)
+![](../.gitbook/assets/image%20%28267%29.png)
 
 ![](../.gitbook/assets/image%20%28256%29.png)
 
@@ -56,7 +56,7 @@ bob@ip-10-10-255-137:~$ cat flag2.txt
 bob@ip-10-10-255-137:~$ cat .bash_history
 ```
 
-![](../.gitbook/assets/image%20%28264%29.png)
+![](../.gitbook/assets/image%20%28265%29.png)
 
 {% hint style="success" %}
 9daf3281745c2d75fc6e992ccfdedfcd
@@ -92,7 +92,7 @@ bd8f33216075e5ba07c9ed41261d1703
 bob@ip-10-10-177-45:~$ grep 'c9' $(locate flag6.txt)
 ```
 
-![](../.gitbook/assets/image%20%28268%29.png)
+![](../.gitbook/assets/image%20%28269%29.png)
 
 ```text
 bob@ip-10-10-177-45:~$ grep -o '\w{32}' $(locate flag6.txt)
@@ -109,7 +109,7 @@ bob@ip-10-10-177-45:~$ sed -n "/c9/,/ /p" ../flag6.txt
 bob@ip-10-10-99-145:~$ ps -aef |grep flag
 ```
 
-![](../.gitbook/assets/image%20%28262%29.png)
+![](../.gitbook/assets/image%20%28263%29.png)
 
 {% hint style="success" %}
 274adb75b337307bd57807c005ee6358
@@ -185,7 +185,7 @@ script1 script2
 bob@ip-10-10-99-145:~/flag13$ diff script1 script2
 ```
 
-![](../.gitbook/assets/image%20%28263%29.png)
+![](../.gitbook/assets/image%20%28264%29.png)
 
 {% hint style="success" %}
 3383f3771ba86b1ed9ab7fbf8abab531
@@ -203,36 +203,47 @@ tail -n 1 /var/log/$(ls /var/log/ |grep flag)
 
 ### Can you find information about the system, such as the kernel version etc.
 
-Find flag 15.
+### Find flag 15.
 
-bob@ip-10-10-99-145:~/flag13$ ls /etc/ \|grep release lsb-release os-release bob@ip-10-10-99-145:~/flag13$ cat /etc/lsb-release FLAG\_15=a914945a4b2b5e934ae06ad6f9c6be45
+```text
+bob@ip-10-10-99-145:~/flag13$ cat /etc/lsb-release
+```
+
+![](../.gitbook/assets/image%20%28262%29.png)
 
 {% hint style="success" %}
-
+a914945a4b2b5e934ae06ad6f9c6be45
 {% endhint %}
 
-### 6 Flag 16 lies within another system mount.
+### Flag 16 lies within another system mount.
 
-bob@ip-10-10-99-145:~$ cd /media/f/l/a/g/1/6/is/cab4b7cae33c87794d82efa1e7f834e6/ bob@ip-10-10-99-145:/media/f/l/a/g/1/6/is/cab4b7cae33c87794d82efa1e7f834e6$
+```text
+bob@ip-10-10-99-145:~$ cd /media/f/l/a/g/1/6/is/cab4b7cae33c87794d82efa1e7f834e6/
+```
 
 {% hint style="success" %}
-
+cab4b7cae33c87794d82efa1e7f834e6
 {% endhint %}
 
-### 7 Login to alice's account using her private key and get flag 17.
+### Login to alice's account and get flag 17. Her password is TryHackMe123
 
-bob@ip-10-10-99-145:~$ ssh alice@localhost alice@localhost's password: Last login: Sat Nov 23 09:40:22 2019 from 127.0.0.1 -bash: warning: setlocale: LC\_CTYPE: cannot change locale \(pt\_PT.UTF-8\) alice@ip-10-10-99-145:~$ cat flag17 89d7bce9d0bab49e11e194b54a601362
+```text
+bob@ip-10-10-99-145:~$ ssh alice@localhost
+alice@ip-10-10-99-145:~$ cat flag17 
+```
 
 {% hint style="success" %}
-
+89d7bce9d0bab49e11e194b54a601362
 {% endhint %}
 
-### 8 Find the hidden flag 18.
+### Find the hidden flag 18.
 
-alice@ip-10-10-99-145:~$ cat .flag18 c6522bb26600d30254549b6574d2cef2
+```text
+alice@ip-10-10-99-145:~$ cat .flag18
+```
 
 {% hint style="success" %}
-
+c6522bb26600d30254549b6574d2cef2
 {% endhint %}
 
 ### 9 Read the 2345th line of the file that contains flag 19.
