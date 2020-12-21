@@ -12,7 +12,7 @@ description: 'https://tryhackme.com/room/anonymous'
 nmap -sC -sV -T5 -p1-65535 10.10.17.122
 ```
 
-![](../.gitbook/assets/image%20%28252%29.png)
+![](../.gitbook/assets/image%20%28254%29.png)
 
 {% hint style="success" %}
 4
@@ -20,7 +20,7 @@ nmap -sC -sV -T5 -p1-65535 10.10.17.122
 
 ### What service is running on port 21?
 
-![](../.gitbook/assets/image%20%28251%29.png)
+![](../.gitbook/assets/image%20%28253%29.png)
 
 {% hint style="success" %}
 ftp
@@ -28,13 +28,19 @@ ftp
 
 ### What service is running on ports 139 and 445?
 
-
+![](../.gitbook/assets/image%20%28252%29.png)
 
 {% hint style="success" %}
 smb
 {% endhint %}
 
 ### There's a share on the user's computer.  What's it called?
+
+```text
+enum4linux -S 10.10.17.122
+```
+
+![](../.gitbook/assets/image%20%28251%29.png)
 
 {% hint style="success" %}
 
