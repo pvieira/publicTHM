@@ -67,4 +67,6 @@
   * [Dumping Router Firmware](hardware/dumping-router-firmware.md)
 * [HELP](help.md)
 * [Untitled](untitled.md)
+* [Reverse](reverse/README.md)
+  * [Reversing ELF](reverse/reversing-elf.md)
 
