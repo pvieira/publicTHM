@@ -169,13 +169,44 @@ No answer needed
 
 ## Task 13 \[Section 6: Miscellaneous\]: Important Files and Directories
 
+* /etc/passwd - Stores user information - Often used to see all the users on a system
+* /etc/shadow - Has all the passwords of these users
+* /tmp - Every file inside it gets deleted upon shutdown - used for temporary files
+* /etc/sudoers - Used to control the sudo permissions of every user on the system
+* /home - The directory where all your downloads, documents etc are.
+* /root - The root user's home directory
+* /usr - Where all your software is installed
+* /bin and /sbin - Used for system critical files
+* /var - The Linux miscellaneous directory, a myriad of processes store data in /var
+* $PATH - Stores all the binaries you're able to run
 
+### Read the above
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
 ## Task 14 \[Section 6 - Miscellaneous\]: Installing packages\(apt\)
 
+`apt install package`
 
+### Read the above
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
 ## Task 15 \[Section 6: Miscellaneous\]: Processes
 
+A list of user created processes can be viewed with the `ps` command
 
+ To view a list of all system processes, you have to use the `-ef` flag
+
+The syntax of kill is `kill <PID>`.
+
+### Read the above
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
