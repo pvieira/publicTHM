@@ -2,7 +2,7 @@
 description: 'https://tryhackme.com/room/linux3'
 ---
 
-# Linux Fundamentals Part 3 - wip
+# Linux Fundamentals Part 3
 
 ## Task 1 Intro
 
