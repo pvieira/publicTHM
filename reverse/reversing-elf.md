@@ -100,14 +100,20 @@ chmod +x crackme5
 
 ```text
 radare2 -d ./crackme5
-aa
+aaa
 afl
-db 0x0040083d
-db 0x0040082f
+pdf @main
+db 0x0040082c
+dc
+px @rsi
 ```
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%28292%29.png)
 
+![](../.gitbook/assets/image%20%28288%29.png)
+
+{% hint style="success" %}
+OfdlDSA\|3tXb32~X3tX@sX\`4tXtz
 {% endhint %}
 
 ## Task 6 Crackme6
@@ -116,8 +122,36 @@ Analyze the binary for the easy password
 
 ### What is the password ?
 
-{% hint style="success" %}
+```text
+radare2 -d ./crackme6
+aaa
+afl
 
+pdf @main
+pdf @sym.compare_pwd
+pdf @sym.my_secure_test
+
+db 0x004006e1
+
+0x31
+0x33
+0x33
+0x37
+0x5f
+0x70
+0x77
+0x64
+
+```
+
+![](../.gitbook/assets/image%20%28291%29.png)
+
+![](../.gitbook/assets/image%20%28285%29.png)
+
+![](../.gitbook/assets/image%20%28289%29.png)
+
+{% hint style="success" %}
+1337\_pwd
 {% endhint %}
 
 ## Task 7 Crackme7
@@ -126,8 +160,23 @@ Analyze the binary to get the flag
 
 ### What is the flag ?
 
-{% hint style="success" %}
+```text
+Ghidra
+```
 
+![](../.gitbook/assets/image%20%28287%29.png)
+
+```text
+python
+print(int('0x7a69',16))
+```
+
+![](../.gitbook/assets/image%20%28290%29.png)
+
+![](../.gitbook/assets/image%20%28286%29.png)
+
+{% hint style="success" %}
+31337
 {% endhint %}
 
 ## Task 8 Crackme8
