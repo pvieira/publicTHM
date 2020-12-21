@@ -246,76 +246,94 @@ alice@ip-10-10-99-145:~$ cat .flag18
 c6522bb26600d30254549b6574d2cef2
 {% endhint %}
 
-### 9 Read the 2345th line of the file that contains flag 19.
+### Read the 2345th line of the file that contains flag 19.
 
-alice@ip-10-10-99-145:~$ awk 'NR==2345' flag19 490e69bd1bf3fc736cce9ff300653a3b
-
-alice@ip-10-10-99-145:~$ sed '2345!d' flag19 490e69bd1bf3fc736cce9ff300653a3b
+```text
+alice@ip-10-10-99-145:~$ awk 'NR==2345' flag19
+alice@ip-10-10-99-145:~$ sed '2345!d' flag19 
+```
 
 {% hint style="success" %}
-
+490e69bd1bf3fc736cce9ff300653a3b
 {% endhint %}
 
 ## Task 4 Data Representation, Strings and Permissions
 
-### 1 Find and retrieve flag 20.
+### Find and retrieve flag 20.
 
-alice@ip-10-10-71-95:~$ locate flag20 /home/alice/flag20 alice@ip-10-10-71-95:~$ cat $\(locate flag20\) MDJiOWFhYjhhMjk5NzBkYjA4ZWM3N2FlNDI1ZjZlNjg= alice@ip-10-10-71-95:~$ cat $\(locate flag20\) \|base64 -d 02b9aab8a29970db08ec77ae425f6e68
-
-{% hint style="success" %}
-
-{% endhint %}
-
-### 2 Inspect the flag21.php file. Find the flag.
-
-alice@ip-10-10-71-95:~$ locate flag21.php /home/bob/flag21.php
-
-alice@ip-10-10-71-95:~$ less /home/bob/flag21.php &lt;?=`$_POST[flag21_g00djob]`?&gt;^M&lt;?='MoreToThisFileThanYouThink';?&gt;
+```text
+alice@ip-10-10-71-95:~$ cat $(locate flag20) |base64 -d 
+```
 
 {% hint style="success" %}
-
+02b9aab8a29970db08ec77ae425f6e68
 {% endhint %}
 
-### 3 Locate and read flag 22. Its represented as hex.
+### Inspect the flag21.php file. Find the flag.
 
-alice@ip-10-10-71-95:~$ cat flag22 \|xxd -r -p 9d1ae8d569c83e03d8a8f61568a0fa7d
+```text
+alice@ip-10-10-129-13:~$ cat $(locate flag21.php)
+alice@ip-10-10-129-13:~$ less $(locate flag21.php)
+```
+
+![](../.gitbook/assets/image%20%28270%29.png)
 
 {% hint style="success" %}
-
+g00djob
 {% endhint %}
 
-### 4 Locate, read and reverse flag 23.
+### Locate and read flag 22. Its represented as hex.
 
-alice@ip-10-10-71-95:~$ cat $\(locate flag23\) \|rev ea52970566f4c090a7348b033852bff5
+```text
+alice@ip-10-10-71-95:~$ cat flag22 |xxd -r -p
+```
 
 {% hint style="success" %}
-
+ 9d1ae8d569c83e03d8a8f61568a0fa7d
 {% endhint %}
 
-### 5 Analyse the flag 24 compiled C program. Find a command that might reveal human readable strings when looking in the source code.
+### Locate, read and reverse flag 23.
 
-alice@ip-10-10-71-95:~$ strings $\(locate flag24\) \|grep flag flag24.c flag\_24\_is\_hidd3nStr1ng
+```text
+alice@ip-10-10-71-95:~$ cat $(locate flag23) |rev
+```
 
 {% hint style="success" %}
-
+ea52970566f4c090a7348b033852bff5
 {% endhint %}
 
-### 7 Locate and retrieve flag 26.
+### Analyse the flag 24 compiled C program. Find a command that might reveal human readable strings when looking in the source code.
 
-alice@ip-10-10-71-95:~$ cat /var/cache/apache2/mod\_cache\_disk/config.json flag twenty6
+```text
+alice@ip-10-10-71-95:~$ strings $(locate flag24) |grep flag
+```
 
+{% hint style="success" %}
+hidd3nStr1ng
+{% endhint %}
+
+### Flag 25 does not exist.
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
+### Locate and retrieve flag 26.
+
+```text
+alice@ip-10-10-71-95:~$ cat /var/cache/apache2/mod_cache_disk/config.json flag twenty6
+```
+
+{% hint style="success" %}
 4bceb76f490b24ed577d704c24d6955d
-
-{% hint style="success" %}
-
 {% endhint %}
 
 ### 8 Locate and retrieve flag 27, which is owned by the root user.
 
-alice@ip-10-10-71-95:~$ locate flag27 /home/flag27 alice@ip-10-10-71-95:~$ ls -lah /home/ total 296K drwxr-xr-x 6 root root 4.0K Feb 20 2019 . drwxr-xr-x 23 root root 4.0K Nov 23 15:10 .. drwxr-xr-x 4 alice alice 4.0K Nov 23 15:17 alice drwxr-xr-x 21 bob bob 4.0K Feb 20 2019 bob -rwx------ 1 root root 33 Feb 19 2019 flag27 -rwxr-xr-x 1 root root 266K Feb 18 2019 flag6.txt drwxr-xr-x 3 garry garry 4.0K Feb 20 2019 garry drwxr-xr-x 19 ubuntu ubuntu 4.0K Mar 7 2019 ubuntu alice@ip-10-10-71-95:~$ sudo cat /home/flag27 6fc0c805702baebb0ecc01ae9e5a0db5
+alice@ip-10-10-71-95:~$ locate flag27 /home/flag27 alice@ip-10-10-71-95:~$ ls -lah /home/ total 296K drwxr-xr-x 6 root root 4.0K Feb 20 2019 . drwxr-xr-x 23 root root 4.0K Nov 23 15:10 .. drwxr-xr-x 4 alice alice 4.0K Nov 23 15:17 alice drwxr-xr-x 21 bob bob 4.0K Feb 20 2019 bob -rwx------ 1 root root 33 Feb 19 2019 flag27 -rwxr-xr-x 1 root root 266K Feb 18 2019 flag6.txt drwxr-xr-x 3 garry garry 4.0K Feb 20 2019 garry drwxr-xr-x 19 ubuntu ubuntu 4.0K Mar 7 2019 ubuntu alice@ip-10-10-71-95:~$ sudo cat /home/flag27 
 
 {% hint style="success" %}
-
+6fc0c805702baebb0ecc01ae9e5a0db5
 {% endhint %}
 
 ### Whats the linux kernel version?
