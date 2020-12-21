@@ -6,7 +6,17 @@ description: 'https://tryhackme.com/room/linux3'
 
 ## Task 1 Intro
 
+### Read the above.
 
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
+### Deploy the machine attached to this task!
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
 ## Task 2 \[Section 5: Advanced File Operations\] - cp
 
