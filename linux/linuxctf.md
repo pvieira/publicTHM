@@ -6,20 +6,20 @@ description: 'https://tryhackme.com/room/linuxctf'
 
 ssh 10.10.255.137 Username: garry Password: letmein
 
-**\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#**
-
-shell5@x240:~/hack/thm/Linux\_Challenges$ ssh garry@10.10.255.137 The authenticity of host '10.10.255.137 \(10.10.255.137\)' can't be established. ECDSA key fingerprint is SHA256:gEjuE22rM5GVDKW9+IAOHT1vKNqL5vDSLmZ/o7Q29PM. Are you sure you want to continue connecting \(yes/no\)? yes Warning: Permanently added '10.10.255.137' \(ECDSA\) to the list of known hosts. garry@10.10.255.137's password: Last login: Fri Nov 22 22:21:47 2019 from 10.10.231.194
-
-**\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#**
-
 ## Task 1 Linux Challenges Introduction
 
-### 1 How many visible files can you see in garrys home directory?
+### How many visible files can you see in garrys home directory?
 
-garry@ip-10-10-255-137:~$ ls flag1.txt flag24 flag29 garry@ip-10-10-255-137:~$ ls \| wc -l 3
+```text
+garry@ip-10-10-255-137:~$ ls
+flag1.txt flag24 flag29
+garry@ip-10-10-255-137:~$ ls | wc -l
+```
+
+3
 
 {% hint style="success" %}
-
+3
 {% endhint %}
 
 ## Task 2 The Basics
