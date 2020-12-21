@@ -35,6 +35,7 @@
   * [Linux Fundamentals Part 3 - wip](linux/part-3.md)
   * [LinuxCTF - Linux Challenges - wip](linux/linuxctf.md)
   * [Learn Linux - wip](linux/learn-linux-wip.md)
+* [Windows](windows.md)
 * [OSINT](osint/README.md)
   * [Introductory Researching](osint/introductory-researching.md)
   * [Google Dorking](osint/google-dorking.md)
@@ -63,5 +64,4 @@
 * [Hardware](hardware/README.md)
   * [Dumping Router Firmware](hardware/dumping-router-firmware.md)
 * [HELP](help.md)
-* [Windows](windows.md)
 

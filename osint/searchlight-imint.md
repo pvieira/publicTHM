@@ -204,6 +204,10 @@ sl{The Westin Alexandria Old Town}
 
 ### What is the name of the hotel that my friend is staying in?
 
+![](../.gitbook/assets/image%20%28242%29.png)
+
+![](../.gitbook/assets/image%20%28243%29.png)
+
 {% hint style="success" %}
 sl{Hotel Novotel Singapore Clarke Quay}
 {% endhint %}
