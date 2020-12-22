@@ -46,7 +46,7 @@
 * [Windows](windows/README.md)
   * [Intro to Windows](windows/intro-to-windows.md)
 * [OSINT](osint/README.md)
-  * [Introductory Researching](osint/introductory-researching.md)
+  * [Introductory Researching - wip](osint/introductory-researching.md)
   * [Google Dorking](osint/google-dorking.md)
   * [OhSINT](osint/ohsint.md)
   * [Sublist3r](osint/sublist3r.md)
