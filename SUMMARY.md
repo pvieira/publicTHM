@@ -49,6 +49,7 @@
   * [OhSINT](osint/ohsint.md)
   * [Sublist3r](osint/sublist3r.md)
   * [Searchlight - IMINT](osint/searchlight-imint.md)
+  * [Geolocating Images](osint/geolocating-images.md)
 * [Crypto](crypto/README.md)
   * [Encryption - Crypto 101](crypto/encryption-crypto-101.md)
   * [CrackTheHash - wip](crypto/untitled.md)
