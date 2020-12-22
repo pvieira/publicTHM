@@ -42,6 +42,7 @@
   * [Linux Fundamentals Part 3](linux/part-3.md)
   * [LinuxCTF - Linux Challenges](linux/linuxctf.md)
   * [Learn Linux - wip](linux/learn-linux-wip.md)
+  * [Find - wip](linux/find-wip.md)
 * [Windows](windows/README.md)
   * [Intro to Windows](windows/intro-to-windows.md)
 * [OSINT](osint/README.md)
