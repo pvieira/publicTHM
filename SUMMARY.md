@@ -2,7 +2,7 @@
 
 * [Try Hack Me](README.md)
 * [Tutorial](tutorial/README.md)
-  * [Welcome to TryHackMe - wip](tutorial/welcome-to-tryhackme-wip.md)
+  * [Welcome to TryHackMe](tutorial/welcome-to-tryhackme-wip.md)
   * [Welcome](tutorial/welcome.md)
   * [Tutorial](tutorial/tutorial.md)
   * [Starting Out In Cyber Sec](tutorial/starting-out-in-cyber-sec.md)

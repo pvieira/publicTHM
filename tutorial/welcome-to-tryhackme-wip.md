@@ -2,7 +2,7 @@
 description: 'https://tryhackme.com/room/completebeginner'
 ---
 
-# Welcome to TryHackMe - wip
+# Welcome to TryHackMe
 
 ## Task 1 Welcome To TryHackMe
 
