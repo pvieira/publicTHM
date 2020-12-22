@@ -78,7 +78,7 @@ A great place to find more hash formats and password prefixes is the hashcat exa
 
 ### How many rounds does sha512crypt \($6$\) use by default?
 
-![](../.gitbook/assets/image%20%28319%29.png)
+![](../.gitbook/assets/image%20%28320%29.png)
 
 {% hint style="success" %}
 5000
@@ -86,7 +86,7 @@ A great place to find more hash formats and password prefixes is the hashcat exa
 
 ### What's the hashcat example hash \(from the website\) for Citrix Netscaler hashes?
 
-![](../.gitbook/assets/image%20%28318%29.png)
+![](../.gitbook/assets/image%20%28319%29.png)
 
 {% hint style="success" %}
 1765058016a22f1b4e076dccd1c3df4e8e5c0839ccded98ea
@@ -94,7 +94,7 @@ A great place to find more hash formats and password prefixes is the hashcat exa
 
 ### How long is a Windows NTLM hash, in characters?
 
-![](../.gitbook/assets/image%20%28320%29.png)
+![](../.gitbook/assets/image%20%28321%29.png)
 
 {% hint style="success" %}
 32
@@ -114,7 +114,7 @@ A great place to find more hash formats and password prefixes is the hashcat exa
 hashcat -m 3200 5_1.txt /opt/rockyou/rockyou.txt --force
 ```
 
-
+![](../.gitbook/assets/image%20%28317%29.png)
 
 {% hint style="success" %}
 1750
@@ -154,7 +154,7 @@ hashcat -m 3200 5_1.txt /opt/rockyou/rockyou.txt --force
 
 ### What's the SHA1 sum for the amd64 Kali 2019.4 ISO? [http://old.kali.org/kali-images/kali-2019.4/](http://old.kali.org/kali-images/kali-2019.4/)
 
-![](../.gitbook/assets/image%20%28317%29.png)
+![](../.gitbook/assets/image%20%28318%29.png)
 
 {% hint style="success" %}
 186c5227e24ceb60deb711f1bdc34ad9f4718ff9
