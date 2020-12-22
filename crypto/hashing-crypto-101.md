@@ -78,29 +78,69 @@ A great place to find more hash formats and password prefixes is the hashcat exa
 
 ### How many rounds does sha512crypt \($6$\) use by default?
 
+![](../.gitbook/assets/image%20%28318%29.png)
+
 {% hint style="success" %}
 5000
 {% endhint %}
 
 ### What's the hashcat example hash \(from the website\) for Citrix Netscaler hashes?
 
-
+![](../.gitbook/assets/image%20%28317%29.png)
 
 {% hint style="success" %}
-5000
+1765058016a22f1b4e076dccd1c3df4e8e5c0839ccded98ea
 {% endhint %}
 
 ### How long is a Windows NTLM hash, in characters?
 
-
+![](../.gitbook/assets/image%20%28319%29.png)
 
 {% hint style="success" %}
-5000
+32
 {% endhint %}
 
 ## Task 5 Password Cracking
 
+### Crack this hash: $2a$06$7yoU3Ng8dHTXphAg913cyO6Bjs3K5lBnwq5FJyA6d01pMSrddr1ZG
 
+```text
+
+```
+
+{% hint style="success" %}
+1750
+{% endhint %}
+
+### Crack this hash: 9eb7ee7f551d2f0ac684981bd1f1e2fa4a37590199636753efe614d4db30e8e1
+
+```text
+
+```
+
+{% hint style="success" %}
+1750
+{% endhint %}
+
+### Crack this hash: $6$GQXVvW4EuM$ehD6jWiMsfNorxy5SINsgdlxmAEl3.yif0/c3NqzGLa0P.S7KRDYjycw5bnYkF5ZtB8wQy8KnskuWQS3Yr1wQ0
+
+```text
+
+```
+
+{% hint style="success" %}
+1750
+{% endhint %}
+
+### Bored of this yet? Crack this hash: b6b0d451bbf6fed658659a9e7e5598fe
+
+```text
+
+```
+
+{% hint style="success" %}
+1750
+{% endhint %}
 
 ## Task 6 Hashing for integrity checking
 
