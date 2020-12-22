@@ -128,34 +128,34 @@ hashcat -m 3200 5_1.txt /opt/rockyou/rockyou.txt --force
 hashcat -m 1400 5_2.txt /opt/rockyou/rockyou.txt --force
 ```
 
-![](../.gitbook/assets/image%20%28324%29.png)
+![](../.gitbook/assets/image%20%28326%29.png)
 
 {% hint style="success" %}
 halloween
 {% endhint %}
 
-
-
 ### Crack this hash: $6$GQXVvW4EuM$ehD6jWiMsfNorxy5SINsgdlxmAEl3.yif0/c3NqzGLa0P.S7KRDYjycw5bnYkF5ZtB8wQy8KnskuWQS3Yr1wQ0
 
-![](../.gitbook/assets/image%20%28322%29.png)
+![](../.gitbook/assets/image%20%28323%29.png)
 
 ```text
-
+hashcat -m 1800 5_3.txt /opt/rockyou/rockyou.txt --force
 ```
 
+![](../.gitbook/assets/image%20%28324%29.png)
+
 {% hint style="success" %}
-1750
+spaceman
 {% endhint %}
 
 ### Bored of this yet? Crack this hash: b6b0d451bbf6fed658659a9e7e5598fe
 
-```text
+{% embed url="https://hashes.com/en/tools/hash\_identifier" %}
 
-```
+![](../.gitbook/assets/image%20%28322%29.png)
 
 {% hint style="success" %}
-1750
+funforyou
 {% endhint %}
 
 ## Task 6 Hashing for integrity checking
