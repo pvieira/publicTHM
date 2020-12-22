@@ -14,7 +14,7 @@ No answer needed
 nmap -sC -sV -T5 -p1-65535 10.10.40.31
 ```
 
-![](../.gitbook/assets/image%20%28313%29.png)
+![](../.gitbook/assets/image%20%28314%29.png)
 
 {% hint style="success" %}
 No answer needed
@@ -22,9 +22,9 @@ No answer needed
 
 ### Who wrote the task list?
 
-![](../.gitbook/assets/image%20%28307%29.png)
+![](../.gitbook/assets/image%20%28308%29.png)
 
-![](../.gitbook/assets/image%20%28299%29.png)
+![](../.gitbook/assets/image%20%28300%29.png)
 
 {% hint style="success" %}
 lin
@@ -38,7 +38,7 @@ ssh
 
 ### What is the users password?
 
-![](../.gitbook/assets/image%20%28298%29.png)
+![](../.gitbook/assets/image%20%28299%29.png)
 
 {% hint style="success" %}
 RedDr4gonSynd1cat3
@@ -46,7 +46,7 @@ RedDr4gonSynd1cat3
 
 ### user.txt
 
-![](../.gitbook/assets/image%20%28305%29.png)
+![](../.gitbook/assets/image%20%28306%29.png)
 
 {% hint style="success" %}
 THM{CR1M3\_SyNd1C4T3}
@@ -58,7 +58,7 @@ THM{CR1M3\_SyNd1C4T3}
 sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 ```
 
-![](../.gitbook/assets/image%20%28300%29.png)
+![](../.gitbook/assets/image%20%28301%29.png)
 
 {% embed url="https://gtfobins.github.io/gtfobins/tar/" %}
 

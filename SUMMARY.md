@@ -53,6 +53,7 @@
   * [Searchlight - IMINT](osint/searchlight-imint.md)
   * [Geolocating Images](osint/geolocating-images.md)
 * [Crypto](crypto/README.md)
+  * [Hashing - Crypto 101](crypto/hashing-crypto-101.md)
   * [Encryption - Crypto 101](crypto/encryption-crypto-101.md)
   * [CrackTheHash - wip](crypto/untitled.md)
 * [Network](network/README.md)
