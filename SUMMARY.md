@@ -10,6 +10,7 @@
   * [Anonymous](capture-the-flag/anonymous.md)
   * [Mnemonic](capture-the-flag/mnemonic.md)
   * [Advent of Cyber - wip](capture-the-flag/adventofcyber.md)
+  * [Bounty Hacker](capture-the-flag/bounty-hacker.md)
 * [Advent of Cyber II](advent-of-cyber-ii/README.md)
   * [A Christmas Crisis](advent-of-cyber-ii/01-a-christmas-crisis.md)
   * [The Elf Strikes Back!](advent-of-cyber-ii/02-the-elf-strikes-back.md)
