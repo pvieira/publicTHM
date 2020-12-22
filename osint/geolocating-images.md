@@ -16,9 +16,9 @@ No answer needed
 
 ![](../.gitbook/assets/image%20%28297%29.png)
 
-![](../.gitbook/assets/image%20%28301%29.png)
+![](../.gitbook/assets/image%20%28304%29.png)
 
-![](../.gitbook/assets/image%20%28299%29.png)
+![](../.gitbook/assets/image%20%28302%29.png)
 
 {% hint style="success" %}
 China
@@ -34,7 +34,7 @@ No answer needed
 
 ### Where was image 2 taken?
 
-![](../.gitbook/assets/image%20%28298%29.png)
+![](../.gitbook/assets/image%20%28301%29.png)
 
 > N SHEFFIELD AV
 >
@@ -42,11 +42,11 @@ No answer needed
 >
 > SPORTS CORNER
 
-![](../.gitbook/assets/image%20%28303%29.png)
+![](../.gitbook/assets/image%20%28309%29.png)
 
 ![](../.gitbook/assets/image%20%28295%29.png)
 
-![](../.gitbook/assets/image%20%28304%29.png)
+![](../.gitbook/assets/image%20%28310%29.png)
 
 {% hint style="success" %}
 wrigleyville sports
@@ -62,9 +62,9 @@ No answer needed
 
 ### Where was image 3 taken?
 
-![](../.gitbook/assets/image%20%28300%29.png)
+![](../.gitbook/assets/image%20%28303%29.png)
 
-![](../.gitbook/assets/image%20%28305%29.png)
+![](../.gitbook/assets/image%20%28312%29.png)
 
 ![](../.gitbook/assets/image%20%28296%29.png)
 
@@ -76,7 +76,7 @@ Meudon Observatory
 
 ### Where is image 4 taken?
 
-![](../.gitbook/assets/image%20%28302%29.png)
+![](../.gitbook/assets/image%20%28308%29.png)
 
 Driving on the left, grey cab seems to have a plate with L for London ?, foggy, street lights
 
