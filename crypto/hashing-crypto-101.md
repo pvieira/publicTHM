@@ -106,8 +106,6 @@ A great place to find more hash formats and password prefixes is the hashcat exa
 
 {% embed url="https://hashes.com/en/tools/hash\_identifier" %}
 
-
-
 ![](../.gitbook/assets/image%20%28316%29.png)
 
 ```text
@@ -117,20 +115,30 @@ hashcat -m 3200 5_1.txt /opt/rockyou/rockyou.txt --force
 ![](../.gitbook/assets/image%20%28317%29.png)
 
 {% hint style="success" %}
-1750
+85208520
 {% endhint %}
 
 ### Crack this hash: 9eb7ee7f551d2f0ac684981bd1f1e2fa4a37590199636753efe614d4db30e8e1
 
-```text
+{% embed url="https://hashes.com/en/tools/hash\_identifier" %}
 
+{% embed url="https://md5hashing.net/hash/sha256/9eb7ee7f551d2f0ac684981bd1f1e2fa4a37590199636753efe614d4db30e8e1" %}
+
+```text
+hashcat -m 1400 5_2.txt /opt/rockyou/rockyou.txt --force
 ```
 
+![](../.gitbook/assets/image%20%28324%29.png)
+
 {% hint style="success" %}
-1750
+halloween
 {% endhint %}
 
+
+
 ### Crack this hash: $6$GQXVvW4EuM$ehD6jWiMsfNorxy5SINsgdlxmAEl3.yif0/c3NqzGLa0P.S7KRDYjycw5bnYkF5ZtB8wQy8KnskuWQS3Yr1wQ0
+
+![](../.gitbook/assets/image%20%28322%29.png)
 
 ```text
 
