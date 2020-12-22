@@ -78,15 +78,25 @@ A great place to find more hash formats and password prefixes is the hashcat exa
 
 ### How many rounds does sha512crypt \($6$\) use by default?
 
-
+{% hint style="success" %}
+5000
+{% endhint %}
 
 ### What's the hashcat example hash \(from the website\) for Citrix Netscaler hashes?
 
 
 
+{% hint style="success" %}
+5000
+{% endhint %}
+
 ### How long is a Windows NTLM hash, in characters?
 
 
+
+{% hint style="success" %}
+5000
+{% endhint %}
 
 ## Task 5 Password Cracking
 
@@ -94,5 +104,21 @@ A great place to find more hash formats and password prefixes is the hashcat exa
 
 ## Task 6 Hashing for integrity checking
 
+### What's the SHA1 sum for the amd64 Kali 2019.4 ISO? [http://old.kali.org/kali-images/kali-2019.4/](http://old.kali.org/kali-images/kali-2019.4/)
 
+![](../.gitbook/assets/image%20%28316%29.png)
+
+{% hint style="success" %}
+186c5227e24ceb60deb711f1bdc34ad9f4718ff9
+{% endhint %}
+
+### What's the hashcat mode number for HMAC-SHA512 \(key = $pass\)?
+
+{% embed url="https://hashcat.net/wiki/doku.php?id=example\_hashes" %}
+
+![](../.gitbook/assets/image%20%28315%29.png)
+
+{% hint style="success" %}
+1750
+{% endhint %}
 
