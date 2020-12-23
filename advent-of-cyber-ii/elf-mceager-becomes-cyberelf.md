@@ -8,10 +8,6 @@ description: Encoding
 
 {% embed url="https://www.youtube.com/watch?v=l0ZCyfA75ZE" %}
 
-## Resources
-
-
-
 ## Challenge
 
 ### What is the password to the KeePass database?
