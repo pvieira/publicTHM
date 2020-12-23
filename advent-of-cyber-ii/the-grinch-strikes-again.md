@@ -23,7 +23,7 @@ Decrypt the fake 'bitcoin address' within the ransom note. What is the plain tex
 ![](../.gitbook/assets/image%20%28349%29.png)
 
 {% hint style="success" %}
-
+nomorebestfestivalcompany
 {% endhint %}
 
 At times ransomware changes the file extensions of the encrypted files. What is the file extension for each of the encrypted files?
