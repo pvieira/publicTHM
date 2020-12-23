@@ -48,19 +48,37 @@ No answer needed
 
 ## Task 6 \[Day 1\] Inventory Management
 
-What is the name of the cookie used for authentication?
+![](../../.gitbook/assets/image%20%28341%29.png)
+
+### What is the name of the cookie used for authentication?
+
+![](../../.gitbook/assets/image%20%28346%29.png)
+
+![](../../.gitbook/assets/image%20%28343%29.png)
+
+![](../../.gitbook/assets/image%20%28344%29.png)
 
 {% hint style="success" %}
 authid
 {% endhint %}
 
-If you decode the cookie, what is the value of the fixed part of the cookie?
+### If you decode the cookie, what is the value of the fixed part of the cookie?
+
+![](../../.gitbook/assets/image%20%28342%29.png)
 
 {% hint style="success" %}
 v4er9ll1!ss
 {% endhint %}
 
-After accessing his account, what did the user mcinventory request?
+### After accessing his account, what did the user mcinventory request?
+
+![](../../.gitbook/assets/image%20%28345%29.png)
+
+```text
+bWNpbnZlbnRvcnl2NGVyOWxsMSFzczcu
+```
+
+![](../../.gitbook/assets/image%20%28347%29.png)
 
 {% hint style="success" %}
 No answer needed
