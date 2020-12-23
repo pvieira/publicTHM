@@ -18,32 +18,46 @@ The command to interact with VSS is `vssadmin`. Running the command alone will d
 
 Decrypt the fake 'bitcoin address' within the ransom note. What is the plain text value?
 
+![](../.gitbook/assets/image%20%28354%29.png)
+
+![](../.gitbook/assets/image%20%28349%29.png)
+
 {% hint style="success" %}
 
 {% endhint %}
 
 At times ransomware changes the file extensions of the encrypted files. What is the file extension for each of the encrypted files?
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%28355%29.png)
 
+![](../.gitbook/assets/image%20%28350%29.png)
+
+{% hint style="success" %}
+.grinch
 {% endhint %}
 
 What is the name of the suspicious scheduled task?
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%28352%29.png)
 
+{% hint style="success" %}
+opidsfsdf
 {% endhint %}
 
 Inspect the properties of the scheduled task. What is the location of the executable that is run at login?
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%28353%29.png)
 
+{% hint style="success" %}
+C:\Users\Administrator\Desktop\opidsfsdf.exe
 {% endhint %}
 
 There is another scheduled task that is related to VSS. What is the ShadowCopyVolume ID?
 
-{% hint style="success" %}
+![](../.gitbook/assets/image%20%28351%29.png)
 
+{% hint style="success" %}
+7a9eea15-0000-0000-0000-010000000000
 {% endhint %}
 
 Assign the hidden partition a letter. What is the name of the hidden folder?
