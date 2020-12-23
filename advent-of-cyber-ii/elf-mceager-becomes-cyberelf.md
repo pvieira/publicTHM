@@ -84,13 +84,15 @@ if (nt3 == true) {
 
 > String.fromCharCode\(104, 104, 116, 116, 112, 115, 58, 47, 47, 103, 105, 115, 116, 46, 103, 105, 116, 104, 117, 98, 46, 99, 111, 109, 47, 104, 101, 97, 118, 101, 110, 114, 97, 105, 122, 97, 47\);
 >
-> https://gist.github.com/heavenraiza/![](../.gitbook/assets/image%20%28340%29.png)
+> https://gist.github.com/heavenraiza/
 
 ![](../.gitbook/assets/image%20%28331%29.png)
+
+![](../.gitbook/assets/image%20%28340%29.png)
+
+![](../.gitbook/assets/image%20%28338%29.png)
 
 {% hint style="success" %}
 THM{657012dcf3d1318dca0ed864f0e70535}
 {% endhint %}
-
-![](../.gitbook/assets/image%20%28338%29.png)
 
