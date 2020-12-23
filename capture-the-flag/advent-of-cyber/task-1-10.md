@@ -48,7 +48,19 @@ No answer needed
 
 ## Task 6 \[Day 1\] Inventory Management
 
+What is the name of the cookie used for authentication?
 
+{% hint style="success" %}
+authid
+{% endhint %}
+
+If you decode the cookie, what is the value of the fixed part of the cookie?
+
+{% hint style="success" %}
+v4er9ll1!ss
+{% endhint %}
+
+After accessing his account, what did the user mcinventory request?
 
 {% hint style="success" %}
 No answer needed
