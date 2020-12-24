@@ -144,11 +144,17 @@ tron
 
 ### Use su to login to the newly discovered user by exploiting password reuse.
 
+![](../.gitbook/assets/image%20%28372%29.png)
 
+{% hint style="success" %}
+No naswer needed
+{% endhint %}
 
 ### What is the value of the user.txt flag?
 
-
+{% hint style="success" %}
+THM{IDENTITY\_DISC\_RECOGNISED}
+{% endhint %}
 
 ### Check the user's groups. Which group can be leveraged to escalate privileges?
 
