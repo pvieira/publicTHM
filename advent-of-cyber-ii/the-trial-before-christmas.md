@@ -16,7 +16,7 @@ description: Web
 nmap -sC -sV -T5 -p1-65535 10.10.243.219
 ```
 
-![](../.gitbook/assets/image%20%28359%29.png)
+![](../.gitbook/assets/image%20%28360%29.png)
 
 {% hint style="success" %}
 80, 65000
@@ -24,10 +24,20 @@ nmap -sC -sV -T5 -p1-65535 10.10.243.219
 
 ### What's the title of the hidden website? It's worthwhile looking recursively at all websites on the box for this step.
 
+```text
+gobuster dir -u http://10.10.243.219 -w /usr/share/dirb/wordlists/common.txt
+```
 
+![](../.gitbook/assets/image%20%28362%29.png)
+
+```text
+gobuster dir -u http://10.10.243.219:65000 -w /usr/share/dirb/wordlists/common.txt
+```
+
+![](../.gitbook/assets/image%20%28359%29.png)
 
 {% hint style="success" %}
-
+Light Cycle
 {% endhint %}
 
 What is the name of the hidden php page?
