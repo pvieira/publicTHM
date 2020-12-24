@@ -41,6 +41,7 @@
   * [Elf McEager becomes CyberElf](advent-of-cyber-ii/elf-mceager-becomes-cyberelf.md)
   * [The Grinch strikes again!](advent-of-cyber-ii/the-grinch-strikes-again.md)
   * [The Trial Before Christmas](advent-of-cyber-ii/the-trial-before-christmas.md)
+  * [Thank You](advent-of-cyber-ii/thank-you.md)
 * [Linux](linux/README.md)
   * [Linux Fundamentals Part 1](linux/part-1.md)
   * [Linux Fundamentals Part 2](linux/part-2.md)

