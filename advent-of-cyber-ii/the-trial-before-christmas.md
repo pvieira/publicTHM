@@ -16,7 +16,7 @@ description: Web
 nmap -sC -sV -T5 -p1-65535 10.10.243.219
 ```
 
-![](../.gitbook/assets/image%20%28360%29.png)
+![](../.gitbook/assets/image%20%28362%29.png)
 
 {% hint style="success" %}
 80, 65000
@@ -28,11 +28,13 @@ nmap -sC -sV -T5 -p1-65535 10.10.243.219
 gobuster dir -u http://10.10.243.219 -w /usr/share/dirb/wordlists/common.txt
 ```
 
-![](../.gitbook/assets/image%20%28362%29.png)
+![](../.gitbook/assets/image%20%28364%29.png)
 
 ```text
-gobuster dir -u http://10.10.243.219:65000 -w /usr/share/dirb/wordlists/common.txt
+gobuster dir -u http://10.10.243.219:65000 -w /usr/share/dirb/wordlists/common.txt -x php -t 50
 ```
+
+![](../.gitbook/assets/image%20%28361%29.png)
 
 ![](../.gitbook/assets/image%20%28359%29.png)
 
@@ -40,17 +42,29 @@ gobuster dir -u http://10.10.243.219:65000 -w /usr/share/dirb/wordlists/common.t
 Light Cycle
 {% endhint %}
 
-What is the name of the hidden php page?
+### What is the name of the hidden php page?
 
+```text
+gobuster dir -u http://10.10.243.219:65000 -w /usr/share/dirb/wordlists/common.txt -x php -t 50
+```
 
+![](../.gitbook/assets/image%20%28360%29.png)
 
-What is the name of the hidden directory where file uploads are saved?
+{% hint style="success" %}
+uploads.php
+{% endhint %}
 
+### What is the name of the hidden directory where file uploads are saved?
 
+{% hint style="success" %}
+grid
+{% endhint %}
 
-Bypass the filters. Upload and execute a reverse shell. 
+### Bypass the filters. Upload and execute a reverse shell. 
 
+{% hint style="success" %}
 
+{% endhint %}
 
 What is the value of the web.txt flag?
 
