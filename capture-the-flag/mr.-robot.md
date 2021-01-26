@@ -19,7 +19,7 @@ echo "10.10.177.95 mrrobot.thm" >> /etc/hosts
 nmap -v -sC -sV -O -T5 -p1-65535 mrrobot.thm
 ```
 
-![](../.gitbook/assets/image%20%28411%29.png)
+![](../.gitbook/assets/image%20%28412%29.png)
 
 ## GOBUSTER
 
@@ -27,9 +27,11 @@ nmap -v -sC -sV -O -T5 -p1-65535 mrrobot.thm
 gobuster dir -u mrrobot.thm -w /usr/share/wordlists/dirb/common.txt -q -t 15 -x php,html,txt
 ```
 
+![](../.gitbook/assets/image%20%28392%29.png)
+
 ## HTTP
 
-![](../.gitbook/assets/image%20%28451%29.png)
+![](../.gitbook/assets/image%20%28453%29.png)
 
 * [http://mrrobot.thm/prepare](http://mrrobot.thm/prepare)
 * [http://mrrobot.thm/fsociety](http://mrrobot.thm/fsociety)
@@ -38,7 +40,11 @@ gobuster dir -u mrrobot.thm -w /usr/share/wordlists/dirb/common.txt -q -t 15 -x 
 * [http://mrrobot.thm/wakeup](http://mrrobot.thm/wakeup)
 * [http://mrrobot.thm/join](http://mrrobot.thm/join)
 
-![](../.gitbook/assets/image%20%28402%29.png)
+![](../.gitbook/assets/image%20%28452%29.png)
+
+Wordpress
+
+![](../.gitbook/assets/image%20%28403%29.png)
 
 ![](../.gitbook/assets/image%20%28386%29.png)
 
@@ -60,7 +66,7 @@ curl http://mrrobot.thm/key-1-of-3.txt
 curl http://mrrobot.thm/fsocity.dic --output fsocity.dic
 ```
 
-![](../.gitbook/assets/image%20%28428%29.png)
+![](../.gitbook/assets/image%20%28429%29.png)
 
 ```text
 wpscan --url http://mrrobot.thm --paswords fsocity.dic --usernames 'elliot'
