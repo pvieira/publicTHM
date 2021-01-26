@@ -31,7 +31,7 @@ nmap -v -sC -sV -O -T5 -p1-65535 pickle.thm
 Username: R1ckRul3s
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28423%29.png)
+![](../.gitbook/assets/image%20%28424%29.png)
 
 {% hint style="info" %}
 Wubbalubbadubdub
@@ -71,7 +71,7 @@ mr. meeseek hair
 
 ![](../.gitbook/assets/image%20%28384%29.png)
 
-![](../.gitbook/assets/image%20%28421%29.png)
+![](../.gitbook/assets/image%20%28422%29.png)
 
 {% hint style="success" %}
 1 jerry tear

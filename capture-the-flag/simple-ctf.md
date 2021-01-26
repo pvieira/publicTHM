@@ -39,11 +39,11 @@ ssh
 
 ## FTP
 
-![](../.gitbook/assets/image%20%28426%29.png)
+![](../.gitbook/assets/image%20%28427%29.png)
 
 ## HTTP
 
-![](../.gitbook/assets/image%20%28424%29.png)
+![](../.gitbook/assets/image%20%28425%29.png)
 
 ## GOBUSTER
 
@@ -53,13 +53,13 @@ gobuster dir -u easyctf.thm -w /usr/share/wordlists/dirb/common.txt -q -t 15 -x 
 
 ![](../.gitbook/assets/image%20%28411%29.png)
 
-![](../.gitbook/assets/image%20%28428%29.png)
+![](../.gitbook/assets/image%20%28429%29.png)
 
 > CMS Made Simple 2.2.8
 
 ## What's the CVE you're using against the application?
 
-![](../.gitbook/assets/image%20%28420%29.png)
+![](../.gitbook/assets/image%20%28421%29.png)
 
 ![](../.gitbook/assets/image%20%28396%29.png)
 
@@ -81,7 +81,7 @@ sqli
 python3 easyctf.py -u http://easyctf.thm/simple --crack -wordlist /usr/share/wordlists/rockyou.txt
 ```
 
-![](../.gitbook/assets/image%20%28405%29.png)
+![](../.gitbook/assets/image%20%28420%29.png)
 
 {% hint style="success" %}
 secret

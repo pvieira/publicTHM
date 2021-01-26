@@ -19,7 +19,7 @@ echo "10.10.28.158 ignite.thm" >> /etc/hosts
 nmap -sC -sV -O $ignite
 ```
 
-![](../.gitbook/assets/image%20%28427%29.png)
+![](../.gitbook/assets/image%20%28428%29.png)
 
 ## GOBUSTER
 
@@ -33,7 +33,7 @@ gobuster dir -u $ignite -w /usr/share/wordlists/dirb/common.txt -q -t 15 -x php,
 
 ![](../.gitbook/assets/image%20%28404%29.png)
 
-![](../.gitbook/assets/image%20%28422%29.png)
+![](../.gitbook/assets/image%20%28423%29.png)
 
 ![](../.gitbook/assets/image%20%28389%29.png)
 
