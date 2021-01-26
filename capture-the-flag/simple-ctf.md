@@ -19,7 +19,7 @@ echo "10.10.150.200 easyctf.thm" >> /etc/hosts
 nmap -T5 -p1-1000 easyctf.thm
 ```
 
-![](../.gitbook/assets/image%20%28425%29.png)
+![](../.gitbook/assets/image%20%28428%29.png)
 
 {% hint style="success" %}
 2
@@ -39,11 +39,11 @@ ssh
 
 ## FTP
 
-![](../.gitbook/assets/image%20%28448%29.png)
+![](../.gitbook/assets/image%20%28452%29.png)
 
 ## HTTP
 
-![](../.gitbook/assets/image%20%28444%29.png)
+![](../.gitbook/assets/image%20%28447%29.png)
 
 ## GOBUSTER
 
@@ -51,17 +51,17 @@ ssh
 gobuster dir -u easyctf.thm -w /usr/share/wordlists/dirb/common.txt -q -t 15 -x php,html,txt
 ```
 
-![](../.gitbook/assets/image%20%28426%29.png)
+![](../.gitbook/assets/image%20%28429%29.png)
 
-![](../.gitbook/assets/image%20%28450%29.png)
+![](../.gitbook/assets/image%20%28454%29.png)
 
 > CMS Made Simple 2.2.8
 
 ## What's the CVE you're using against the application?
 
-![](../.gitbook/assets/image%20%28440%29.png)
+![](../.gitbook/assets/image%20%28443%29.png)
 
-![](../.gitbook/assets/image%20%28410%29.png)
+![](../.gitbook/assets/image%20%28413%29.png)
 
 {% hint style="success" %}
 CVE-2019-9053
@@ -69,7 +69,7 @@ CVE-2019-9053
 
 ## To what kind of vulnerability is the application vulnerable?
 
-![](../.gitbook/assets/image%20%28413%29.png)
+![](../.gitbook/assets/image%20%28416%29.png)
 
 {% hint style="success" %}
 sqli
@@ -81,7 +81,7 @@ sqli
 python3 easyctf.py -u http://easyctf.thm/simple --crack -wordlist /usr/share/wordlists/rockyou.txt
 ```
 
-![](../.gitbook/assets/image%20%28439%29.png)
+![](../.gitbook/assets/image%20%28442%29.png)
 
 {% hint style="success" %}
 secret
@@ -89,7 +89,7 @@ secret
 
 ## Where can you login with the details obtained?
 
-![](../.gitbook/assets/image%20%28397%29.png)
+![](../.gitbook/assets/image%20%28400%29.png)
 
 {% hint style="success" %}
 ssh

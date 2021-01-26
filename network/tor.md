@@ -75,7 +75,7 @@ After the firefox has loaded, check if your IP address has changed with any webs
 
 NOTE: All other web browser windows should be closed before opening firefox through proxychains!
 
-![](../.gitbook/assets/image%20%28395%29.png)
+![](../.gitbook/assets/image%20%28398%29.png)
 
 {% hint style="success" %}
 No answer needed
@@ -99,7 +99,7 @@ No answer needed
 
 {% embed url="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/" %}
 
-![](../.gitbook/assets/image%20%28433%29.png)
+![](../.gitbook/assets/image%20%28436%29.png)
 
 {% hint style="success" %}
 1K918TvvE4PMPzPuZT7zSDAQV4ZNUjHBm5
