@@ -7,6 +7,7 @@
   * [Welcome](tutorial/welcome.md)
   * [Tutorial](tutorial/tutorial.md)
   * [Starting Out In Cyber Sec](tutorial/starting-out-in-cyber-sec.md)
+  * [Welcome](tutorial/welcome-1.md)
 * [Capture The Flag](capture-the-flag/README.md)
   * [Advent of Cyber](capture-the-flag/advent-of-cyber/README.md)
     * [Task 1 - 10](capture-the-flag/advent-of-cyber/task-1-10.md)

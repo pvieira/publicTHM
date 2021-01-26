@@ -54,8 +54,6 @@ No answer needed
 
 {% embed url="https://tryhackme.com/my-machine" %}
 
-
-
 {% hint style="success" %}
 No answer needed
 {% endhint %}
