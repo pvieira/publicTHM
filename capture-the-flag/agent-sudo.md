@@ -21,7 +21,7 @@ nmap -v -sC -sV -O -T5 -p1-65535 agentsudo.thm
 
 ### How many open ports?
 
-![](../.gitbook/assets/image%20%28448%29.png)
+![](../.gitbook/assets/image%20%28449%29.png)
 
 {% hint style="success" %}
 3
@@ -29,7 +29,7 @@ nmap -v -sC -sV -O -T5 -p1-65535 agentsudo.thm
 
 ### How you redirect yourself to a secret page?
 
-![](../.gitbook/assets/image%20%28435%29.png)
+![](../.gitbook/assets/image%20%28436%29.png)
 
 > Switch User-Agent to C
 
@@ -128,13 +128,13 @@ Roswell Alien Autopsy
 sudo -l
 ```
 
-![](../.gitbook/assets/image%20%28434%29.png)
+![](../.gitbook/assets/image%20%28435%29.png)
 
 ### CVE number for the escalation 
 
 ![](../.gitbook/assets/image%20%28382%29.png)
 
-![](../.gitbook/assets/image%20%28439%29.png)
+![](../.gitbook/assets/image%20%28440%29.png)
 
 {% hint style="success" %}
 CVE-2019-14287

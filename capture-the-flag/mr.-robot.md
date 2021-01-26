@@ -31,7 +31,7 @@ gobuster dir -u mrrobot.thm -w /usr/share/wordlists/dirb/common.txt -q -t 15 -x 
 
 ## HTTP
 
-![](../.gitbook/assets/image%20%28449%29.png)
+![](../.gitbook/assets/image%20%28450%29.png)
 
 ![](../.gitbook/assets/image%20%28401%29.png)
 
@@ -40,7 +40,7 @@ wpscan --url http://mrrobot.thm --enumerate u
 
 ```
 
-![](../.gitbook/assets/image%20%28450%29.png)
+![](../.gitbook/assets/image%20%28451%29.png)
 
 ![](../.gitbook/assets/image%20%28385%29.png)
 
@@ -56,5 +56,9 @@ curl http://mrrobot.thm/key-1-of-3.txt
 073403c8a58a1f80d943455fb30724b9
 {% endhint %}
 
+```text
+curl http://mrrobot.thm/fsocity.dic --output fsocity.dic
+```
 
+![](../.gitbook/assets/image%20%28427%29.png)
 

