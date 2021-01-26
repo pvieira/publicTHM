@@ -21,7 +21,7 @@ nmap -v -sC -sV -O -T5 -p1-65535 agentsudo.thm
 
 ### How many open ports?
 
-![](../.gitbook/assets/image%20%28433%29.png)
+![](../.gitbook/assets/image%20%28435%29.png)
 
 {% hint style="success" %}
 3
@@ -29,7 +29,7 @@ nmap -v -sC -sV -O -T5 -p1-65535 agentsudo.thm
 
 ### How you redirect yourself to a secret page?
 
-![](../.gitbook/assets/image%20%28422%29.png)
+![](../.gitbook/assets/image%20%28424%29.png)
 
 > Switch User-Agent to C
 
@@ -53,7 +53,7 @@ Chris
 hydra -l chris -P /usr/share/wordlists/rockyou.txt ftp://agentsudo.thm -t 50
 ```
 
-![](../.gitbook/assets/image%20%28394%29.png)
+![](../.gitbook/assets/image%20%28395%29.png)
 
 {% hint style="success" %}
 crystal
@@ -78,7 +78,11 @@ alien
 
 ### steg password 
 
-![](../.gitbook/assets/image%20%28408%29.png)
+```text
+steghide extract -sf cute-alien.jpg
+```
+
+![](../.gitbook/assets/image%20%28410%29.png)
 
 {% hint style="success" %}
 Area51
@@ -93,12 +97,30 @@ james
 ### SSH password
 
 {% hint style="success" %}
-hackerrules
+hackerrules!
 {% endhint %}
 
 ## Task 4 Capture the user flag
 
+### What is the user flag?
 
+![](../.gitbook/assets/image%20%28393%29.png)
+
+{% hint style="success" %}
+b03d975e8c92a7c04146cfa7a5a313c7
+{% endhint %}
+
+### What is the incident of the photo called?
+
+```text
+scp james@agentsudo.thm:/home/james/Alien_autospy.jpg .
+```
+
+![](../.gitbook/assets/image%20%28396%29.png)
+
+{% hint style="success" %}
+Roswell Alien Autopsy
+{% endhint %}
 
 ## Task 5 Privilege escalation
 

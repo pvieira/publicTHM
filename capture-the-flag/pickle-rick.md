@@ -19,7 +19,7 @@ echo "10.10.173.224 pickle.thm" >> /etc/hosts
 nmap -v -sC -sV -O -T5 -p1-65535 pickle.thm
 ```
 
-![](../.gitbook/assets/image%20%28419%29.png)
+![](../.gitbook/assets/image%20%28421%29.png)
 
 ## HTTP
 
@@ -31,7 +31,7 @@ nmap -v -sC -sV -O -T5 -p1-65535 pickle.thm
 Username: R1ckRul3s
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28431%29.png)
+![](../.gitbook/assets/image%20%28433%29.png)
 
 {% hint style="info" %}
 Wubbalubbadubdub
@@ -43,7 +43,7 @@ Wubbalubbadubdub
 gobuster dir -u pickle.thm -w /usr/share/wordlists/dirb/common.txt -q -t 15 -x php,html,txt
 ```
 
-![](../.gitbook/assets/image%20%28421%29.png)
+![](../.gitbook/assets/image%20%28423%29.png)
 
 ## Login
 
@@ -53,13 +53,13 @@ Username: R1ckRul3s
 Password: Wubbalubbadubdub
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28412%29.png)
+![](../.gitbook/assets/image%20%28414%29.png)
 
-![](../.gitbook/assets/image%20%28395%29.png)
+![](../.gitbook/assets/image%20%28397%29.png)
 
 ## What is the first ingredient Rick needs?
 
-![](../.gitbook/assets/image%20%28420%29.png)
+![](../.gitbook/assets/image%20%28422%29.png)
 
 ![](../.gitbook/assets/image%20%28378%29.png)
 
@@ -71,7 +71,7 @@ mr. meeseek hair
 
 ![](../.gitbook/assets/image%20%28386%29.png)
 
-![](../.gitbook/assets/image%20%28429%29.png)
+![](../.gitbook/assets/image%20%28431%29.png)
 
 {% hint style="success" %}
 1 jerry tear
@@ -81,9 +81,9 @@ mr. meeseek hair
 
 ![](../.gitbook/assets/image%20%28385%29.png)
 
-![](../.gitbook/assets/image%20%28415%29.png)
+![](../.gitbook/assets/image%20%28417%29.png)
 
-![](../.gitbook/assets/image%20%28402%29.png)
+![](../.gitbook/assets/image%20%28404%29.png)
 
 {% hint style="success" %}
 fleeb juice
