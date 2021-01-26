@@ -54,6 +54,8 @@ curl http://mrrobot.thm/key-1-of-3.txt
 073403c8a58a1f80d943455fb30724b9
 {% endhint %}
 
+### What is key 2?
+
 ```text
 curl http://mrrobot.thm/fsocity.dic --output fsocity.dic
 ```
