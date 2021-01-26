@@ -21,6 +21,7 @@
   * [Pickle Rick](capture-the-flag/pickle-rick.md)
   * [Simple CTF](capture-the-flag/simple-ctf.md)
   * [Agent Sudo](capture-the-flag/agent-sudo.md)
+  * [Mr. Robot](capture-the-flag/mr.-robot.md)
 * [Advent of Cyber II](advent-of-cyber-ii/README.md)
   * [A Christmas Crisis](advent-of-cyber-ii/01-a-christmas-crisis.md)
   * [The Elf Strikes Back!](advent-of-cyber-ii/02-the-elf-strikes-back.md)
