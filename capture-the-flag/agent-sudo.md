@@ -21,7 +21,7 @@ nmap -v -sC -sV -O -T5 -p1-65535 agentsudo.thm
 
 ### How many open ports?
 
-![](../.gitbook/assets/image%20%28440%29.png)
+![](../.gitbook/assets/image%20%28442%29.png)
 
 {% hint style="success" %}
 3
@@ -29,11 +29,11 @@ nmap -v -sC -sV -O -T5 -p1-65535 agentsudo.thm
 
 ### How you redirect yourself to a secret page?
 
-![](../.gitbook/assets/image%20%28428%29.png)
+![](../.gitbook/assets/image%20%28429%29.png)
 
 > Switch User-Agent to C
 
-![](../.gitbook/assets/image%20%28394%29.png)
+![](../.gitbook/assets/image%20%28395%29.png)
 
 {% hint style="success" %}
 User-Agent
@@ -53,7 +53,7 @@ Chris
 hydra -l chris -P /usr/share/wordlists/rockyou.txt ftp://agentsudo.thm -t 50
 ```
 
-![](../.gitbook/assets/image%20%28398%29.png)
+![](../.gitbook/assets/image%20%28399%29.png)
 
 {% hint style="success" %}
 crystal
@@ -82,7 +82,7 @@ alien
 steghide extract -sf cute-alien.jpg
 ```
 
-![](../.gitbook/assets/image%20%28413%29.png)
+![](../.gitbook/assets/image%20%28414%29.png)
 
 {% hint style="success" %}
 Area51
@@ -104,7 +104,7 @@ hackerrules!
 
 ### What is the user flag?
 
-![](../.gitbook/assets/image%20%28396%29.png)
+![](../.gitbook/assets/image%20%28397%29.png)
 
 {% hint style="success" %}
 b03d975e8c92a7c04146cfa7a5a313c7
@@ -116,7 +116,7 @@ b03d975e8c92a7c04146cfa7a5a313c7
 scp james@agentsudo.thm:/home/james/Alien_autospy.jpg .
 ```
 
-![](../.gitbook/assets/image%20%28399%29.png)
+![](../.gitbook/assets/image%20%28400%29.png)
 
 {% hint style="success" %}
 Roswell Alien Autopsy
@@ -128,13 +128,13 @@ Roswell Alien Autopsy
 sudo -l
 ```
 
-![](../.gitbook/assets/image%20%28427%29.png)
+![](../.gitbook/assets/image%20%28428%29.png)
 
 ### CVE number for the escalation 
 
 ![](../.gitbook/assets/image%20%28381%29.png)
 
-![](../.gitbook/assets/image%20%28431%29.png)
+![](../.gitbook/assets/image%20%28433%29.png)
 
 {% hint style="success" %}
 CVE-2019-14287

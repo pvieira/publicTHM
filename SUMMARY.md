@@ -74,6 +74,7 @@
   * [Network Services 2 - wip](network/network-services-2.md)
   * [Networking - wip](network/networking.md)
   * [Nmap - wip](network/nmap.md)
+  * [TOR](network/tor.md)
 * [Web](web/README.md)
   * [Web Fundamentals](web/web-fundamentals.md)
 * [Pentest](pentest/README.md)
