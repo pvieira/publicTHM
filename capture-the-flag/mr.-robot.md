@@ -63,12 +63,8 @@ curl http://mrrobot.thm/fsocity.dic --output fsocity.dic
 ![](../.gitbook/assets/image%20%28428%29.png)
 
 ```text
-wpscan --url http://mrrobot.thm --wordlist fsocity.dic --username elliot
+wpscan --url http://mrrobot.thm --paswords fsocity.dic --usernames 'elliot'
 ```
-
-q
-
-
 
 ![](../.gitbook/assets/image%20%28382%29.png)
 
