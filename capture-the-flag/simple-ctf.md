@@ -39,7 +39,7 @@ ssh
 
 ## FTP
 
-![](../.gitbook/assets/image%20%28456%29.png)
+![](../.gitbook/assets/image%20%28457%29.png)
 
 ## HTTP
 
@@ -53,7 +53,7 @@ gobuster dir -u easyctf.thm -w /usr/share/wordlists/dirb/common.txt -q -t 15 -x 
 
 ![](../.gitbook/assets/image%20%28432%29.png)
 
-![](../.gitbook/assets/image%20%28458%29.png)
+![](../.gitbook/assets/image%20%28459%29.png)
 
 > CMS Made Simple 2.2.8
 

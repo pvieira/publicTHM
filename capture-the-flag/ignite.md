@@ -19,7 +19,7 @@ echo "10.10.28.158 ignite.thm" >> /etc/hosts
 nmap -sC -sV -O $ignite
 ```
 
-![](../.gitbook/assets/image%20%28457%29.png)
+![](../.gitbook/assets/image%20%28458%29.png)
 
 ## GOBUSTER
 
